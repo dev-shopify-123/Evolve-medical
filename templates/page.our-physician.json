@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-our-physician",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
