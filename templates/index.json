@@ -1,0 +1,615 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p><strong>INDUSTRY-PROVEN INSIGHTS AND STRATEGIES<\/strong><\/p>",
+            "title_size": 58,
+            "subheading": "Award winning products from the Canadian dermatologist, cosmetic plastic, and aesthetic physician marketplace.",
+            "link": "",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#454a59",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "slideshow-1": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p><strong>INDUSTRY-PROVEN INSIGHTS AND STRATEGIES<\/strong><\/p>",
+            "title_size": 59,
+            "subheading": "Award winning products from the Canadian dermatologist, cosmetic plastic, and aesthetic physician marketplace.",
+            "link": "",
+            "link_text": "SHOP NOW",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#454a59",
+            "text_align": "vertical-bottom horizontal-right",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "slideshow-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 8
+      }
+    },
+    "featured-collection2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "What's Hot",
+        "home_featured_products": "skinbetter",
+        "count": 5,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "disabled": true,
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "rejuvenate",
+            "title": ""
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "protect",
+            "title": ""
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "refresh",
+            "title": ""
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "enhance",
+            "title": ""
+          }
+        },
+        "featured-collections-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "featured",
+            "title": ""
+          }
+        },
+        "featured-collections-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "lines",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-2",
+        "featured-collections-3",
+        "featured-collections-1",
+        "featured-collections-4",
+        "featured-collections-5"
+      ],
+      "settings": {
+        "title": "What's Hot",
+        "divider": false
+      }
+    },
+    "slideshow-split2": {
+      "type": "slideshow-split",
+      "blocks": {
+        "slideshow-split2-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "skinbetter Science",
+            "title": "Accomplished Science.\nReal Life Results.",
+            "title_size": 45,
+            "subheading": "Our award-winning products leverage decades of rigorous research to deliver remarkable results in skincare.",
+            "link": "",
+            "link_text": "SHOP NOW",
+            "link_2": "shopify:\/\/collections\/skinbetter",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/footer.png",
+            "indent_image": false,
+            "focal_point": "bottom center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-split2-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 550,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promo-grid-1": {
+          "type": "sale_collection",
+          "settings": {
+            "sale_collection": "featured",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Selected products",
+            "width": "50",
+            "color_scheme": "3"
+          }
+        },
+        "promo-grid-2": {
+          "type": "sale_collection",
+          "settings": {
+            "sale_collection": "protect",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Selected products",
+            "width": "50",
+            "color_scheme": "3"
+          }
+        },
+        "514c7d7a-0630-4c00-97bc-521fe84d7bb4": {
+          "type": "sale_collection",
+          "settings": {
+            "sale_collection": "enhance",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
+            "width": "50",
+            "color_scheme": "none"
+          }
+        }
+      },
+      "block_order": [
+        "promo-grid-1",
+        "promo-grid-2",
+        "514c7d7a-0630-4c00-97bc-521fe84d7bb4"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "protect",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promo-grid-2-0": {
+          "type": "banner",
+          "disabled": true,
+          "settings": {
+            "heading": "HOW TO BUY",
+            "text": "Our products are available only through authorized physicians. If you are interested in purchasing our products, please click below to locate an authorized physician provider.",
+            "link": "",
+            "label": "FIND A PROVIDER",
+            "color_scheme": "3"
+          }
+        },
+        "promo-grid-2-1": {
+          "type": "product",
+          "settings": {
+            "product": "interfuse®-intensive-treatment-30ml-lines",
+            "subheading": "NEW",
+            "heading": "InterFuse® Treatment Cream 30ml",
+            "textarea": "Our cutting-edge approach to collagen with anti-aging benefits.",
+            "link_label": "Shop",
+            "label": "New",
+            "enable_price": true,
+            "width": "50",
+            "color_scheme": "1"
+          }
+        },
+        "promo-grid-2-2": {
+          "type": "product",
+          "settings": {
+            "product": "trio-rebalancing-moisture-treatment™-face",
+            "subheading": "NEW",
+            "heading": "Trio Rebalancing Moisture Treatment™",
+            "textarea": "An anti-aging product that has heavy hydration without the weight.",
+            "link_label": "Shop",
+            "label": "New",
+            "enable_price": true,
+            "width": "50",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "promo-grid-2-0",
+        "promo-grid-2-1",
+        "promo-grid-2-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo-list-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-health-logo.png",
+            "link": ""
+          }
+        },
+        "logo-list-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e-online-logo.png",
+            "link": ""
+          }
+        },
+        "logo-list-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/popsugar-logo.png",
+            "link": ""
+          }
+        },
+        "logo-list-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo.png",
+            "link": ""
+          }
+        },
+        "logo-list-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allure-logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-list-0",
+        "logo-list-1",
+        "logo-list-2",
+        "logo-list-3",
+        "logo-list-4"
+      ],
+      "settings": {
+        "title": "Featured In",
+        "divider": false
+      }
+    },
+    "1642603763ed6bc480": {
+      "type": "slideshow-split",
+      "blocks": {
+        "16426037633c22a975-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Product Name",
+            "title": "Product Tagline",
+            "title_size": 60,
+            "subheading": "This would be the product description",
+            "link": "",
+            "link_text": "Shop Now",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "right",
+            "image": "shopify:\/\/shop_images\/1.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "2"
+          }
+        }
+      },
+      "block_order": [
+        "16426037633c22a975-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "16426037678005f597": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Dive in",
+        "home_featured_products": "skinbetter",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Stay in the know"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to keep up to date with the latest product announcements & deals<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "text",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "1"
+      }
+    },
+    "16426039354e8383af": {
+      "type": "logo-list",
+      "blocks": {
+        "16426039353dbd2b44-0": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16426039353dbd2b44-1": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16426039353dbd2b44-2": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16426039353dbd2b44-3": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16426039353dbd2b44-4": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16426039353dbd2b44-5": {
+          "type": "logo_image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16426039353dbd2b44-0",
+        "16426039353dbd2b44-1",
+        "16426039353dbd2b44-2",
+        "16426039353dbd2b44-3",
+        "16426039353dbd2b44-4",
+        "16426039353dbd2b44-5"
+      ],
+      "settings": {
+        "title": "Popular Brands",
+        "divider": false
+      }
+    },
+    "16425467458e4466dd": {
+      "type": "testimonials",
+      "blocks": {
+        "164254674585cc4a76-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>SKINBETTER SCIENCE IS WELL FORMULATED AND BACKED BY SCIENTIFIC RESEARCH. SKINBETTER PRODUCTS ARE EFFECTIVE AND PRODUCE NOTICEABLE RESULTS. ABSOLUTELY ONE OF MY FAVOURITE MEDICAL GRADE BRANDS TO USE AND RECOMMEND TO OUR PATIENTS<\/p>",
+            "author": "DR. SOLOMON`S OFFICE TORONTO",
+            "author_info": "TORONTO, ON"
+          }
+        },
+        "164254674585cc4a76-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I REALLY LOVE SKIN BETTER SCIENCE CANADA! NOT JUST BECAUSE THE PRODUCTS ARE SO EFFECTIVE BUT BECAUSE THE ENTIRE TEAM IS JUST SO INCREDIBLE TO WORK WITH. THANKS FOR ALLOWING US TO BE PART OF THE SKIN BETTER FAMILY!<\/p>",
+            "author": "WOODBRIDGE DERMATOLOGY",
+            "author_info": "WOODBRIDGE, ON"
+          }
+        },
+        "164254674585cc4a76-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I HAVE TRIED MANY SKINCARE LINES OVER THE YEARS, ALWAYS WITH GREAT EXCITEMENT AT THE BEGINNING, ONLY TO BE FOLLOWED BY DISAPPOINTMENT. SKINBETTER SCIENCE HAS NEVER LET ME DOWN.<\/p>",
+            "author": "TARA L.",
+            "author_info": "TORONTO, ON"
+          }
+        },
+        "164254674585cc4a76-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I’VE BEEN USING SKIN BETTER SCIENCE PRODUCTS FOR JUST OVER A YEAR. I LOVE TRIO MOISTURIZE REPAIR BUT IT WASN’T UNTIL I HAD MY FACE LIFT THAT I REALIZED HOW EXCEPTIONAL THIS PRODUCT IS. VERY LIGHT WEIGHT AND EXTREMELY HYDRATING. IT WAS A HUGE HELP TO MY RECOVERY<\/p>",
+            "author": "SUSAN, PATIENT OF DR. WARREN, VANCOUVER",
+            "author_info": "VANCOUVER, BC"
+          }
+        },
+        "164254674585cc4a76-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>HAVING ACNE AND MELASMA I WAS VERY HESITANT TO ADD A NEW BOTANICAL BRIGHTENER INTO MY REGIMEN. TO MY SURPRISE, EVEN DIMINISHED MY MELASMA AND PIGMENTATION MORE THAN ANY OTHER MEDICAL GRADE SKINCARE PRODUCT IN A FEW WEEKS. DURING MY BREAK FROM HYDROQUINONE, IT’S MY GO-TO BOTANICAL BRIGHTENER TO KEEP MY SKIN LOOKING FRESH AND CONFIDENT!<\/p>",
+            "author": "ASHLEY",
+            "author_info": "TORONTO, ON"
+          }
+        }
+      },
+      "block_order": [
+        "164254674585cc4a76-0",
+        "164254674585cc4a76-1",
+        "164254674585cc4a76-2",
+        "164254674585cc4a76-3",
+        "164254674585cc4a76-4"
+      ],
+      "settings": {
+        "title": "Don't take our word for it",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "3"
+      }
+    },
+    "164260393946cec24c": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "blog_show_tags": true,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
+    "1642604278a4105efe": {
+      "type": "slideshow-split",
+      "blocks": {
+        "1642604278aea4d9b5-1": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "Evolve Medical",
+            "title": "Let us help you grow",
+            "title_size": 60,
+            "subheading": "Industry-proven insights and strategies to develop and grow medical practices building value that can be measured and monetized with an exit.",
+            "link": "shopify:\/\/pages\/who-we-are",
+            "link_text": "Learn More",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "image": "shopify:\/\/shop_images\/2.png",
+            "indent_image": false,
+            "focal_point": "center center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "1642604278aea4d9b5-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 650,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "164260412677a6bd94": {
+      "type": "newsletter",
+      "blocks": {
+        "1642604126495ca89f-0": {
+          "type": "title",
+          "settings": {
+            "title": "Stay in the know"
+          }
+        },
+        "1642604126495ca89f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to keep up to date with the latest product announcements & deals<\/p>"
+          }
+        },
+        "1642604126495ca89f-2": {
+          "type": "form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1642604126495ca89f-0",
+        "1642604126495ca89f-1",
+        "1642604126495ca89f-2"
+      ],
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collection2",
+    "featured-collections",
+    "slideshow-split2",
+    "promo-grid",
+    "featured-collection",
+    "promo-grid2",
+    "logo-list",
+    "1642603763ed6bc480",
+    "16426037678005f597",
+    "newsletter",
+    "16426039354e8383af",
+    "16425467458e4466dd",
+    "164260393946cec24c",
+    "1642604278a4105efe",
+    "164260412677a6bd94"
+  ]
+}
