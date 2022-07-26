@@ -3,9 +3,301 @@
     "main": {
       "type": "main-page-full-width",
       "settings": {}
+    },
+    "16573733708bc0531f": {
+      "type": "rich-text",
+      "blocks": {
+        "16573733700d39db79-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Evolve Canada is the official Canadian distributor of skinbetter science®"
+          }
+        },
+        "6ee73400-dbfd-46ae-8680-a19f708b85b6": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>www.evolvecanada.ca is the only online distributor that you can purchase skin<strong>better<\/strong> science® products from.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16573733700d39db79-0",
+        "6ee73400-dbfd-46ae-8680-a19f708b85b6"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "16563625118e1812f9": {
+      "type": "slideshow",
+      "blocks": {
+        "16563625116c8f5b54-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "skinbetter science®",
+            "title": "<p>A new paradigm in skincare<\/p>",
+            "title_size": 40,
+            "subheading": "When you’re happy with your skin, you feel more beautiful and confident. These satisfying results are best achieved by working closely with an authorized skinbetter science® physician who can help you find the right treatment for your skin. Our products ensure that real results are possible in your real life.",
+            "link": "shopify:\/\/collections\/skinbetter",
+            "link_text": "Shop skinbetter science®",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/15_09ff0d07-690c-4293-9e0a-e993523ec9f1.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        },
+        "16563625116c8f5b54-1": {
+          "type": "hero",
+          "disabled": true,
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>Make an Impact<\/p>",
+            "title_size": 70,
+            "subheading": "Supports multiple text alignments and mobile-specific images.",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16563625116c8f5b54-0",
+        "16563625116c8f5b54-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1656362625bb0baa14": {
+      "type": "rich-text",
+      "blocks": {
+        "16563626259e02fbb7-0": {
+          "type": "heading",
+          "settings": {
+            "title": "About skinbetter science®"
+          }
+        },
+        "16563626259e02fbb7-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>In 2016, skin<strong>better<\/strong> science® set out to create a new paradigm in skincare, not only for patients, but for the physicians, nurses, aestheticians and surgeons who help patients achieve beautiful skin. Our award-winning products are backed by decades of rigorous clinical research (in powerhouse products like restylane® and Dysport®) and furthered by a continued commitment to the study of skincare science.<\/p><p>skin<strong>better<\/strong> products are purposefully  developed and only available through authorized providers. This model <br\/>supports physicians and consumers by establishing genuine patient-practice relationships. We’re not just another skincare company. We employ accomplished science to create genuine connections with our providers and real life results for their patients.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16563626259e02fbb7-0",
+        "16563626259e02fbb7-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "1656362755b3ffd1b6": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16563627558abdc498-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "Accomplished Science",
+            "text": "<p>To us, accomplished science represents the deep knowledge and rigorous <br\/>study of skin and skincare chemistry. We believe remarkable results can <br\/>be achieved simply, through purposeful product innovation, which is why we leverage advanced chemistry to help skincare products do more.<\/p>"
+          }
+        },
+        "16563627558abdc498-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "shield",
+            "title": "Physician Connection",
+            "text": "<p>When you’re happy with your skin, you feel more beautiful and confident. These satisfying results are best achieved by working closely with a skin<strong>better<\/strong> science authorized physician who can help you find the right treatment for your skin. <\/p>"
+          }
+        },
+        "16563627558abdc498-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "thumbs-up",
+            "title": "Real-life Results",
+            "text": "<p>Our patients appreciate that to see results, our products don’t require a<br\/> tedious multi-step process. In addition to being scientifically advanced, skin<strong>better<\/strong> offers an uncomplicated approach to skincare. One product can deliver remarkable results; two to three skin<strong>better<\/strong> products can change how you feel about your skin. Either way, skin<strong>better<\/strong> products ensure that real results are possible in your real life.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16563627558abdc498-0",
+        "16563627558abdc498-1",
+        "16563627558abdc498-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "1657372448fbcf599e": {
+      "type": "rich-text",
+      "blocks": {
+        "16573724489f067b30-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Locate a skinbetter science® professional"
+          }
+        },
+        "16573724489f067b30-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We have a list of physicians exclusively carrying skinbetter science® products. Some of our physicians have chosen to pre-approve their patients, while others wish to approve individually. Choose your physician from the list and either continue shopping or proceed to the request to buy form. <\/p>"
+          }
+        },
+        "c8ba98bb-f612-4f00-a352-9bae352f140b": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/our-physician",
+            "link_text": "Find a Professional"
+          }
+        }
+      },
+      "block_order": [
+        "16573724489f067b30-0",
+        "16573724489f067b30-1",
+        "c8ba98bb-f612-4f00-a352-9bae352f140b"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "2",
+        "divider": false
+      }
+    },
+    "16563775262bff35b8": {
+      "type": "slideshow",
+      "blocks": {
+        "16563775267ef11c1b-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/17_67035334-d125-4d11-8931-5430d5e2a638.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16563775267ef11c1b-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "1656362880f59f9e24": {
+      "type": "logo-list",
+      "blocks": {
+        "16563628809e76801d-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/allure-logo.png",
+            "link": ""
+          }
+        },
+        "16563628809e76801d-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/instyle-logo.png",
+            "link": ""
+          }
+        },
+        "16563628809e76801d-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/popsugar-logo.png",
+            "link": ""
+          }
+        },
+        "16563628809e76801d-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e-online-logo.png",
+            "link": ""
+          }
+        },
+        "16563628809e76801d-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mens-health-logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16563628809e76801d-0",
+        "16563628809e76801d-1",
+        "16563628809e76801d-2",
+        "16563628809e76801d-3",
+        "16563628809e76801d-4"
+      ],
+      "settings": {
+        "title": "skinbetter science® is featured in",
+        "divider": false
+      }
+    },
+    "1656363102d5e7f65f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "shop skinbetter science®",
+        "home_featured_products": "skinbetter",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16573733708bc0531f",
+    "16563625118e1812f9",
+    "1656362625bb0baa14",
+    "1656362755b3ffd1b6",
+    "1657372448fbcf599e",
+    "16563775262bff35b8",
+    "1656362880f59f9e24",
+    "1656363102d5e7f65f"
   ]
 }

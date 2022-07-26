@@ -2,10 +2,1161 @@
   "sections": {
     "main": {
       "type": "page-our-physician",
+      "blocks": {
+        "9708fefa-8a6f-4a5e-9ef2-97259b4ed1c4": {
+          "type": "item",
+          "settings": {
+            "physician": "Skinbetter Physician",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=72",
+            "name": "Skinbetter Science",
+            "address": "<p>277 Lakeshore Road E <\/p><p>Oakville <\/p><p>ON<\/p>",
+            "telephone": "1.833.944.5500",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "7f9b8d31-e77f-4031-999c-63eda551075f": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Cory S. Goldberg",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=40",
+            "name": "Dr. Cory Goldberg",
+            "address": "<p>190 Sherway DriveSuite 401 Toronto ON<\/p>",
+            "telephone": "416.907.5810",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.corygoldbergmd.com\/"
+          }
+        },
+        "a23ade29-d0de-4db3-b83f-933ad63775b8": {
+          "type": "item",
+          "settings": {
+            "physician": "Glam Nurse Jenny",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=168",
+            "name": "Glam Nurse Jenny",
+            "address": "<p>90 Park Lawn Rd Etobicoke ON<\/p>",
+            "telephone": "416-829-7465",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.glamnursejenny.com\/"
+          }
+        },
+        "43b43bdc-5ae8-494a-bee7-f2334390e3a1": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Frank Lista",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=48",
+            "name": "Miracle 10 - The Plastic Surgery Clinic",
+            "address": "<p>1421 Hurontario Street<\/p><p>Mississauga<\/p><p>ON<\/p>",
+            "telephone": "905.278.7077",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.theplasticsurgeryclinic.ca\/"
+          }
+        },
+        "4f63f49c-a44b-4ce1-956e-8bdea132b496": {
+          "type": "item",
+          "settings": {
+            "physician": "Loft 7 Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=145",
+            "name": "Loft 7 Aesthetics",
+            "address": "<p>206 - 3111 Dufferin St.<\/p><p>North York<\/p><p>ON<\/p>",
+            "telephone": "4168646100",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.loft7aesthetics.com\/"
+          }
+        },
+        "876c2b7c-81e8-4ea3-b235-b58433087a2f": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Solomon",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=191",
+            "name": "Solomon Facial Plastic",
+            "address": "<p>305 Davenport Road<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "4168646100",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.solomonfacialplastic.com\/"
+          }
+        },
+        "087f522d-98be-48b9-9596-f230c32dd1a5": {
+          "type": "item",
+          "settings": {
+            "physician": "MedCan",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=63",
+            "name": "Refine by MedCan",
+            "address": "<p>150 York St<\/p><p>#1500<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416 350 5900",
+            "website_title": "Website",
+            "website_url": "https:\/\/www3.medcan.com\/"
+          }
+        },
+        "96834d24-c654-4300-b2a4-99b503bd15e4": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Dimitrios Motakis",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=64",
+            "name": "Avenue MD Cosmetic Dermatology and Plastic Surgery",
+            "address": "<p>199 Avenue Rd<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-925-5775",
+            "website_title": "Website",
+            "website_url": "https:\/\/drmotakis.com\/"
+          }
+        },
+        "841a8bf6-6c39-459c-b839-3695e57234f4": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Jennifer Salsberg",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=65",
+            "name": "Avenue MD Cosmetic Dermatology and Plastic Surgery",
+            "address": "<p>199 Avenue Rd<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-925-5775",
+            "website_title": "Website",
+            "website_url": "https:\/\/drmotakis.com\/"
+          }
+        },
+        "4d321679-759c-4954-9a30-8da3530a24b6": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Mitchell Brown",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=134",
+            "name": "Toronto Plastic Surgery",
+            "address": "<p>790 Bay Street<\/p><p>Suite 410<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-323-6336",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.torontoplasticsurgery.com\/"
+          }
+        },
+        "9990e07a-cb7e-4d61-81c0-316cd1698a6a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Kristy Bailey",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=36",
+            "name": "FCP Dermatology",
+            "address": "<p>100 King St W.<\/p><p>Concourse Level<\/p><p>Toronto, ON<\/p><p>ON<\/p>",
+            "telephone": "416.861.8600",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.fcpdermatology.com\/"
+          }
+        },
+        "10edb951-2e52-4828-b4d6-f9c9c7176f3d": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Frank Lista",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=48",
+            "name": "Miracle 10 - Yorkville",
+            "address": "<p>67 Scollard St.<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.928.9494",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.miracle10.com\/"
+          }
+        },
+        "3805c202-51b7-4c42-9bcd-73c97c7fec66": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Babak Maleki",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=46",
+            "name": "Toronto Eyelid Surgery",
+            "address": "<p>1033 Bay Street<\/p><p>Suite 309<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.962.5005",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.torontoeyelidsurgery.com\/"
+          }
+        },
+        "ecedf541-eea6-4f41-ac22-12783c3e9a5e": {
+          "type": "item",
+          "settings": {
+            "physician": "reDivine Clinic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=127",
+            "name": "reDivine Clinic Downtown",
+            "address": "<p>140 Yonge Street<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "888-666-0789",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.redivine.com\/"
+          }
+        },
+        "8d35bce6-252e-42f7-a0ad-c51a7247c7a2": {
+          "type": "item",
+          "settings": {
+            "physician": "Clarity Medspa & Laser Centre",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=41",
+            "name": "Clarity Medspa & Laser Centre",
+            "address": "<p>1246 Yonge St.<\/p><p>Suite 204<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.960.2222",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.claritymedspa.ca\/"
+          }
+        },
+        "3e258c72-24ac-46c8-8a8d-e210c871547a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Sheldon Pollack",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=6tnlmk4u9g",
+            "name": "Dermatology on Bloor",
+            "address": "<p>29 Park Road<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.922.6869",
+            "website_title": "Website",
+            "website_url": "https:\/\/dermonbloor.com\/dr-sheldon-pollack\/"
+          }
+        },
+        "e4bc3447-0b5f-42bd-9311-531766aaadec": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Sam Hanna",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=2",
+            "name": "Dermatology on Bloor",
+            "address": "<p>29 Park Road<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.922.6869",
+            "website_title": "Website",
+            "website_url": "https:\/\/dermonbloor.com\/dr-sam-hanna\/"
+          }
+        },
+        "af54f1af-bfd4-4484-9342-4ffa570484be": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Paul Cohen",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=21",
+            "name": "Rosedale Dermatology Centre",
+            "address": "<p>1366 Yonge Street<\/p><p>Suite 306<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.487.3453",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.drpaulcohen.com\/"
+          }
+        },
+        "f5712466-55bb-4548-9d37-831acd40fb54": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Martie Gidon",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=24",
+            "name": "Gidon Aesthetics and MediSpa",
+            "address": "<p>1849 Yonge Street<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.483.4541",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.gidonaesthetics.com\/"
+          }
+        },
+        "1f54b57b-5444-4b9b-95a3-a940bf44e30f": {
+          "type": "item",
+          "settings": {
+            "physician": "Skin Bosses",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=91",
+            "name": "Skinbosses Inc.",
+            "address": "<p>392 Summerhill Ave.<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-922-1497",
+            "website_title": "Website",
+            "website_url": "http:\/\/skinbosses.testsite4me.com\/"
+          }
+        },
+        "2655baff-8f6d-4707-a67c-ebdde0fead79": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Romy Saibil",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=100",
+            "name": "Dr. Romy Saibil",
+            "address": "<p>168 Dunblaine Ave.<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "647-746-4926",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.romysaibilmd.com\/"
+          }
+        },
+        "d48bd8b0-d3cd-4a36-9018-8cc8043766bb": {
+          "type": "item",
+          "settings": {
+            "physician": "MC Beauty",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=92",
+            "name": "MC Beauty Cosmetic Clinic",
+            "address": "<p>1845A Avenue Road<\/p><p>Suite 2<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "647-308-2921",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.mcbeautycosmeticclinic.com\/"
+          }
+        },
+        "dc9cd9ef-8449-4a4c-8e1f-4e5360f2d47d": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Renée Beach",
+            "btn_text": "buy now",
+            "btn_url": "",
+            "name": "DermAtelier on Avenue",
+            "address": "<p>1896 Avenue Road<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-787-6060",
+            "website_title": "Website",
+            "website_url": "https:\/\/dermatelieronavenue.com\/"
+          }
+        },
+        "e30edda3-21f4-40c1-835d-0ce275bf79e0": {
+          "type": "item",
+          "settings": {
+            "physician": "NU Youth Medispa",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=62",
+            "name": "NU Youth Medispa",
+            "address": "<p>1986 Avenue Rd<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "647.284.0568",
+            "website_title": "Website",
+            "website_url": ""
+          }
+        },
+        "a7e6c03d-8c6f-48f9-83fd-4abbb9650581": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Karen O'Neill",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=13",
+            "name": "O'Neill Cosmetic Dermatology",
+            "address": "<p>6-2145 Dunwin Drive<\/p><p>Mississauga<\/p><p>ON<\/p>",
+            "telephone": "905.820.7546",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.drkarenoneill.ca\/"
+          }
+        },
+        "15358984-9e2e-4a24-8e87-902b4606ae1a": {
+          "type": "item",
+          "settings": {
+            "physician": "Spa 6ix",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=135",
+            "name": "Spa 6ix",
+            "address": "<p>1965 Britannia Rd West<\/p><p>Suite 210B<\/p><p>Mississauga<\/p><p>ON<\/p>",
+            "telephone": "416-818-1870",
+            "website_title": "Website",
+            "website_url": ""
+          }
+        },
+        "2148bbe1-03df-4e93-81f4-54d27e8dddb6": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Kucy Pon",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=140",
+            "name": "Sunnybrook Dermatology",
+            "address": "<p>2075 Bayview Avenue<\/p><p>M1 734<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416-480-4767",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "01ef38c6-a030-4c27-9234-6de59bdca92a": {
+          "type": "item",
+          "settings": {
+            "physician": "The Shores Skin Clinic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=174",
+            "name": "The Shore Skin Clinic",
+            "address": "<p>10 - 2578 Bristol Circle<\/p><p>Oakville<\/p><p>ON<\/p>",
+            "telephone": "289-8371105",
+            "website_title": "Website",
+            "website_url": "https:\/\/tsskinclinic.ca\/"
+          }
+        },
+        "ed84fbdf-d7dc-4196-99c1-b235a638503e": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Gail Nield",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=26",
+            "name": "Woodbridge Dermatology Centre",
+            "address": "<p>8077 Islington Ave. N<\/p><p>Suite 301<\/p><p>Woodbridge<\/p><p>ON<\/p>",
+            "telephone": "905.851.1436",
+            "website_title": "Website",
+            "website_url": "https:\/\/woodbridgedermatology.ca\/"
+          }
+        },
+        "38b4e952-a6ff-497f-921a-b4af949e5f42": {
+          "type": "item",
+          "settings": {
+            "physician": "Evgeniya Fefelova",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=150",
+            "name": "Versus Laser",
+            "address": "<p>280 Sheppard Ave E.<\/p><p>Suite 208<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "647-352-7373",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.versuslaser.com\/"
+          }
+        },
+        "5ef79723-827f-44d0-9336-a9c885a40311": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Shawn Seit 薛志伟医生",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=1",
+            "name": "Rejuuv Medispa",
+            "address": "<p>5314 Yonge St.<\/p><p>Suite 200<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "905.887.2669",
+            "website_title": "Website",
+            "website_url": "https:\/\/rejuuvmedispa.com\/dr-shawn-seit-markham\/"
+          }
+        },
+        "63e52ad8-7acb-4261-9e03-bb1833585f82": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Ron Somogy\/ Dr. Waqqas Jalil",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=51",
+            "name": "FORM Face & Body",
+            "address": "<p>20 Wynford Drive<\/p><p>Suite 316<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "416.447.6176",
+            "website_title": "Website",
+            "website_url": "https:\/\/formfacebody.ca\/"
+          }
+        },
+        "cd352609-0ce5-4b03-a493-0f7eaff1a966": {
+          "type": "item",
+          "settings": {
+            "physician": "KIMKREATIONS",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=179",
+            "name": "KIMKREATIONS",
+            "address": "<p>20 Diploma Drive<\/p><p>Brampton<\/p><p>ON<\/p>",
+            "telephone": "289-654-0039",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "53b2154b-09cf-4b5b-b3a7-b384f72c4364": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Rohit Nagpal",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=177",
+            "name": "Astra Medicare",
+            "address": "<p>210 Main St. North<\/p><p>Brampton<\/p><p>ON<\/p>",
+            "telephone": "905-497-7744",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.astramedicare.ca\/"
+          }
+        },
+        "73f5b1c0-d31b-4d86-994a-552b59c546fe": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Jinoos Jianfar, MD",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=76",
+            "name": "Viola Laser and Skin Care Clinic",
+            "address": "<p>6013 Yonge St.<\/p><p>Unit 205<\/p><p>Toronto<\/p><p>ON<\/p>",
+            "telephone": "647-847-1114",
+            "website_title": "Website",
+            "website_url": "https:\/\/violalaser.com\/"
+          }
+        },
+        "519cb42b-a2e3-4b15-b413-4a8464d77ae7": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Reza Akef",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=77",
+            "name": "CBAM Clinic",
+            "address": "<p>7270 Woodbine Ave<\/p><p>Unit 302<\/p><p>Markham<\/p><p>ON<\/p>",
+            "telephone": "1-866-366-CBAM (2226)",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.angelgloss.com\/"
+          }
+        },
+        "0d4978b0-1200-400c-b9f9-69fbf188975a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Philip Solomon",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=20",
+            "name": "Solomon Facial Plastics",
+            "address": "<p>57 Centre Street<\/p><p>Thornhill<\/p><p>ON<\/p>",
+            "telephone": "905.764.7799",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.solomonfacialplastic.com\/"
+          }
+        },
+        "2dcd8534-dbf2-43e6-a9e5-f6373e6a3b16": {
+          "type": "item",
+          "settings": {
+            "physician": "Revival Med Spa",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=166",
+            "name": "Revival Med Spa",
+            "address": "<p>323 Church Street<\/p><p>Unit 20<\/p><p>Oakville<\/p><p>ON<\/p>",
+            "telephone": "905-616-1703",
+            "website_title": "Website",
+            "website_url": "https:\/\/revivalmedspa.ca\/"
+          }
+        },
+        "cb417795-0b3d-48da-b183-8ee4757c41a6": {
+          "type": "item",
+          "settings": {
+            "physician": "The Aesthetic Haus",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=147",
+            "name": "The Aesthetic Haus",
+            "address": "<p>188 Lakeshore Rd East<\/p><p>Oakville<\/p><p>ON<\/p>",
+            "telephone": "647-400-4287",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.theaesthetichaus.com\/"
+          }
+        },
+        "6a56fb42-3f22-4093-9d0f-0c3c1816cbf6": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Benjamin Choy 蔡思汗医生",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=55",
+            "name": "SKIN MED LASER CLINIC",
+            "address": "<p>9019 Bayview Ave<\/p><p>Unit 5-6<\/p><p>Richmond Hill<\/p><p>ON<\/p>",
+            "telephone": "905.886.1110",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinmedlaser.com\/"
+          }
+        },
+        "ae44a477-5164-46c3-bac5-a4a1ac42e779": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Godwin Tang 邓博贤医生",
+            "btn_text": "buy now",
+            "btn_url": "",
+            "name": "SKIN MED LASER CLINIC",
+            "address": "<p>9019 Bayview Ave<\/p><p>Unit 5-6<\/p><p>Richmond Hill<\/p><p>ON<\/p>",
+            "telephone": "905.886.1110",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinmedlaser.com\/"
+          }
+        },
+        "7b6fe90d-1b79-4ee6-b711-ff58c04419ed": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Maxine Wong 黄逸嵘医生",
+            "btn_text": "buy now",
+            "btn_url": "",
+            "name": "SKIN MED LASER CLINIC",
+            "address": "<p>9019 Bayview Ave<\/p><p>Unit 5-6<\/p><p>Richmond Hill<\/p><p>ON<\/p>",
+            "telephone": "905.886.1110",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinmedlaser.com\/"
+          }
+        },
+        "05b4c142-3b2d-4d4e-91aa-76b8af24e12a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Paul Chan 陈世雄医生",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=27",
+            "name": "Holly Beauty Skin Clinic",
+            "address": "<p>4235 Sheppard Avenue<\/p><p>Suite 103<\/p><p>Scarborough<\/p><p>ON<\/p>",
+            "telephone": "416.321.2333",
+            "website_title": "Website",
+            "website_url": "http:\/\/www.hollybeautyskin.com\/"
+          }
+        },
+        "fdccd172-9625-4589-b0ce-5c352920f6ca": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Dan Xu 徐丹医生",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=31",
+            "name": "ID Cosmetic Clinic",
+            "address": "<p>Unit 115-116-117, 30 Gibson Dr.<\/p><p>Markham<\/p><p>ON<\/p>",
+            "telephone": "905.477.2225",
+            "website_title": "Website",
+            "website_url": "https:\/\/idcosmeticclinic.ca\/"
+          }
+        },
+        "a85e764c-09e6-44a1-a25f-997873084ded": {
+          "type": "item",
+          "settings": {
+            "physician": "reDivine Clinic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=127",
+            "name": "reDivine Clinic",
+            "address": "<p>16 Vogell Rd I & J<\/p><p>Richmond Hill<\/p><p>ON<\/p>",
+            "telephone": "1-888-666-0789",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.redivine.com\/"
+          }
+        },
+        "fb1e2ec1-f403-4678-8228-6480ace690aa": {
+          "type": "item",
+          "settings": {
+            "physician": "Mara Langevin NP",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=98",
+            "name": "Distinct Medical Aesthetics",
+            "address": "<p>28-11 Bronte Road<\/p><p>Oakville<\/p><p>ON<\/p>",
+            "telephone": "905-338-4080",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.distinctmedicalaesthetics.com\/"
+          }
+        },
+        "3b606a5a-3291-4ce6-819a-6f8ec08ba3a5": {
+          "type": "item",
+          "settings": {
+            "physician": "Daisy Ferreira RN",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=110",
+            "name": "Fresh Faced Rx",
+            "address": "<p>420 Bronte St. S<\/p><p>Unit #105<\/p><p>Milton<\/p><p>ON<\/p>",
+            "telephone": "416-455-1046",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.freshfacedrx.com\/"
+          }
+        },
+        "f4b53a4e-ff34-4f6c-9e64-f830c9e6d517": {
+          "type": "item",
+          "settings": {
+            "physician": "BEAUTITUDE Medical Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=204",
+            "name": "BEAUTITUDE Medical Aesthetics",
+            "address": "<p>18 Fred Varley Drive, Unit 4<\/p><p>Markham<\/p><p>ON<\/p>",
+            "telephone": "905-604-8871",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.beautitude.com\/"
+          }
+        },
+        "3b51c038-fe1a-4e08-9372-bc8e0d79edfe": {
+          "type": "item",
+          "settings": {
+            "physician": "Meraki Skin Clinic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=113",
+            "name": "Meraki Skin Clinic",
+            "address": "<p>20 Bur Oak Avenue<\/p><p>Unit 7<\/p><p>Markham<\/p><p>ON<\/p>",
+            "telephone": "905-887-0566",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.merakiskinclinic.ca\/"
+          }
+        },
+        "3f75a74b-06e6-49d5-b84c-a66b2b04f0bc": {
+          "type": "item",
+          "settings": {
+            "physician": "Brilliant Beauty & Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=121",
+            "name": "Brilliant Beauty & Aesthetics",
+            "address": "<p>6070 Highway 7 East<\/p><p>Suite 201<\/p><p>Markham<\/p><p>ON<\/p>",
+            "telephone": "647-500-7133",
+            "website_title": "Website",
+            "website_url": "https:\/\/brilliantbeautyaesthetics.ca\/"
+          }
+        }
+      },
+      "block_order": [
+        "9708fefa-8a6f-4a5e-9ef2-97259b4ed1c4",
+        "7f9b8d31-e77f-4031-999c-63eda551075f",
+        "a23ade29-d0de-4db3-b83f-933ad63775b8",
+        "43b43bdc-5ae8-494a-bee7-f2334390e3a1",
+        "4f63f49c-a44b-4ce1-956e-8bdea132b496",
+        "876c2b7c-81e8-4ea3-b235-b58433087a2f",
+        "087f522d-98be-48b9-9596-f230c32dd1a5",
+        "96834d24-c654-4300-b2a4-99b503bd15e4",
+        "841a8bf6-6c39-459c-b839-3695e57234f4",
+        "4d321679-759c-4954-9a30-8da3530a24b6",
+        "9990e07a-cb7e-4d61-81c0-316cd1698a6a",
+        "10edb951-2e52-4828-b4d6-f9c9c7176f3d",
+        "3805c202-51b7-4c42-9bcd-73c97c7fec66",
+        "ecedf541-eea6-4f41-ac22-12783c3e9a5e",
+        "8d35bce6-252e-42f7-a0ad-c51a7247c7a2",
+        "3e258c72-24ac-46c8-8a8d-e210c871547a",
+        "e4bc3447-0b5f-42bd-9311-531766aaadec",
+        "af54f1af-bfd4-4484-9342-4ffa570484be",
+        "f5712466-55bb-4548-9d37-831acd40fb54",
+        "1f54b57b-5444-4b9b-95a3-a940bf44e30f",
+        "2655baff-8f6d-4707-a67c-ebdde0fead79",
+        "d48bd8b0-d3cd-4a36-9018-8cc8043766bb",
+        "dc9cd9ef-8449-4a4c-8e1f-4e5360f2d47d",
+        "e30edda3-21f4-40c1-835d-0ce275bf79e0",
+        "a7e6c03d-8c6f-48f9-83fd-4abbb9650581",
+        "15358984-9e2e-4a24-8e87-902b4606ae1a",
+        "2148bbe1-03df-4e93-81f4-54d27e8dddb6",
+        "01ef38c6-a030-4c27-9234-6de59bdca92a",
+        "ed84fbdf-d7dc-4196-99c1-b235a638503e",
+        "38b4e952-a6ff-497f-921a-b4af949e5f42",
+        "5ef79723-827f-44d0-9336-a9c885a40311",
+        "63e52ad8-7acb-4261-9e03-bb1833585f82",
+        "cd352609-0ce5-4b03-a493-0f7eaff1a966",
+        "53b2154b-09cf-4b5b-b3a7-b384f72c4364",
+        "73f5b1c0-d31b-4d86-994a-552b59c546fe",
+        "519cb42b-a2e3-4b15-b413-4a8464d77ae7",
+        "0d4978b0-1200-400c-b9f9-69fbf188975a",
+        "2dcd8534-dbf2-43e6-a9e5-f6373e6a3b16",
+        "cb417795-0b3d-48da-b183-8ee4757c41a6",
+        "6a56fb42-3f22-4093-9d0f-0c3c1816cbf6",
+        "ae44a477-5164-46c3-bac5-a4a1ac42e779",
+        "7b6fe90d-1b79-4ee6-b711-ff58c04419ed",
+        "05b4c142-3b2d-4d4e-91aa-76b8af24e12a",
+        "fdccd172-9625-4589-b0ce-5c352920f6ca",
+        "a85e764c-09e6-44a1-a25f-997873084ded",
+        "fb1e2ec1-f403-4678-8228-6480ace690aa",
+        "3b606a5a-3291-4ce6-819a-6f8ec08ba3a5",
+        "f4b53a4e-ff34-4f6c-9e64-f830c9e6d517",
+        "3b51c038-fe1a-4e08-9372-bc8e0d79edfe",
+        "3f75a74b-06e6-49d5-b84c-a66b2b04f0bc"
+      ],
+      "settings": {
+        "heading": "Our Physicians",
+        "text": "<p>We have a list of physicians exclusively carrying skinbetter science® products. Some of our physicians have chosen to pre-approve their patients, while others wish to approve individually. Choose your physician from the list and either continue shopping or proceed to the request to buy form. <\/p>",
+        "image": "shopify:\/\/shop_images\/18.png"
+      }
+    },
+    "1656341111ee3c44cb": {
+      "type": "physicians",
+      "blocks": {
+        "2dda68cd-6c09-4c5a-bb92-df9e027b362a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Joseph Korkis",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=164",
+            "name": "Institute Of Facial Surgery",
+            "address": "<p>672 Brant Street Suite 405<\/p><p>Burlington<\/p><p>ON<\/p>",
+            "telephone": "905-333-9255",
+            "website_title": "Website",
+            "website_url": "https:\/\/institutefacialsurgery.com\/"
+          }
+        },
+        "61b49aa2-9eac-4b94-b86d-b60fad63941f": {
+          "type": "item",
+          "settings": {
+            "physician": "Neda Kovc, RPN, MEPN",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=130",
+            "name": "Glam Nurse Neda",
+            "address": "<p>125 Gailmont Drive<\/p><p>Hamilton<\/p><p>ON<\/p>",
+            "telephone": "289-442-1419",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "7bba9b9c-0935-4313-a8cb-d2cff9665756": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Ala Lozinski",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=93",
+            "name": "Aestheticare",
+            "address": "<p>15 Mountain Avenue South<\/p><p>Suite #312<\/p><p>Stoney Creek<\/p><p>ON<\/p>",
+            "telephone": "905-664-5060",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.aestheticare.ca\/"
+          }
+        },
+        "bac11914-e69e-4ee4-8126-51023d62c2d6": {
+          "type": "item",
+          "settings": {
+            "physician": "Wyskt Facial Bar",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=180",
+            "name": "Wyskt Facial Bar",
+            "address": "<p>532 Concession Street<\/p><p>Hamilton<\/p><p>ON<\/p>",
+            "telephone": "647-894-1583",
+            "website_title": "Website",
+            "website_url": "https:\/\/wysktfacialbar.ca\/"
+          }
+        },
+        "35d18e89-c7f6-41c1-a02e-d03329aecfdc": {
+          "type": "item",
+          "settings": {
+            "physician": "Nfuzd Beauty + Healing Inc",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=205",
+            "name": "Nfuzd Beauty + Healing Inc.",
+            "address": "<p>44 Fieldway Dr.<\/p><p>Hamilton<\/p><p>ON<\/p>",
+            "telephone": "289-682-9802",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.nfuzd.ca\/"
+          }
+        },
+        "2e9808cf-9e1d-4faa-93f6-acb1ecaa58e2": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Dusan Sajic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=156",
+            "name": "derma Skin Institute",
+            "address": "<p>33 Farley Drive<\/p><p>Unit 8<\/p><p>Guelph<\/p><p>ON<\/p>",
+            "telephone": "1-888-803-3762",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.dermaskininstitute.com\/"
+          }
+        },
+        "21e1caa1-1252-4786-a50c-80a4f6495d33": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Goran Jeremic",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=143",
+            "name": "Jeremic Facial Cosmetics",
+            "address": "<p>645 Finkle Street<\/p><p>Suite 2200<\/p><p>Woodstock<\/p><p>ON<\/p>",
+            "telephone": "519-495-0778",
+            "website_title": "Website",
+            "website_url": "https:\/\/jeremiccosmetics.com\/"
+          }
+        },
+        "f1da0a24-d39d-4a89-9720-55dab38475bc": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Rahul Shukla",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=23",
+            "name": "DRS Skincare",
+            "address": "<p>1662 Upper James Street<\/p><p>Hamilton<\/p><p>ON<\/p>",
+            "telephone": "905.524.1712",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.drsskincare.ca\/"
+          }
+        },
+        "1df8e334-71b9-4d8c-909c-d0a9b06fa830": {
+          "type": "item",
+          "settings": {
+            "physician": "Melissa Gagnon, RN",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=123",
+            "name": "Canadian Beauty Boutique",
+            "address": "<p>22 Cornerside Way<\/p><p>Whitby<\/p><p>ON<\/p>",
+            "telephone": "647-874-8261",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.canadianbeautyboutique.com\/"
+          }
+        },
+        "42efb241-ff3e-43a2-896d-1fe180bb4240": {
+          "type": "item",
+          "settings": {
+            "physician": "Omorphi Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=170",
+            "name": "Omorphi Aesthetics",
+            "address": "<p>71 Albert St.<\/p><p>Suite 6<\/p><p>Oshawa<\/p><p>ON<\/p>",
+            "telephone": "416-574-1879",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.omorphiaesthetics.com\/"
+          }
+        },
+        "58e54d66-6bb7-4a2a-b215-6ee6061fa0f6": {
+          "type": "item",
+          "settings": {
+            "physician": "Sabrina Dinh",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=146",
+            "name": "Ageless in Keswick",
+            "address": "<p>543 The Queensway S<\/p><p>Keswick<\/p><p>ON<\/p>",
+            "telephone": "905-989-0003",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.kesact.com\/ageless\/"
+          }
+        },
+        "6429941d-41b1-4c0a-a5ca-6e1bfa84db61": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Fefelova Evgeniya",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=142",
+            "name": "Barrie Women's Health Center",
+            "address": "<p>5 - 630 Huronia Road<\/p><p>Barrie<\/p><p>ON<\/p>",
+            "telephone": "705-252-6935",
+            "website_title": "Website",
+            "website_url": "http:\/\/drfefelova.ca\/services\/"
+          }
+        },
+        "6cb520fe-be19-40c6-8a90-5c96ba42a673": {
+          "type": "item",
+          "settings": {
+            "physician": "Bare UR Beauty Medical Spa Inc",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=208",
+            "name": "Bare UR Beauty Medical Spa Inc",
+            "address": "<p>155 Brant Ave<\/p><p>Brantford<\/p><p>ON<\/p>",
+            "telephone": "519-861-2273",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.bareurbeauty.com\/"
+          }
+        },
+        "9c6f4e79-e5de-4074-9714-c0f01d03eda2": {
+          "type": "item",
+          "settings": {
+            "physician": "Shawna Leifso, RPN",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=133",
+            "name": "Subtly You",
+            "address": "<p>80 Talbot Street<\/p><p>Kitchener<\/p><p>ON<\/p>",
+            "telephone": "519-994-1387",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.subtlyyou.ca\/"
+          }
+        },
+        "cbd48069-b95c-42c8-9297-036420919575": {
+          "type": "item",
+          "settings": {
+            "physician": "Emily Schultz RN, CANS",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=97",
+            "name": "Kraftwürk",
+            "address": "<p>255 King St North<\/p><p>Suite 401<\/p><p>Waterloo<\/p><p>ON<\/p>",
+            "telephone": "18339445500",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.daskraftwurk.com\/"
+          }
+        },
+        "3e4a598f-f24e-4726-9363-b5f81e5c6c61": {
+          "type": "item",
+          "settings": {
+            "physician": "Amy Thompson",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=161",
+            "name": "Primrose Medical Aesthetics",
+            "address": "<p>8315 Gilmour Road<\/p><p>Campbellcroft<\/p><p>ON<\/p>",
+            "telephone": "905-442-4250",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "20c9f870-5e17-4ed3-9a1b-0d6bb0d44467": {
+          "type": "item",
+          "settings": {
+            "physician": "Centre Stage Medical Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=102",
+            "name": "Centre Stage Medical Aesthetics",
+            "address": "<p>156 Waterloo St.<\/p><p>Stratford<\/p><p>ON<\/p>",
+            "telephone": "519-573-6610",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.centrestagemedical.com\/"
+          }
+        },
+        "97e2639c-183d-4ae6-bce8-cf96f549c835": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Arjang Yazdani",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=119",
+            "name": "Yazdani Aesthetics",
+            "address": "<p>747 Waterloo St.<\/p><p>London<\/p><p>ON<\/p>",
+            "telephone": "519-601-4554",
+            "website_title": "Website",
+            "website_url": "https:\/\/yazdaniaesthetics.com\/"
+          }
+        },
+        "7d8b2c75-691c-4500-ad1d-89a7aba01b60": {
+          "type": "item",
+          "settings": {
+            "physician": "Sonia Vilos RN",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=117",
+            "name": "Skin Alchemy",
+            "address": "<p>181 Albert Street<\/p><p>Upper unit<\/p><p>London<\/p><p>ON<\/p>",
+            "telephone": "226-688-6732",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinalchemy.ca\/"
+          }
+        },
+        "5de8dd0c-2831-4662-81e9-f89d88b6fd05": {
+          "type": "item",
+          "settings": {
+            "physician": "Dermacare By Despina",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=213",
+            "name": "Dermacare By Despina",
+            "address": "<p>2-1634 Hyde Park Rd<\/p><p>London<\/p><p>ON<\/p>",
+            "telephone": "519-858-0085",
+            "website_title": "Website",
+            "website_url": "https:\/\/shopdermacarebydespina.com\/"
+          }
+        },
+        "e68e06bb-06ea-4056-9f40-927e1c5090d5": {
+          "type": "item",
+          "settings": {
+            "physician": "Alisha Smith",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=149",
+            "name": "Jova Medical Aesthetics",
+            "address": "<p>1065 Valetta Street<\/p><p>Unit C<\/p><p>London<\/p><p>ON<\/p>",
+            "telephone": "519-870-5682",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.jovamedicalaesthetics.com\/"
+          }
+        },
+        "77e31a04-0dae-41e3-a959-97d627076660": {
+          "type": "item",
+          "settings": {
+            "physician": "Forever Youth Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "",
+            "name": "Forever Youth Aesthetics",
+            "address": "<p>27 Wims Way<\/p><p>Belleville<\/p><p>ON<\/p>",
+            "telephone": "613-661-4565",
+            "website_title": "Website",
+            "website_url": "https:\/\/skinbetter.ca\/"
+          }
+        },
+        "3d028b1e-fc08-4f9f-9cd1-16dfe9e61c1a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Jerry Tan",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=120",
+            "name": "Healthy Image",
+            "address": "<p>2224 Walker Road<\/p><p>Suite 300<\/p><p>Windsor<\/p><p>ON<\/p>",
+            "telephone": "519-971-9542",
+            "website_title": "Website",
+            "website_url": "https:\/\/healthyimage.ca\/"
+          }
+        },
+        "2e7e97fa-dafc-4b71-9d2f-f2657838bf91": {
+          "type": "item",
+          "settings": {
+            "physician": "Aurora Medical Aesthetics",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=203",
+            "name": "Aurora Medical Aesthetics",
+            "address": "<p>7056 Malden Rd.<\/p><p>Maidstone<\/p><p>ON<\/p>",
+            "telephone": "519-551-0226",
+            "website_title": "Website",
+            "website_url": "https:\/\/auroramedicalaesthetics.janeapp.com\/#staff_member\/1"
+          }
+        },
+        "a7a32de2-a4c8-44ce-b1be-a892eb75e00b": {
+          "type": "item",
+          "settings": {
+            "physician": "Body & Co.",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=101",
+            "name": "Body & Co. Medical Esthetics",
+            "address": "<p>1570 Ouelette Avenue<\/p><p>Windsor<\/p><p>ON<\/p>",
+            "telephone": "519-817-8525",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.beautynailhairsalons.com\/XX\/Unknown\/832958536873330\/Body%26Co"
+          }
+        },
+        "78147eca-04c6-4eff-bbbd-6b7de495f42a": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Tiffany Parsons",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=157",
+            "name": "Parsons Dermatology",
+            "address": "<p>885 Regent Street<\/p><p>Fifth Floor, Suite 5-2B<\/p><p>Sudbury<\/p><p>ON<\/p>",
+            "telephone": "705-675-3376",
+            "website_title": "Website",
+            "website_url": "https:\/\/parsonsdermatology.com\/"
+          }
+        },
+        "f7c15b2b-0f13-4e9e-95f0-425556b60374": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Jody Timpson",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=167",
+            "name": "Grace 2 Aesthetics",
+            "address": "<p>348 Donald B Munro<\/p><p>Carp<\/p><p>ON<\/p>",
+            "telephone": "613 449 2627",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.grace2aesthetics.com\/"
+          }
+        },
+        "42e1cb30-37f4-4f00-9d5e-42ed812187a1": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. James Lacey and Dr. Ian MacArthur",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=155",
+            "name": "Kanata Plastic & Cosmetic Surgery",
+            "address": "<p>895 March Road<\/p><p>Kanata<\/p><p>ON<\/p>",
+            "telephone": "613-591-1099",
+            "website_title": "Website",
+            "website_url": "https:\/\/www.kanataplasticsurgery.com\/"
+          }
+        },
+        "ad25a7c2-21c6-4334-abd9-f8d477e12fb3": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Jennifer Mac Isaac",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=175",
+            "name": "Ottawa Derm Centre",
+            "address": "<p>105A 460 West Hunt Club<\/p><p>Ottawa<\/p><p>ON<\/p>",
+            "telephone": "613-369-8369",
+            "website_title": "Website",
+            "website_url": "https:\/\/ottawadermcentre.com\/"
+          }
+        },
+        "8e15f593-e3ce-4c7e-8afe-07ecc0b960e5": {
+          "type": "item",
+          "settings": {
+            "physician": "Lydia Monette",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=159",
+            "name": "Clinique MedicoDerma (DermaCosmetic)",
+            "address": "<p>201-300 Marie Victorin<\/p><p>Sainte-Jerome<\/p><p>QC<\/p>",
+            "telephone": "(450) 275-1454",
+            "website_title": "Website",
+            "website_url": "https:\/\/cliniquemedicoderma.com\/"
+          }
+        },
+        "c302aec3-7a16-43e0-a08f-bde64cb4a25f": {
+          "type": "item",
+          "settings": {
+            "physician": "Dr. Marie-Christine Aumais",
+            "btn_text": "buy now",
+            "btn_url": "https:\/\/evolve-medical.myshopify.com\/?ref=195",
+            "name": "Zina Derma Care Inc",
+            "address": "<p>4301 Jean Talon West<\/p><p>Montreal<\/p><p>QC<\/p>",
+            "telephone": "514-777-7378",
+            "website_title": "Website",
+            "website_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "2dda68cd-6c09-4c5a-bb92-df9e027b362a",
+        "61b49aa2-9eac-4b94-b86d-b60fad63941f",
+        "7bba9b9c-0935-4313-a8cb-d2cff9665756",
+        "bac11914-e69e-4ee4-8126-51023d62c2d6",
+        "35d18e89-c7f6-41c1-a02e-d03329aecfdc",
+        "2e9808cf-9e1d-4faa-93f6-acb1ecaa58e2",
+        "21e1caa1-1252-4786-a50c-80a4f6495d33",
+        "f1da0a24-d39d-4a89-9720-55dab38475bc",
+        "1df8e334-71b9-4d8c-909c-d0a9b06fa830",
+        "42efb241-ff3e-43a2-896d-1fe180bb4240",
+        "58e54d66-6bb7-4a2a-b215-6ee6061fa0f6",
+        "6429941d-41b1-4c0a-a5ca-6e1bfa84db61",
+        "6cb520fe-be19-40c6-8a90-5c96ba42a673",
+        "9c6f4e79-e5de-4074-9714-c0f01d03eda2",
+        "cbd48069-b95c-42c8-9297-036420919575",
+        "3e4a598f-f24e-4726-9363-b5f81e5c6c61",
+        "20c9f870-5e17-4ed3-9a1b-0d6bb0d44467",
+        "97e2639c-183d-4ae6-bce8-cf96f549c835",
+        "7d8b2c75-691c-4500-ad1d-89a7aba01b60",
+        "5de8dd0c-2831-4662-81e9-f89d88b6fd05",
+        "e68e06bb-06ea-4056-9f40-927e1c5090d5",
+        "77e31a04-0dae-41e3-a959-97d627076660",
+        "3d028b1e-fc08-4f9f-9cd1-16dfe9e61c1a",
+        "2e7e97fa-dafc-4b71-9d2f-f2657838bf91",
+        "a7a32de2-a4c8-44ce-b1be-a892eb75e00b",
+        "78147eca-04c6-4eff-bbbd-6b7de495f42a",
+        "f7c15b2b-0f13-4e9e-95f0-425556b60374",
+        "42e1cb30-37f4-4f00-9d5e-42ed812187a1",
+        "ad25a7c2-21c6-4334-abd9-f8d477e12fb3",
+        "8e15f593-e3ce-4c7e-8afe-07ecc0b960e5",
+        "c302aec3-7a16-43e0-a08f-bde64cb4a25f"
+      ],
       "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "1656341111ee3c44cb"
   ]
 }

@@ -1,0 +1,206 @@
+{% assign shopLocale = shop.locale %}
+{% if shopLocale == 'he' or shopLocale == 'ar' or shopLocale == 'fa' or shopLocale == 'ur' or shopLocale == 'ug'  %}
+<script>
+  function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
+          loadStyleString("body { direction: rtl;}");
+          loadStyleString(" .flexslider-container{direction: ltr;}");
+          loadStyleString(" .slick-list  {direction: ltr;}");
+          loadStyleString(" .slideshow__arrows{ direction: ltr;}");
+          loadStyleString(" .site-nav--init{float:left;}");
+          loadStyleString(" .links-footer{float:right;}");
+          loadStyleString(" .content-footer{float:right;}");
+          loadStyleString(" .large--one-half{float:right;}");
+          loadStyleString(" .push--large--one-quarter{float:left;}");
+          loadStyleString(" .input-group{direction:ltr;}");
+          loadStyleString(" .sm-icons{direction:ltr;}");
+          loadStyleString(" .shopify-section--bordered{direction:ltr;}");
+          loadStyleString(" .Icon-Wrapper--clickable{margin-left:25px;}");
+          loadStyleString(" .flex-viewport{direction:ltr;}");
+          loadStyleString(" .owl-carousel{direction:ltr;}");
+        }
+  }
+
+   function loadStyleString(css){
+        var style = document.createElement("style");
+        style.type = "text/css";
+        try{
+            style.appendChild(document.createTextNode(css));
+        }catch(ex){
+            style.styleSheet.cssText = css;
+        }
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(style);
+    }
+
+    var is_rtl_meta = {{shop.metafields.etranslate.rtl_config | json}}
+    var is_rtl = null;
+    if((is_rtl_meta && is_rtl_meta.is_rtl == true) || (is_rtl_meta && is_rtl_meta.is_rtl == "true")){
+      var is_rtl = true;
+    } else {
+      var is_rtl = false;
+    }
+    if(is_rtl == true){
+        browserRedirect();
+    }
+</script>
+{% endif %}<script defer>
+    function dynamicText(){
+        let dynamicDataList = [{"lan_code":"fr","original_text":"Benefits","translate_text":"Avantages"},{"lan_code":"fr","original_text":"Reduces moisture loss while delivering immediate and long-lasting hydration.","translate_text":"R\u00e9duit la perte d'humidit\u00e9 tout en procurant une hydratation imm\u00e9diate et durable."},{"lan_code":"fr","original_text":"All skin types. Can be added to any skincare regimen for additional moisturization.","translate_text":"Tous types de peau. Peut \u00eatre ajout\u00e9 \u00e0 n'importe quel r\u00e9gime de soins de la peau pour une hydratation suppl\u00e9mentaire."},{"lan_code":"fr","original_text":"A lightweight moisturizer that supports a healthy skin barrier.","translate_text":"Un hydratant l\u00e9ger qui soutient une barri\u00e8re cutan\u00e9e saine."},{"lan_code":"fr","original_text":"Provides soothing hydration and a velvety finish.","translate_text":"Fournit une hydratation apaisante et une finition velout\u00e9e."},{"lan_code":"fr","original_text":"Uses a unique combination of ceramides and botanical lipids to hydrate the skin and provide a smooth and supple, yet airy finish.","translate_text":"Utilise une combinaison unique de c\u00e9ramides et de lipides botaniques pour hydrater la peau et offrir un fini lisse et souple, mais a\u00e9r\u00e9."},{"lan_code":"fr","original_text":"Excellent in combination with treatment products, retinoids and exfoliators.","translate_text":"Excellent en combinaison avec des produits de traitement, des r\u00e9tino\u00efdes et des exfoliants."},{"lan_code":"fr","original_text":"Can be added to any skincare regimen for addi","translate_text":"Peut \u00eatre ajout\u00e9 \u00e0 n'importe quel r\u00e9gime de soins de la peau pour addi"},{"lan_code":"fr","original_text":"May be used as needed for extra moisturization.","translate_text":"Peut \u00eatre utilis\u00e9 au besoin pour une hydratation suppl\u00e9mentaire."},{"lan_code":"fr","original_text":"How To Use","translate_text":"Comment utiliser"},{"lan_code":"fr","original_text":"Good for all skin types.","translate_text":"Bon pour tous les types de peau."},{"lan_code":"fr","original_text":"May be used following your skin","translate_text":"Peut \u00eatre utilis\u00e9 suivant votre peau"},{"lan_code":"fr","original_text":"better","translate_text":"meilleur"},{"lan_code":"fr","original_text":"science treatment regimen and before sunscreen.","translate_text":"r\u00e9gime de traitement scientifique et avant la cr\u00e8me solaire."},{"lan_code":"fr","original_text":"Ingredients","translate_text":"Ingr\u00e9dients"},{"lan_code":"fr","original_text":"Aqua\/Water, Glycerin, Squalane, Jojoba Oil\/Macadamia Seed Oil Esters, Isosorbide Dicaprylate, Polyglyceryl-6 Distearate, Niacinamide, Ceramide NP, Ceramide NS, Ceramide AP, Ceramide EOP, Ceramide EOS, Cholesterol, Sodium Hyaluronate, Xylitylglucoside, Anhydroxylitol, Betaine, Xylitol, Beta-Glucan, Hydrolyzed Jojoba Esters, Jojoba Esters, Glucose, Tocopheryl Acetate, Tocopherol, Ascorbyl Palmitate, Squalene, Phytosteryl Macadamiate, Phytosterols, Caprooyl Phytosphingosine, Caprooyl Sphingosine, Saccharide Isomerate, Polyglyceryl-3 Beeswax, Glyceryl Caprylate, Sodium Anisate, Ethylhexylglycerin, Cetyl Alcohol, Behenic Acid, Sodium Carrageenan, Sea Salt, Xanthan Gum, Algin, Carbomer, Polyacrylate Crosspolymer-11, Ceteareth-25, Sodium Citrate, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Benzoic Acid, Sorbic Acid.","translate_text":"Aqua\/eau, glyc\u00e9rine, squalane, esters d'huile de jojoba\/huile de graines de macadamia, dicaprylate d'isosorbide, dist\u00e9arate de polyglyc\u00e9ryle-6, niacinamide, c\u00e9ramide NP, c\u00e9ramide NS, c\u00e9ramide AP, c\u00e9ramide EOP, c\u00e9ramide EOS, cholest\u00e9rol, hyaluronate de sodium, xylitylglucoside, anhydroxylitol, B\u00e9ta\u00efne, xylitol, b\u00eata-glucane, esters de jojoba hydrolys\u00e9s, esters de jojoba, glucose, ac\u00e9tate de tocoph\u00e9ryle, tocoph\u00e9rol, palmitate d'ascorbyle, squal\u00e8ne, macadamiate de phytost\u00e9ryle, phytost\u00e9rols, caprooyl phytosphingosine, caprooyl sphingosine, isom\u00e9rate de saccharide, polyglyc\u00e9ryl-3 cire d'abeille, caprylate de glyc\u00e9ryle, sodium Anisate, \u00e9thylhexylglyc\u00e9rine, alcool c\u00e9tylique, acide b\u00e9h\u00e9nique, carragh\u00e9nine de sodium, sel marin, gomme de xanthane, algine, carbom\u00e8re, polyacrylate Crosspolymer-11, Ceteareth-25, citrate de sodium, hydroxyde de sodium, acide citrique, ph\u00e9noxy\u00e9thanol, acide benzo\u00efque, acide sorbique."},{"lan_code":"fr","original_text":"Subscription details","translate_text":"D\u00e9tails de l'abonnement"},{"lan_code":"fr","original_text":"Water (Aqua), Alcohol Dentat, PVP, Aloe Barbadensis Leaf Extract, PPG-3 Benzyl Ether Myristate, Polyhydroxystearic Acid, Dimethicone PEG-7 Phosphate Ethylhexyl Isononanoate, Isononyl Isononanoate, Sodium Cocamidopropyl PG-Dimonium Chloride Phosphate, Glycereth-5 Lactate, Caprylyl Glycol, Sodiym Hydroxide, Frgrance (Parfum), Methyl Diisopropyl Propionamide, Poloxamer 407, Methyl Methacrylate Crosspolymer, Phenylpropanol, Propandeiol, Tocopherol.","translate_text":"Eau (Aqua), Alcohol Dentat, PVP, Aloe Barbadensis Leaf Extract, PPG-3 Benzyl Ether Myristate, Polyhydroxystearic Acid, Dimethicone PEG-7 Phosphate Ethylhexyl Isononanoate, Isononyl Isononanoate, Sodium Cocamidopropyl PG-Dimonium Chloride Phosphate, Glycereth-5 Lactate, Caprylyl Glycol, hydroxyde de sodium, parfum (parfum), m\u00e9thyl diisopropyl propionamide, poloxamer 407, polym\u00e8re crois\u00e9 de m\u00e9thacrylate de m\u00e9thyle, ph\u00e9nylpropanol, propandeiol, tocoph\u00e9rol."},{"lan_code":"fr","original_text":"Spray in an \u201cX\u201d and \u201cT\u201d formation repeatedly (about 3-5 times) until the face is fully saturated.","translate_text":"Vaporisez en formant un \"X\" et un \"T\" \u00e0 plusieurs reprises (environ 3 \u00e0 5 fois) jusqu'\u00e0 ce que le visage soit compl\u00e8tement satur\u00e9."},{"lan_code":"fr","original_text":"Shake the bottle well to activate the formula.","translate_text":"Bien agiter le flacon pour activer la formule."},{"lan_code":"fr","original_text":"Eye tested. Oil-free. Cruelty-Free. Vegan.","translate_text":"Test\u00e9 \u00e0 l'oeil. Sans huile. Sans cruaut\u00e9. V\u00e9g\u00e9talien."},{"lan_code":"fr","original_text":"Also works as a cooling spray","translate_text":"Fonctionne \u00e9galement comme un spray de refroidissement"},{"lan_code":"fr","original_text":"Facial Spray formulated for sensitive skin.","translate_text":"Spray facial formul\u00e9 pour les peaux sensibles."},{"lan_code":"fr","original_text":"Won\u2019t clog pores or promote breakouts","translate_text":"N'obstrue pas les pores et ne favorise pas les \u00e9ruptions cutan\u00e9es"},{"lan_code":"fr","original_text":"Smudge-proof & water-resistant for up to 16 hours","translate_text":"R\u00e9sistant aux taches et \u00e0 l'eau jusqu'\u00e0 16 heures"},{"lan_code":"fr","original_text":"Matte finish","translate_text":"Fini mat"},{"lan_code":"fr","original_text":"Long lasting spray","translate_text":"Spray longue dur\u00e9e"},{"lan_code":"fr","original_text":"Patented, Temperature Control Technology","translate_text":"Technologie brevet\u00e9e de contr\u00f4le de la temp\u00e9rature"},{"lan_code":"fr","original_text":"A makeup setting spray and misting spray in one! We know this is going to be your new go-to setting spray for long-lasting makeup and to feel refreshed at any hour of the day.","translate_text":"Un spray fixateur de maquillage et un spray brumisateur en un ! Nous savons que ce sera votre nouveau spray fixateur incontournable pour un maquillage longue dur\u00e9e et une sensation de fra\u00eecheur \u00e0 toute heure de la journ\u00e9e."},{"lan_code":"fr","original_text":"The Makeup Setting Spray for The Ever-Evolving Woman","translate_text":"Le spray fixateur de maquillage pour la femme en constante \u00e9volution"},{"lan_code":"fr","original_text":"FEATURES:","translate_text":"CARACT\u00c9RISTIQUES:"},{"lan_code":"fr","original_text":"Our weightless setting spray keeps your makeup looking flawless and locks in coolness and colour. Helps to prevent makeup from creasing or melting, while minimizing the need for touch-ups. Absorbs quickly and lasts for up to 16 hours.","translate_text":"Notre spray fixant l\u00e9ger garde votre maquillage impeccable et emprisonne la fra\u00eecheur et la couleur. Aide \u00e0 emp\u00eacher le maquillage de se froisser ou de fondre, tout en minimisant le besoin de retouches. Absorbe rapidement et dure jusqu'\u00e0 16 heures."},{"lan_code":"fr","original_text":"Evolve All Day Makeup Finishing Spray","translate_text":"Vaporisateur de finition de maquillage Evolve All Day"},{"lan_code":"fr","original_text":"Spray it, don\u2019t sweat it! Our Evolve All Day Makeup Finishing Spray features patented cooling technology that provides instant relief with a cooling mist, ensuring your makeup and comfort last for up to 16 hours - in the balmiest of weather, or under the strongest spotlight. In addition, it delivers a smooth, mattifying finish, so it\u2019s even perfect for those who have oily or acne-prone skin. Smudge-proof and water-resistant, this all-natural, slow-release setting spray is essential for maintaining your flawless beauty and admirable confidence. Mist yourself in the morning after applying your makeup or throughout the day to keep your skin cool and fresh.","translate_text":"Vaporisez-le, ne vous en faites pas! Notre spray de finition de maquillage Evolve All Day est dot\u00e9 d'une technologie de refroidissement brevet\u00e9e qui procure un soulagement instantan\u00e9 avec une brume rafra\u00eechissante, garantissant que votre maquillage et votre confort durent jusqu'\u00e0 16 heures - par temps doux ou sous les projecteurs les plus forts. De plus, il offre une finition lisse et matifiante, il est donc m\u00eame parfait pour ceux qui ont la peau grasse ou sujette \u00e0 l'acn\u00e9. R\u00e9sistant aux taches et \u00e0 l'eau, ce spray fixateur enti\u00e8rement naturel \u00e0 lib\u00e9ration lente est essentiel pour maintenir votre beaut\u00e9 impeccable et votre confiance admirable. Vaporisez-vous le matin apr\u00e8s l'application de votre maquillage ou tout au long de la journ\u00e9e pour garder votre peau fra\u00eeche et fra\u00eeche."},{"lan_code":"zh-CN","original_text":"Benefits","translate_text":"\u597d\u5904"},{"lan_code":"zh-CN","original_text":"Reduces moisture loss while delivering immediate and long-lasting hydration.","translate_text":"\u51cf\u5c11\u6c34\u5206\u6d41\u5931\uff0c\u540c\u65f6\u63d0\u4f9b\u5373\u65f6\u548c\u6301\u4e45\u7684\u6c34\u5408\u4f5c\u7528\u3002"},{"lan_code":"zh-CN","original_text":"All skin types. Can be added to any skincare regimen for additional moisturization.","translate_text":"\u6240\u6709\u7c7b\u578b\u7684\u76ae\u80a4\u3002 \u53ef\u4ee5\u6dfb\u52a0\u5230\u4efb\u4f55\u62a4\u80a4\u65b9\u6848\u4e2d\u4ee5\u63d0\u4f9b\u989d\u5916\u7684\u4fdd\u6e7f\u6548\u679c\u3002"},{"lan_code":"zh-CN","original_text":"A lightweight moisturizer that supports a healthy skin barrier.","translate_text":"\u4e00\u79cd\u8f7b\u8d28\u4fdd\u6e7f\u971c\uff0c\u652f\u6301\u5065\u5eb7\u7684\u76ae\u80a4\u5c4f\u969c\u3002"},{"lan_code":"zh-CN","original_text":"Provides soothing hydration and a velvety finish.","translate_text":"\u63d0\u4f9b\u8212\u7f13\u7684\u6c34\u5408\u4f5c\u7528\u548c\u5929\u9e45\u7ed2\u822c\u7684\u6548\u679c\u3002"},{"lan_code":"zh-CN","original_text":"Uses a unique combination of ceramides and botanical lipids to hydrate the skin and provide a smooth and supple, yet airy finish.","translate_text":"\u4f7f\u7528\u795e\u7ecf\u9170\u80fa\u548c\u690d\u7269\u8102\u8d28\u7684\u72ec\u7279\u7ec4\u5408\u6765\u6ecb\u6da6\u808c\u80a4\uff0c\u63d0\u4f9b\u5149\u6ed1\u3001\u67d4\u8f6f\u3001\u900f\u6c14\u7684\u5986\u5bb9\u3002"},{"lan_code":"zh-CN","original_text":"Excellent in combination with treatment products, retinoids and exfoliators.","translate_text":"\u4e0e\u6cbb\u7597\u4ea7\u54c1\u3001\u7c7b\u7ef4\u751f\u7d20A\u548c\u53bb\u89d2\u8d28\u5242\u5b8c\u7f8e\u7ed3\u5408\u3002"},{"lan_code":"zh-CN","original_text":"Can be added to any skincare regimen for addi","translate_text":"\u53ef\u6dfb\u52a0\u5230\u4efb\u4f55\u62a4\u80a4\u65b9\u6848\u4e2d"},{"lan_code":"zh-CN","original_text":"May be used as needed for extra moisturization.","translate_text":"\u53ef\u6839\u636e\u9700\u8981\u7528\u4e8e\u989d\u5916\u4fdd\u6e7f\u3002"},{"lan_code":"zh-CN","original_text":"How To Use","translate_text":"\u5982\u4f55\u4f7f\u7528"},{"lan_code":"zh-CN","original_text":"Good for all skin types.","translate_text":"\u9002\u5408\u6240\u6709\u76ae\u80a4\u7c7b\u578b\u3002"},{"lan_code":"zh-CN","original_text":"May be used following your skin","translate_text":"\u53ef\u6839\u636e\u60a8\u7684\u76ae\u80a4\u4f7f\u7528"},{"lan_code":"zh-CN","original_text":"better","translate_text":"\u66f4\u597d\u7684"},{"lan_code":"zh-CN","original_text":"science treatment regimen and before sunscreen.","translate_text":"\u79d1\u5b66\u6cbb\u7597\u65b9\u6848\u548c\u9632\u6652\u524d\u3002"},{"lan_code":"zh-CN","original_text":"Ingredients","translate_text":"\u539f\u6599"},{"lan_code":"zh-CN","original_text":"Aqua\/Water, Glycerin, Squalane, Jojoba Oil\/Macadamia Seed Oil Esters, Isosorbide Dicaprylate, Polyglyceryl-6 Distearate, Niacinamide, Ceramide NP, Ceramide NS, Ceramide AP, Ceramide EOP, Ceramide EOS, Cholesterol, Sodium Hyaluronate, Xylitylglucoside, Anhydroxylitol, Betaine, Xylitol, Beta-Glucan, Hydrolyzed Jojoba Esters, Jojoba Esters, Glucose, Tocopheryl Acetate, Tocopherol, Ascorbyl Palmitate, Squalene, Phytosteryl Macadamiate, Phytosterols, Caprooyl Phytosphingosine, Caprooyl Sphingosine, Saccharide Isomerate, Polyglyceryl-3 Beeswax, Glyceryl Caprylate, Sodium Anisate, Ethylhexylglycerin, Cetyl Alcohol, Behenic Acid, Sodium Carrageenan, Sea Salt, Xanthan Gum, Algin, Carbomer, Polyacrylate Crosspolymer-11, Ceteareth-25, Sodium Citrate, Sodium Hydroxide, Citric Acid, Phenoxyethanol, Benzoic Acid, Sorbic Acid.","translate_text":"\u6c34\/\u6c34\uff0c\u7518\u6cb9\uff0c\u89d2\u9ca8\u70f7\uff0c\u8377\u8377\u5df4\u6cb9\/\u6fb3\u6d32\u575a\u679c\u6cb9\u916f\uff0c\u5f02\u5c71\u68a8\u9187\u4e8c\u8f9b\u9178\u916f\uff0c\u805a\u7518\u6cb9 6 \u4e8c\u786c\u8102\u9178\u916f\uff0c\u70df\u9170\u80fa\uff0c\u795e\u7ecf\u9170\u80fa NP\uff0c\u795e\u7ecf\u9170\u80fa NS\uff0c\u795e\u7ecf\u9170\u80fa AP\uff0c\u795e\u7ecf\u9170\u80fa EOP\uff0c\u795e\u7ecf\u9170\u80fa EOS\uff0c\u80c6\u56fa\u9187\uff0c\u900f\u660e\u8d28\u9178\u94a0\uff0c\u6728\u7cd6\u57fa\u8461\u7cd6\u82f7\uff0c\u7f9f\u57fa\u7cd6\u9187\uff0c\u751c\u83dc\u78b1\uff0c\u6728\u7cd6\u9187\uff0c\u03b2-\u8461\u805a\u7cd6\uff0c\u6c34\u89e3\u8377\u8377\u5df4\u916f\uff0c\u8377\u8377\u5df4\u916f\uff0c\u8461\u8404\u7cd6\uff0c\u751f\u80b2\u915a\u4e59\u9178\u916f\uff0c\u751f\u80b2\u915a\uff0c\u6297\u574f\u8840\u9178\u68d5\u6988\u9178\u916f\uff0c\u89d2\u9ca8\u70ef\uff0c\u690d\u7269\u753e\u9187\u590f\u5a01\u5937\u679c\u9178\u916f\uff0c\u690d\u7269\u753e\u9187\uff0c\u5df1\u9170\u690d\u7269\u9798\u6c28\u9187\uff0c\u5df1\u9170\u9798\u6c28\u9187\uff0c\u7cd6\u5f02\u6784\u4f53\uff0c\u805a\u7518\u6cb9-3\u8702\u8721\u94a0\uff0c\u8f9b\u9178\u7518\u6cb9\u916f\uff0c\u8334\u9999\u9178\u76d0\u3001\u4e59\u57fa\u5df1\u57fa\u7518\u6cb9\u3001\u9cb8\u8721\u9187\u3001\u5c71\u842e\u9178\u3001\u89d2\u53c9\u83dc\u80f6\u3001\u6d77\u76d0\u3001\u9ec4\u539f\u80f6\u3001\u6d77\u85fb\u80f6\u3001\u5361\u6ce2\u59c6\u3001\u805a\u4e19\u70ef\u9178\u916f Crosspolymer-11\u3001Ceteareth-25\u3001\u67e0\u6aac\u9178\u94a0\u3001\u6c22\u6c27\u5316\u94a0\u3001\u67e0\u6aac\u9178\u3001\u82ef\u6c27\u4e59\u9187\u3001\u82ef\u7532\u9178\u3001\u5c71\u68a8\u9178\u3002"},{"lan_code":"zh-CN","original_text":"Subscription details","translate_text":"\u8ba2\u9605\u8be6\u60c5"},{"lan_code":"zh-CN","original_text":"Water (Aqua), Alcohol Dentat, PVP, Aloe Barbadensis Leaf Extract, PPG-3 Benzyl Ether Myristate, Polyhydroxystearic Acid, Dimethicone PEG-7 Phosphate Ethylhexyl Isononanoate, Isononyl Isononanoate, Sodium Cocamidopropyl PG-Dimonium Chloride Phosphate, Glycereth-5 Lactate, Caprylyl Glycol, Sodiym Hydroxide, Frgrance (Parfum), Methyl Diisopropyl Propionamide, Poloxamer 407, Methyl Methacrylate Crosspolymer, Phenylpropanol, Propandeiol, Tocopherol.","translate_text":"\u6c34\uff08Aqua\uff09\u3001\u9152\u7cbe\u7259\u80f6\u3001PVP\u3001\u82a6\u835f\u53f6\u63d0\u53d6\u7269\u3001PPG-3 \u82ef\u7532\u919a\u8089\u8c46\u853b\u9178\u916f\u3001\u805a\u7f9f\u57fa\u786c\u8102\u9178\u3001\u805a\u4e8c\u7532\u57fa\u7845\u6c27\u70f7 PEG-7 \u78f7\u9178\u5f02\u58ec\u9178\u4e59\u57fa\u5df1\u916f\u3001\u5f02\u58ec\u9178\u5f02\u58ec\u916f\u3001\u6930\u6cb9\u9170\u80fa\u4e19\u57fa PG-\u6c2f\u5316\u4e8c\u94f5\u78f7\u9178\u916f\u94a0\u3001Glycereth-5 Lactate\u3001Caprylyl\u4e59\u4e8c\u9187\u3001\u6c22\u6c27\u5316\u94a0\u3001\u9999\u6599\uff08\u9999\u6c34\uff09\u3001\u7532\u57fa\u4e8c\u5f02\u4e19\u57fa\u4e19\u9170\u80fa\u3001\u6cca\u6d1b\u6c99\u59c6 407\u3001\u7532\u57fa\u4e19\u70ef\u9178\u7532\u916f\u4ea4\u8054\u805a\u5408\u7269\u3001\u82ef\u4e19\u9187\u3001\u4e19\u4e8c\u9187\u3001\u751f\u80b2\u915a\u3002"},{"lan_code":"zh-CN","original_text":"Spray in an \u201cX\u201d and \u201cT\u201d formation repeatedly (about 3-5 times) until the face is fully saturated.","translate_text":"\u4ee5\"X\"\u548c\"T\"\u7684\u5f62\u5f0f\u53cd\u590d\u55b7\u6d12\uff08\u7ea6 3-5 \u6b21\uff09\uff0c\u76f4\u5230\u9762\u90e8\u5b8c\u5168\u9971\u548c\u3002"},{"lan_code":"zh-CN","original_text":"Shake the bottle well to activate the formula.","translate_text":"\u5145\u5206\u6447\u6643\u74f6\u5b50\u4ee5\u6fc0\u6d3b\u914d\u65b9\u3002"},{"lan_code":"zh-CN","original_text":"Eye tested. Oil-free. Cruelty-Free. Vegan.","translate_text":"\u773c\u775b\u6d4b\u8bd5\u3002 \u4e0d\u542b\u6cb9\u3002 \u65e0\u6b8b\u5fcd\u3002 \u7d20\u98df\u4e3b\u4e49\u8005\u3002"},{"lan_code":"zh-CN","original_text":"Also works as a cooling spray","translate_text":"\u4e5f\u53ef\u7528\u4f5c\u51b7\u5374\u55b7\u96fe"},{"lan_code":"zh-CN","original_text":"Facial Spray formulated for sensitive skin.","translate_text":"\u4e13\u4e3a\u654f\u611f\u808c\u80a4\u914d\u5236\u7684\u9762\u90e8\u55b7\u96fe\u3002"},{"lan_code":"zh-CN","original_text":"Won\u2019t clog pores or promote breakouts","translate_text":"\u4e0d\u4f1a\u5835\u585e\u6bdb\u5b54\u6216\u4fc3\u8fdb\u75d8\u75d8"},{"lan_code":"zh-CN","original_text":"Smudge-proof & water-resistant for up to 16 hours","translate_text":"\u9632\u6c61\u9632\u6c34\u957f\u8fbe 16 \u5c0f\u65f6"},{"lan_code":"zh-CN","original_text":"Matte finish","translate_text":"\u54d1\u5149\u9970\u9762"},{"lan_code":"zh-CN","original_text":"Long lasting spray","translate_text":"\u957f\u6548\u55b7\u96fe"},{"lan_code":"zh-CN","original_text":"Patented, Temperature Control Technology","translate_text":"\u4e13\u5229\u7684\u6e29\u5ea6\u63a7\u5236\u6280\u672f"},{"lan_code":"zh-CN","original_text":"A makeup setting spray and misting spray in one! We know this is going to be your new go-to setting spray for long-lasting makeup and to feel refreshed at any hour of the day.","translate_text":"\u5b9a\u5986\u55b7\u96fe\u548c\u96fe\u5316\u55b7\u96fe\u5408\u4e8c\u4e3a\u4e00\uff01 \u6211\u4eec\u77e5\u9053\u8fd9\u5c06\u6210\u4e3a\u60a8\u6301\u4e45\u5986\u5bb9\u7684\u9996\u9009\u5b9a\u578b\u55b7\u96fe\uff0c\u8ba9\u60a8\u5728\u4e00\u5929\u4e2d\u7684\u4efb\u4f55\u65f6\u5019\u90fd\u611f\u89c9\u795e\u6e05\u6c14\u723d\u3002"},{"lan_code":"zh-CN","original_text":"The Makeup Setting Spray for The Ever-Evolving Woman","translate_text":"\u4e0d\u65ad\u53d1\u5c55\u7684\u5973\u6027\u7684\u5b9a\u5986\u55b7\u96fe"},{"lan_code":"zh-CN","original_text":"FEATURES:","translate_text":"\u7279\u5f81\uff1a"},{"lan_code":"zh-CN","original_text":"Our weightless setting spray keeps your makeup looking flawless and locks in coolness and colour. Helps to prevent makeup from creasing or melting, while minimizing the need for touch-ups. Absorbs quickly and lasts for up to 16 hours.","translate_text":"\u6211\u4eec\u7684\u8f7b\u76c8\u5b9a\u578b\u55b7\u96fe\u8ba9\u60a8\u7684\u5986\u5bb9\u770b\u8d77\u6765\u5b8c\u7f8e\u65e0\u7455\uff0c\u5e76\u9501\u4f4f\u51c9\u723d\u548c\u8272\u5f69\u3002 \u6709\u52a9\u4e8e\u9632\u6b62\u5316\u5986\u54c1\u8d77\u76b1\u6216\u878d\u5316\uff0c\u540c\u65f6\u6700\u5927\u9650\u5ea6\u5730\u51cf\u5c11\u8865\u5986\u7684\u9700\u8981\u3002 \u5438\u6536\u8fc5\u901f\uff0c\u6301\u7eed\u957f\u8fbe 16 \u5c0f\u65f6\u3002"},{"lan_code":"zh-CN","original_text":"Evolve All Day Makeup Finishing Spray","translate_text":"Evolve \u5168\u5929\u5b9a\u5986\u55b7\u96fe"},{"lan_code":"zh-CN","original_text":"Spray it, don\u2019t sweat it! Our Evolve All Day Makeup Finishing Spray features patented cooling technology that provides instant relief with a cooling mist, ensuring your makeup and comfort last for up to 16 hours - in the balmiest of weather, or under the strongest spotlight. In addition, it delivers a smooth, mattifying finish, so it\u2019s even perfect for those who have oily or acne-prone skin. Smudge-proof and water-resistant, this all-natural, slow-release setting spray is essential for maintaining your flawless beauty and admirable confidence. Mist yourself in the morning after applying your makeup or throughout the day to keep your skin cool and fresh.","translate_text":"\u55b7\u4e00\u4e0b\uff0c\u522b\u51fa\u6c57\uff01 \u6211\u4eec\u7684 Evolve \u5168\u5929\u5b9a\u5986\u55b7\u96fe\u91c7\u7528\u4e13\u5229\u6e05\u51c9\u6280\u672f\uff0c\u53ef\u901a\u8fc7\u6e05\u51c9\u55b7\u96fe\u5373\u65f6\u7f13\u89e3\uff0c\u786e\u4fdd\u60a8\u7684\u5986\u5bb9\u548c\u8212\u9002\u5ea6\u6301\u7eed\u957f\u8fbe 16 \u5c0f\u65f6 - \u65e0\u8bba\u662f\u5728\u6700\u6e29\u548c\u7684\u5929\u6c14\u4e0b\uff0c\u8fd8\u662f\u5728\u6700\u5f3a\u70c8\u7684\u805a\u5149\u706f\u4e0b\u3002 \u6b64\u5916\uff0c\u5b83\u8fd8\u5177\u6709\u5149\u6ed1\u3001\u54d1\u5149\u7684\u6548\u679c\uff0c\u56e0\u6b64\u975e\u5e38\u9002\u5408\u6cb9\u6027\u6216\u6613\u957f\u7c89\u523a\u76ae\u80a4\u7684\u4eba\u3002 \u8fd9\u6b3e\u5168\u5929\u7136\u3001\u7f13\u91ca\u5b9a\u578b\u55b7\u96fe\u9632\u6c61\u9632\u6c34\uff0c\u5bf9\u4e8e\u4fdd\u6301\u5b8c\u7f8e\u65e0\u7455\u7684\u7f8e\u4e3d\u548c\u4ee4\u4eba\u94a6\u4f69\u7684\u81ea\u4fe1\u81f3\u5173\u91cd\u8981\u3002 \u65e9\u4e0a\u5316\u5986\u540e\u6216\u5168\u5929\u55b7\u6d12\uff0c\u8ba9\u60a8\u7684\u76ae\u80a4\u4fdd\u6301\u51c9\u723d\u548c\u6e05\u65b0\u3002"}];
+        let shopLocale = '{{ shop.locale }}'
+        const config = {characterData: true, childList: true, subtree: true};
+        let evtList = [];
+        function joinArray(e) {
+            if (Array.isArray(e)) {
+                let t = 0, n = [], max = e.length;
+                for (t = 0, n = Array(max); t < max; t++)
+                    n[t] = e[t];
+                return n;
+            }
+            return Array.from(e);
+        }
+
+        let timeout = null;
+        {% assign time = "now" | date: "%Y-%m-%d" %}
+        {% assign e_time = shop.metafields.etranslate-app.effective-time %}
+        {% if e_time >= time %}
+        const observer = new MutationObserver(evt => {
+            evtList = [].concat(joinArray(evtList), joinArray(evt));
+            clearTimeout(timeout);
+            timeout = setTimeout(() => {
+                doListen();
+                findInput();
+                findTextarea();
+            }, 0);
+
+        });
+        {% endif %}
+        function findInput() {
+            let input = document.getElementsByTagName("input");
+            dynamicDataList.forEach(val => {
+                if (val.lan_code == shopLocale) {
+                    setTimeout(() => {
+                        replaceInputNode(input, val);
+                    }, 0);
+                }
+            })
+        }
+
+        function findTextarea() {
+            let input = document.getElementsByTagName("textarea");
+            dynamicDataList.forEach(val => {
+                if (val.lan_code == shopLocale) {
+                    setTimeout(() => {
+                        replaceTextareaNode(input, val);
+                    }, 0);
+                }
+            })
+        }
+
+        function doListen() {
+            // observer.disconnect();
+            evtList.forEach(v => {
+                let _dom = v.target;
+                let body = document.body;
+                if (_dom.nodeName != 'BODY') {
+                    let _html = _dom.innerHTML;
+                    if (_html && _html.trim()) {
+                        dynamicDataList.forEach(val => {
+                            if (val.lan_code == shopLocale) {
+                                setTimeout(() => {
+                                    replaceTextNode(_dom, val);
+                                    replaceTextNode(body, val);
+                                }, 0);
+                            }
+                        });
+                    }
+                }
+            });
+            evtList = [];
+            // createObserve();
+        }
+
+        function createObserve() {
+            // observer.observe(document.body, config);
+        }
+
+        if (dynamicDataList && self == top) {
+            // createObserve();
+            window.onload = () => {
+                setTimeout(() => {
+                    let _dom = document.body;
+                    let _html = _dom.innerHTML;
+                    dynamicDataList.forEach(val => {
+                        if (val.lan_code == shopLocale) {
+                            setTimeout(() => {
+                                replaceTextNode(_dom, val);
+                            }, 0);
+                        }
+                    });
+                    doListen();
+                    findInput();
+                    findTextarea();
+                }, 500);
+            }
+        }
+
+        function replaceTextNode(dom, obj) {
+            let original_text = obj.original_text.trim();
+            let translate_text = obj.translate_text.trim();
+            let _nodes = dom.childNodes;
+            let _max = _nodes.length;
+            for (let i = 0; i < _max; i++) {
+                if (_nodes[i].nodeType == 1) {
+                    replaceTextNode(_nodes[i], obj);
+                }
+                if (_nodes[i].nodeType == 3) {
+                    if (_nodes[i].textContent.trim() == original_text.trim()) {
+                        _nodes[i].textContent = translate_text;
+                    }
+                }
+            }
+            return true;
+        }
+
+        function replaceInputNode(input, obj) {
+            let original_text = obj.original_text.trim();
+            let translate_text = obj.translate_text.trim();
+            for (var i = 0; i < input.length; i++) {
+                if (input[i].getAttribute('placeholder') == original_text) {
+                    input[i].setAttribute('placeholder', translate_text);
+                }
+                if (input[i].value == original_text) {
+                    input[i].value = translate_text;
+                }
+            }
+        }
+
+        function replaceTextareaNode(textarea, obj) {
+            let original_text = obj.original_text.trim();
+            let translate_text = obj.translate_text.trim();
+            for (var i = 0; i < textarea.length; i++) {
+                if (textarea[i].getAttribute('placeholder') == original_text) {
+                    textarea[i].setAttribute('placeholder', translate_text);
+                }
+            }
+        }
+    }
+
+    documentReady(dynamicText);
+    function documentReady(fu) {
+        if (document.readyState === 'complete' || document.readyState === 'interactive') {
+            setTimeout(documentReady(dynamicText), 1500);
+        } else {
+            document.addEventListener('DOMContentLoaded', fu);
+        }
+    }
+</script>

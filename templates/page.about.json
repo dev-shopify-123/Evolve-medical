@@ -5,59 +5,42 @@
       "disabled": true,
       "settings": {}
     },
-    "slideshow": {
-      "type": "slideshow",
-      "blocks": {
-        "slideshow-0": {
-          "type": "hero",
-          "settings": {
-            "link_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "slideshow-0"
-      ],
-      "settings": {}
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {}
-        },
-        "text": {
-          "type": "text",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "none"
-      }
-    },
-    "map": {
-      "type": "map",
-      "settings": {}
-    },
     "text-columns": {
       "type": "text-columns",
       "blocks": {
         "column1": {
           "type": "text_block",
-          "settings": {}
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/9116abb3-d525-4331-af22-9036c54780ca.jpg",
+            "image_width": 650,
+            "title": "Sharon Clarke",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         },
         "column2": {
           "type": "text_block",
-          "settings": {}
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Marijke Coffa",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         },
         "column3": {
           "type": "text_block",
-          "settings": {}
+          "settings": {
+            "enable_image": true,
+            "image_width": 650,
+            "title": "Julie Reid",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -65,24 +48,81 @@
         "column2",
         "column3"
       ],
-      "settings": {}
+      "settings": {
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "[Heading]"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
     },
     "featured-collection": {
       "type": "featured-collection",
-      "settings": {}
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
         "color_scheme": "none"
       }
     }
   },
   "order": [
     "main",
-    "slideshow",
-    "rich-text",
     "text-columns",
+    "rich-text",
     "map",
     "featured-collection",
     "form"

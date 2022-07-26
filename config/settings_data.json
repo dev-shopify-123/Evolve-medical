@@ -5,38 +5,38 @@
     "color_price": "#1c1d1d",
     "color_savings_text": "#ba4444",
     "color_borders": "#e8e8e1",
-    "color_button": "#454a59",
+    "color_button": "#000000",
     "color_button_text": "#ffffff",
     "color_sale_tag": "#ba4444",
     "color_cart_dot": "#ba4444",
     "color_small_image_bg": "#ffffff",
     "color_large_image_bg": "#0f0f0f",
-    "color_header": "#454a59",
-    "color_header_text": "#454a59",
+    "color_header": "#ffffff",
+    "color_header_text": "#b1912e",
     "color_announcement": "#000000",
     "color_announcement_text": "#ffffff",
     "color_header_search": "#ffffff",
     "color_footer": "#ffffff",
     "color_footer_border": "#e8e8e1",
     "color_footer_text": "#000000",
-    "color_scheme_1_bg": "#454a59",
-    "color_scheme_1_text": "#ffffff",
-    "color_scheme_1_texture": "paper.jpg",
-    "color_scheme_2_bg": "#ffffff",
-    "color_scheme_2_text": "#000000",
-    "color_scheme_2_texture": "marble.jpg",
-    "color_scheme_3_bg": "#fcf4f1",
-    "color_scheme_3_text": "#000000",
+    "color_scheme_1_bg": "#fbfbfb",
+    "color_scheme_1_text": "#000000",
+    "color_scheme_1_texture": "marble.jpg",
+    "color_scheme_2_bg": "#454a59",
+    "color_scheme_2_text": "#ffffff",
+    "color_scheme_2_texture": "none",
+    "color_scheme_3_bg": "#000000",
+    "color_scheme_3_text": "#ffffff",
     "color_scheme_3_texture": "marble.jpg",
-    "type_header_font_family": "harmonia_sans_n6",
+    "type_header_font_family": "montserrat_n6",
     "type_header_spacing": "50",
-    "type_header_base_size": 32,
-    "type_header_line_height": 1.1,
+    "type_header_base_size": 30,
+    "type_header_line_height": 1,
     "type_header_capitalize": false,
-    "type_base_font_family": "century_gothic_n4",
-    "type_base_spacing": "50",
+    "type_base_font_family": "montserrat_n4",
+    "type_base_spacing": "25",
     "type_base_size": 15,
-    "type_base_line_height": 1.6,
+    "type_base_line_height": 1.1,
     "type_navigation_style": "body",
     "type_navigation_size": 14,
     "type_navigation_capitalize": true,
@@ -55,20 +55,27 @@
     "collection_grid_shape": "circle",
     "collection_grid_image": "product",
     "collection_grid_image_margin": 15,
-    "cart_type": "dropdown",
+    "cart_type": "page",
     "cart_additional_buttons": false,
+    "cart_collection": "",
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
-    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "social_facebook_link": "https:\/\/www.facebook.com\/evolvecosmeticscanada",
+    "social_instagram_link": "https:\/\/www.instagram.com\/evolvecosmeticscanada\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@evolvecanada",
+    "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/evolve-cosmetics\/",
+    "favicon": "shopify:\/\/shop_images\/Evolve_Medical_Icon_Transparent_PNG.png",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
+    "checkout_header_image": "shopify:\/\/shop_images\/5.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Evolve_Cosmetics_Transparent_PNG_CROPPED_0814c73b-8141-4112-a77b-0b9662dee2e9.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "small",
+    "checkout_logo_size": "large",
     "checkout_body_background_color": "#ffffff",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_accent_color": "#111111",
-    "checkout_button_color": "#111111",
+    "checkout_button_color": "#0f0f0f",
     "checkout_error_color": "#ff6d6d",
     "type_product_style": "body",
     "type_product_capitalize": true,
@@ -97,10 +104,10 @@
         "blocks": {
           "fa3eacf0-11bb-4df6-a3d0-3551fbf0eeb5": {
             "type": "logo",
-            "disabled": true,
             "settings": {
-              "desktop_logo_width": 230,
-              "mobile_logo_width": 140
+              "logo": "shopify:\/\/shop_images\/Evolve_Cosmetics_Transparent_PNG_CROPPED_0814c73b-8141-4112-a77b-0b9662dee2e9.png",
+              "desktop_logo_width": 150,
+              "mobile_logo_width": 80
             }
           }
         },
@@ -113,21 +120,36 @@
           "mega_products": true,
           "header_sticky": false,
           "header_footer_menu": true,
-          "sticky_index": true,
+          "sticky_index": false,
           "sticky_collection": false
         }
       },
       "newsletter-popup": {
         "type": "newsletter-popup",
+        "blocks": {
+          "ba5087d5-1a6a-4c3c-b498-1aff164c24c8": {
+            "type": "header",
+            "settings": {
+              "reminder_label": "Stay Updated"
+            }
+          }
+        },
+        "block_order": [
+          "ba5087d5-1a6a-4c3c-b498-1aff164c24c8"
+        ],
         "settings": {
-          "mode": false,
-          "popup_seconds": 5,
+          "mode": true,
+          "disable_for_account_holders": false,
+          "popup_seconds": 10,
           "popup_days": 30,
-          "popup_title": "Save 10% off your first purchase",
-          "popup_text": "<p>Sign up today and we'll send you a 10% discount code towards your first purchase.<\/p>",
+          "popup_title": "Stay Updated",
+          "popup_text": "<p>Sign up today to receive the latest news & updates from Evolve Cosmetics.<\/p>",
+          "popup_image": "shopify:\/\/shop_images\/Evolve_Canada_Icon_Transparent_PNG.png",
+          "image_position": "left",
           "color_scheme": "3",
+          "show_social_icons": false,
           "enable_newsletter": true,
-          "button_label": "Optional button",
+          "button_label": "",
           "button_link": ""
         }
       },
@@ -144,6 +166,7 @@
         "blocks": {
           "footer-promotions-0": {
             "type": "promotion",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/even-tone-correcting-serum-1.png",
@@ -156,6 +179,7 @@
           },
           "footer-promotions-1": {
             "type": "promotion",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/even-tone-correcting-serum-1.png",
@@ -168,6 +192,7 @@
           },
           "footer-promotions-2": {
             "type": "promotion",
+            "disabled": true,
             "settings": {
               "enable_image": true,
               "image": "shopify:\/\/shop_images\/even-tone-correcting-serum-1.png",
@@ -185,7 +210,7 @@
           "footer-promotions-2"
         ],
         "settings": {
-          "hide_homepage": true,
+          "hide_homepage": false,
           "image_size": "wide"
         }
       },
@@ -202,30 +227,31 @@
       "toolbar": {
         "type": "toolbar",
         "blocks": {
-          "0b066516-effd-470b-ba3b-fc9f69d6c6ae": {
+          "ee076d98-526f-494d-814a-66721491ba28": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
-              "richtext_mobile": ""
+              "richtext": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"\/pages\/skinbetter-science®\" title=\"skinbetter science®\">SHOP NOW<\/a><br\/><\/p>",
+              "richtext_mobile": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"\/pages\/skinbetter-science®\" title=\"skinbetter science®\">SHOP NOW<\/a><\/p>"
             }
           },
           "cff431d4-9a3a-4622-a731-bd2d4c67a45c": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Hassle-free returns. 30-day postage paid returns<\/p>",
-              "richtext_mobile": ""
+              "richtext": "<p>Take our <a href=\"#quiz-koHbLW\" title=\"Evolve Skincare Quiz\">personalized skincare quiz<\/a> to find out what skincare regime is right for you<\/p>",
+              "richtext_mobile": "<p>Take our <a href=\"#quiz-koHbLW\" title=\"Evolve Skincare Quiz\">personalized skincare quiz<\/a> to find out what skincare regime is right for you<\/p>"
             }
           }
         },
         "block_order": [
-          "0b066516-effd-470b-ba3b-fc9f69d6c6ae",
+          "ee076d98-526f-494d-814a-66721491ba28",
           "cff431d4-9a3a-4622-a731-bd2d4c67a45c"
         ],
         "settings": {
           "announcement_center": true,
           "toolbar_social": false,
           "show_locale_selector": true,
-          "show_currency_selector": true
+          "show_currency_selector": true,
+          "show_currency_flags": false
         }
       },
       "footer": {
@@ -235,15 +261,15 @@
             "type": "menu",
             "settings": {
               "title": "Quick Links",
-              "menu": "main-menu",
-              "enable_account_link": true
+              "menu": "footer-menu",
+              "enable_account_link": false
             }
           },
           "fe6a67a0-686e-435b-a946-f28802053c97": {
             "type": "contact",
             "settings": {
-              "phone": "+1 800 123 1234",
-              "contact": "",
+              "phone": "+1 905-844-5500",
+              "contact": "contact",
               "chat": "",
               "enable_social": true
             }
@@ -253,14 +279,24 @@
             "settings": {
               "show_payment_icons": true,
               "show_locale_selector": true,
-              "show_currency_selector": true
+              "show_currency_selector": true,
+              "show_currency_flags": true
+            }
+          },
+          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9": {
+            "type": "menu",
+            "settings": {
+              "title": "Professional",
+              "menu": "professional",
+              "enable_account_link": false
             }
           }
         },
         "block_order": [
           "footer-0",
           "fe6a67a0-686e-435b-a946-f28802053c97",
-          "c296bc3e-1d7f-4750-b993-050176521596"
+          "c296bc3e-1d7f-4750-b993-050176521596",
+          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9"
         ],
         "settings": {
           "show_newsletter": false,
@@ -268,7 +304,7 @@
           "footer_main_menu": true,
           "show_copyright": true,
           "copyright_text": "",
-          "policies_menu": ""
+          "policies_menu": "footer"
         }
       },
       "password-header": {
@@ -291,7 +327,24 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [],
+    "blocks": {
+      "6744518860797519131": {
+        "type": "shopify:\/\/apps\/et-language-translate-currency\/blocks\/floating-selector\/35c05b0e-4f05-4fc9-adc7-77b6ccb6b2ca",
+        "disabled": false,
+        "settings": {}
+      },
+      "341186785192672687": {
+        "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-script-append\/13b25004-a140-4ab7-b5fe-29918f759699",
+        "disabled": false,
+        "settings": {}
+      },
+      "4918592460924562117": {
+        "type": "shopify:\/\/apps\/email-pop-ups-exit-popups\/blocks\/app-embed\/0b488be1-fc0a-4fe6-8793-f2bef383dba8",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Modern": {

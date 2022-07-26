@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
+        "color_scheme": "none"
+      }
+    },
+    "16584263745b9e7eeb": {
+      "type": "rich-text",
+      "blocks": {
+        "16584263746facf233-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our People"
+          }
+        },
+        "16584263746facf233-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Evolve Cosmetics; empowering women to embrace their<br\/>beauty at every age.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16584263746facf233-0",
+        "16584263746facf233-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "165842490338bb88e0": {
+      "type": "advanced-content",
+      "blocks": {
+        "16584249036621ff2e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9116abb3-d525-4331-af22-9036c54780ca.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "16584249036621ff2e-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Meet our Founder, Sharon Clarke<\/h2><p>Passionate, experienced and equipped with a genuine motivation to provide the best solutions for skincare and beauty for maturing skin.\n<br><br>\n<b><i>“There are too many choices, how can we understand what we need? How can we keep it simple?\nOne of the most important things we can do as women is educate each other, make life easier - not harder,  and get a little better every day. \nI want to be part of that; to give women the tools they need to look after their skin properly at any age and any time of the day.”\n– Sharon Clarke<\/b><\/i>\n<br><br>Sharon is no stranger to the industry. In North America – quite possibly the world – she is the one woman that started and operated a company that worked extensively in surgical cosmetic devices and non-invasive treatment technology.<br><br>\nFor over 15 years, SCM, Sharon’s first company, represented Botox in plastic surgery practices across Ontario, distributed injectable fillers like Hylaform and successfully launched products like Juvederm and ZO Skin Health to the Canadian market. After the sale of SCM in 2014, Sharon began consulting with skincare and beauty companies like Allergan, J&J and Merz.<br><br> \nEvolve Cosmetics was created in 2018 and built on a foundation of empowerment, simplicity and support. Encouraging women to take control of their skincare and beauty regimes, with knowledge and easy to use products that will benefit their skin today and as it evolves.<br><br>\nSharon’s extensive experience in multiple facets of this industry has rightly earned her the title of Industry Expert. Equipped with decades of industry and practice knowledge, Sharon has a particular talent for Practice Marketing and will work with Practitioners to position their practice for growth and success.<br><br>\nThe Unique Practice Process, or UPP created by Sharon, is a process designed to identify where the practice’s growth opportunities are and how these can be used for practice growth. Sharon is also trained in the Kolbe® System; an assessment protocol that measures an individual’s natural instinct to perform in a particular situation.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16584249036621ff2e-0",
+        "16584249036621ff2e-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "165842525401cdda0b": {
+      "type": "advanced-content",
+      "blocks": {
+        "1658425254d09f0dd3-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Sharon’s Commitment to Community:<\/h2><p>As one of the founding members of <b><i>Bra Day (Breast Reconstruction Awareness Day)<\/b><\/i>, Sharon helped Dr. Mitch Brown and others to create an organization dedicated to providing post-mastectomy women with breast reconstruction knowledge, education and awareness AND most importantly, with an understanding of their options. Sharon continued to sit on the Board of Directors for a number of years after its inception. <\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1658425254d09f0dd3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/62de4390-4795-412f-9ace-cd2e23f80669_2_1.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658425254d09f0dd3-1",
+        "1658425254d09f0dd3-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16584253735f0e481c": {
+      "type": "advanced-content",
+      "blocks": {
+        "165842537310fc4ca8-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "165842537310fc4ca8-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Meet our Director of Sales and Operations, Marijke Coffa<\/h2><p>A relationship builder with a keen focus on the customer and practice success equipped to offer business and industry expertise at every organizational level.\n<br><br>\n<b><i>“I love to educate people in the industry. It gives me such a good feeling when I help them understand an ingredient or how to combine a treatment to help grow their business.”\n– Marijke Coffa\n<\/b><\/i>\n<br><br>Marjike (pronounced Ma-rake-ee) is a well-rounded and talented woman. Her role within the Evolve team is crucial as she works to support and address the skincare and beauty needs of women as they age.\n<br><br>\nAn expert in her own right, Marijke knows what she’s talking about; based in Burlington, Ontario, Marijke has a long history and extensive experience in the field of skincare, medical devices and medical care pharmaceuticals. Studying at Ryerson Polytechnic University, now RU, prepared Marijke to apply her impressive skill set and managerial experience to such well known companies as SCM, Salient Medical Solutions and most recently, Evolve Cosmetics. \n<br><br>\nMarijke’s experience as a National Sales Lead furthered strengthened her talent for inside sales, account management, and corporate operations and management. \n<br><br>\nAs Director of Sales and Operations, Marijke’s is committed to the efficacy of skin care and beauty products that are founded in science and meet Evolve’s standards of performance and quality. \n<br><br>\nIn every situation the top priority is the client, and Marijke works to understand their needs and wants and to provide timely recommendations and solutions that support the practice and drive its business. The support and expertise Marijke is able to provide to practitioners is that extra step of client care that speaks directly to the core values of Evolve Cosmetics; to provide a trustworthy and knowledge-based resources for women and Practitioners who want access to skincare and beauty products developed for maturing skin.\n<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165842537310fc4ca8-0",
+        "165842537310fc4ca8-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16584254775e85822e": {
+      "type": "advanced-content",
+      "blocks": {
+        "16584254772a1c9150-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Marijke’s Commitment to Community:<\/h2><p>Despite a busy career, Marijke firmly believes in giving back to her community and has been a long-time committed volunteer with the Optimist Club in Burlington. Optimists are part of a worldwide service organization serving youth in community in a variety of ways – and with a focus, as their name might suggest – on optimism. Marijke has served as the Club’s Secretary, President and Past President of the Burlington Chapter.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "16584254772a1c9150-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16584254772a1c9150-1",
+        "16584254772a1c9150-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "165842553600db31a9": {
+      "type": "advanced-content",
+      "blocks": {
+        "1658425536454235ff-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1658425536454235ff-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Meet our Sales Specialist, Julie Reid<\/h2><p>An entrepreneur at heart who is poised with passion and compassion for providing women with tools that support their skin, build their confidence and change their lives.\n<br><br>\n<b><i>“How amazing would it be if I can help someone else overcome the anxiety and issues I had?” – Julie Reid\n<\/b><\/i>\n<br><br>At an early age, Julie discovered her passion for skincare and beauty as she traveled the world as an international model working in Milan, Paris, Tokyo, and Munich. Those early years provided Julie with behind-the-scenes access to the industry and she found herself sitting in the makeup chair of some of the industry’s top professionals. \n<br><br>\nThis experience informed Julie about how critical the health of skin is to one’s overall well being and confidence and it set Julie on a path to learn everything she could about how to care for her skin and how to maintain its health. \n<br><br>\nKeeping this information top of mind, Julie continued her on-going education of what was happening in the industry and to the products themselves so that she could find solutions for her own skin. \n<br><br>\nIn later years, Julie championed her entrepreneurial spirit and co-founded a health food company that launched an all-natural sugar alternative. Despite the obstacle of trying to sell an un-heard of product that sounded chemical to a market saturated with other healthy alternatives, Julie prevailed. What began as a challenge, led to the successful launch of the all-natural sugar alternative, which was built on a strong foundation of brand awareness and secured over 7,000 retail locations! In true entrepreneurial success, Julie later took that company public and moved forward toward her next great business adventure.\n<br><br>\nAs part of the Evolve Team, Julie brings an amazing energy, welcoming new clients and building relationships that are designed to support with experience, knowledge and the best in skincare and beauty products. Julie is an effective trainer that is driven to assist Practitioners and clients with industry and product advice, including recommendations based on targeted skin solutions, all the while supporting the client’s purchasing decision and treatment pairing opportunities. \n<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658425536454235ff-0",
+        "1658425536454235ff-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1658425631a2cdcade": {
+      "type": "advanced-content",
+      "blocks": {
+        "16584256312814e6bb-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Julie’s Commitment to Community:<\/h2><p>TBC",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "16584256312814e6bb-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16584256312814e6bb-1",
+        "16584256312814e6bb-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "map",
+    "featured-collection",
+    "form",
+    "16584263745b9e7eeb",
+    "165842490338bb88e0",
+    "165842525401cdda0b",
+    "16584253735f0e481c",
+    "16584254775e85822e",
+    "165842553600db31a9",
+    "1658425631a2cdcade"
+  ]
+}

@@ -2,51 +2,53 @@
   "sections": {
     "main": {
       "type": "list-collections-template",
-      "settings": {}
-    },
-    "logo-list": {
-      "type": "logo-list",
       "blocks": {
-        "logo1": {
-          "type": "logo_image",
-          "settings": {}
+        "8c529192-bf95-4402-ad52-4521f65e27ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "skincare"
+          }
         },
-        "logo2": {
-          "type": "logo_image",
-          "settings": {}
+        "c1673f60-19fd-4295-a8e2-2ada204691fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "makeup"
+          }
         },
-        "logo3": {
-          "type": "logo_image",
-          "settings": {}
+        "cc9235bf-177f-4008-b727-b2c61d701c04": {
+          "type": "collection",
+          "settings": {
+            "collection": "evolve-cosmetics"
+          }
         },
-        "logo4": {
-          "type": "logo_image",
-          "settings": {}
+        "bef34cbb-d323-4e8e-b202-7361029924bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "skinbetter"
+          }
         },
-        "logo5": {
-          "type": "logo_image",
-          "settings": {}
-        },
-        "logo6": {
-          "type": "logo_image",
-          "settings": {}
+        "58ef61c0-cf4f-485b-aa52-857b09b82e22": {
+          "type": "collection",
+          "settings": {
+            "collection": "base-of-sweden"
+          }
         }
       },
       "block_order": [
-        "logo1",
-        "logo2",
-        "logo3",
-        "logo4",
-        "logo5",
-        "logo6"
+        "8c529192-bf95-4402-ad52-4521f65e27ff",
+        "c1673f60-19fd-4295-a8e2-2ada204691fc",
+        "cc9235bf-177f-4008-b727-b2c61d701c04",
+        "bef34cbb-d323-4e8e-b202-7361029924bb",
+        "58ef61c0-cf4f-485b-aa52-857b09b82e22"
       ],
       "settings": {
-        "title": "Our brands"
+        "title_enable": true,
+        "display_type": "selected",
+        "sort": "alphabetical"
       }
     }
   },
   "order": [
-    "main",
-    "logo-list"
+    "main"
   ]
 }

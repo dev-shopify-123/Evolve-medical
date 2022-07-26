@@ -148,7 +148,7 @@
   },
   "collections": {
     "general": {
-      "catalog_title": "Catalog",
+      "catalog_title": "Collections",
       "all_of_collection": "View all",
       "view_all_products_html": "View all<br>{{ count }} products",
       "see_more": "Show more",
@@ -221,7 +221,7 @@
     },
     "login": {
       "title": "Login",
-      "email": "Email",
+      "email": "Email Address",
       "password": "Password",
       "forgot_password": "Forgot password?",
       "sign_in": "Sign In",

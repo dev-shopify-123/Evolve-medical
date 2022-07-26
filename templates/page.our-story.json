@@ -1,0 +1,77 @@
+{
+  "sections": {
+    "1658426105f92b7082": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_21777a26-b5dc-4b33-9d1d-3bd7dc4a5d85.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "A young beauty company with rich Herstory",
+        "text": "<p>After decades in the industry with multiple business start-ups and successful product launches to her credit, Sharon Clarke founded Evolve Cosmetics in 2018 with a single motivation in mind; to provide women with a simplified approach to skincare and cosmetics. <\/p><p>Essentially, Sharon wanted to remove the confusion, false promises and negativity surrounding a woman’s right to control her beauty and aging narrative. Evolve was born to empower women with knowledge about their skin and the products developed to benefit and perform on mature skin.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1658425991612c6a98": {
+      "type": "rich-text",
+      "blocks": {
+        "1658425991a277318b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "“The industry needs to be more responsible for educating women about the right things to do for their skin.”"
+          }
+        },
+        "1658425991a277318b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>– Sharon Clarke, Founder of Evolve Cosmetics<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658425991a277318b-0",
+        "1658425991a277318b-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "165842618322ab6158": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3.png",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Evolve Cosmetics is a company you can trust",
+        "text": "<p>We know the industry, we know the products and we know what it takes to bring dynamic products to market. We also know skin and we understand what maturing skin needs. <\/p><p>We are connected to Practitioners across Canada and the entire team is well reputed within the industry; Evolve is your trusted ally and the brand to play best supporting actor to your leading role. <\/p><p>The team at Evolve is a dedicated group of skincare and beauty industry professionals, who hold a diverse portfolio of experience and knowledge and are driven to serve women, just like you. We actually want to help!<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "1658426105f92b7082",
+    "main",
+    "1658425991612c6a98",
+    "165842618322ab6158"
+  ]
+}

@@ -36,6 +36,31 @@
             width: 80%;
         }
     }
+    .row {
+        .col-md-6 {
+            width: 50%;
+            input {
+                display: block;
+                margin-bottom: 1rem!important;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: 0.25rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+        }
+        .d-none {
+            display: none;
+        }
+    }
     table {
         border-collapse: collapse;
         th {
@@ -60,4 +85,179 @@
             }
         }
     }
+}
+
+// login page style
+.login-page {
+    .section-header {
+        width: 66%;
+        margin: auto;
+        margin-bottom: 0;
+        .section-header__title {
+            color: #00254a;
+            font-family: "GT America Compressed",Helvetica,sans-serif;
+            font-size: 2.125rem;
+            font-style: initial;
+            text-decoration: none;
+            line-height: 1.2;
+            letter-spacing: 0;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: none;
+            font-weight: normal;
+            padding-bottom: 10px;
+        }
+    }
+    .inner-wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+      margin-top: 100px;
+      @media (max-width: 767px) {
+        margin-top: 20px;
+      }
+        h2 {
+            color: #000;
+            font-family: var(--typeHeaderPrimary);
+            font-size: 35px;
+            font-weight: 600;
+            font-style: normal;
+            text-decoration: none;
+            line-height: 1.2;
+            letter-spacing: 0;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: none;
+        }
+        h3 {
+            color: #000;
+            font-family: var(--typeBasePrimary);
+            font-size: 18px;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+            line-height: 1.2;
+            letter-spacing: 0;
+            margin-top: 0;
+            margin-bottom: 30px;
+            text-transform: none;
+        }
+        p {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            font-family: var(--typeBasePrimary);
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.6;
+            letter-spacing: 1.4;
+            color: #000;
+            a {
+                border-bottom: 1px solid #000;
+            }
+        }
+        @media (max-width: 767px) {
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+    }
+    .login-wrapper  {
+        max-width: 35%;
+        width: 100%;
+        @media (max-width: 767px) {
+            max-width: 100%;
+            width: 90%;
+            margin: auto;
+        }
+       
+        .form-vertical {
+            padding: 1.25rem;
+            label {
+                font-family: var(--typeBasePrimary);
+                margin-bottom: 10px;
+                font-size: 13px;
+                font-weight: 500;
+                color: #000;
+                margin-top: 20px;
+            }
+            input {
+                background-clip: padding-box;
+                background-color: #fff;
+                border: 1px solid #000;
+                border-radius: 0;
+                color: #000;
+                display: block;
+                font-size: 16px;
+                font-weight: 400;
+                height: calc(1.5em + 0.75rem + 2px);
+                line-height: 1.5;
+                padding: 0.375rem 0.75rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                width: 100%;
+                margin-bottom: 16px;
+            }
+            button {
+                background-color: #000;
+                color: white;
+                border-color: #000;
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: uppercase;
+                width: 100%;
+            }
+            
+            .label-info {
+                margin-bottom: 0;
+                color: #000;
+                a {
+                    font-family: var(--typeBasePrimary);
+                    border-bottom: 1px solid #000;
+                    font-size: 10px;
+                    line-height: 1.8rem;
+                    font-family: 500;
+                }
+                
+            }
+            
+        }
+        .privacy {
+            font-size: 10px;
+            line-height: 1.5;
+            text-align: center;
+            margin-top: 10px;
+            a {
+                border-bottom: 1px solid #000;
+            }
+            
+            
+        }
+    }
+    .register-wrapper {
+        max-width: 28%;
+        width: 100%;
+        padding: 1.25rem;
+        p {
+            margin-top: 48px;
+        }
+        .btn {
+            color: white;
+            background-color: #000;
+            font-weight: 400;
+            width: 100%;
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+        @media (max-width: 767px) {
+            max-width: 100%;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+#goaffpro-picker {
+    width: 100%;
+    margin-bottom: 20px;
 }

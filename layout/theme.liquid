@@ -99,7 +99,8 @@
 
   <script src="{{ 'vendor-scripts-v2.js' | asset_url | split: '?' | first }}" defer="defer"></script>
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="{{ 'map.js' | asset_url }}" defer="defer"></script>
   {%- if request.page_type contains 'customers/' -%}
     <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   {%- endif -%}
@@ -137,5 +138,13 @@
     render 'tool-tip'
   -%}
   <div id="ProductModals"></div>
+{% render 'banana-stand-footer' %}
+  <script src="//collections-add-to-cart.incubate.dev/js/core/main.min.js?timestamp=1658821638&shop=evolve-medical.myshopify.com" defer></script>
 </body>
 </html>
+
+{% include 'etranslate-rtl' %}
+{% include 'el-pagefly' %}
+{% include 'etranslate-dynamic-element.liquid' %}
+
+{% include 'etranslate-language-switch-control' %}

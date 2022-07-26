@@ -1,0 +1,78 @@
+<div class="page-width">
+    <table> 
+  
+      {% for block in section.blocks %}
+        <tr>
+          <td width="20%">{{block.settings.physician}}</td>
+          <td width="15%"><a href="{{block.settings.btn_url}}" class="btn btn-primery">{{block.settings.btn_text}}</a></td>
+          <td width="20%">{{block.settings.name}}</td>
+          <td width="20%">{{block.settings.address}}</td>
+          <td width="15%"><a href="tel:{{block.settings.telephone}}">{{block.settings.telephone}}</a></td>
+          <td width="10%"><a href="{{block.settings.website_url}}">{{block.settings.website_title}}</a></td>
+        </tr>
+      {% endfor %}
+  </table>
+</div>
+{% schema %}
+    {
+        "name": "Physicians",
+        "class": "our-physician",
+        "settings": [
+            
+        ],
+        "blocks": [
+            {
+              "type": "item",
+              "name": "physician",
+              "settings": [
+                {
+                  "type": "text",
+                  "id": "physician",
+                  "label": "Physician"
+                },
+                {
+                  "type": "text",
+                  "id": "btn_text",
+                  "label": "Button Text",
+                  "default": "buy now"
+                },
+                {
+                  "type": "url",
+                  "id": "btn_url",
+                  "label": "Button Url"
+                },
+                {
+                  "type": "text",
+                  "id": "name",
+                  "label": "Name"
+                },
+                {
+                  "type": "richtext",
+                  "id": "address",
+                  "label": "Address"
+                },
+                {
+                  "type": "text",
+                  "id": "telephone",
+                  "label": "Telephone"
+                },
+                {
+                  "type": "text",
+                  "id": "website_title",
+                  "label": "Website Title"
+                },
+                {
+                  "type": "url",
+                  "id": "website_url",
+                  "label": "Website Url"
+                }
+              ]
+            }
+        ],
+        "presets":[
+            {
+                "name": "Physicians"
+            }
+        ]
+    }
+{% endschema %}

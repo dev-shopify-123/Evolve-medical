@@ -1,0 +1,108 @@
+{
+  "sections": {
+    "1658506325a7065d8d": {
+      "type": "rich-text",
+      "blocks": {
+        "1658506325b26b5f74-0": {
+          "type": "heading",
+          "settings": {
+            "title": "What We Offer"
+          }
+        },
+        "1658506325b26b5f74-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Evolve Cosmetics; a marketplace and service provider dedicated to skincare health and beauty. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658506325b26b5f74-0",
+        "1658506325b26b5f74-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658426105f92b7082": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "We are experts in industry and facilitating the growth of practices, with extensive experience launching innovative products to the Canadian Market.",
+        "text": "<p>It’s no mystery that as we age our bodies change, our hormones change, our health needs change, our lifestyles change and, that’s a wonderful thing! But when faced with messages of lasting youth and pursuing remedies that tell stories of anti-aging, trying to sift through products, is like trying to read the fine print on the packaging without glasses. It’s frustrating and overwhelming! <\/p><p>So, how do we wade through the sea of skincare options that have flooded the market in recent years? How do we know that the products we have selected are the ones that our skin needs? How do we avoid buyer’s remorse and a bathroom filled with products that just don’t perform as promised on our skin? <\/p><p><em><strong>The answer is Evolve Cosmetics!<\/strong><\/em><\/p><p>Evolve is an online marketplace with a product catalogue curated by our in-house team of industry experts. As a service provider, we are dedicated to supporting our customers, industry practitioners and formulation<br\/>developers through every aspect of their personal or professional skincare and beauty journey.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1658540094025ced74": {
+      "type": "text-columns",
+      "blocks": {
+        "1658540094eeaceda4-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 640,
+            "title": "Book a Consult",
+            "text": "<p>Get a skincare and cosmetics consult with Evolve Cosmetics.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/consult"
+          }
+        },
+        "1658540094eeaceda4-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Build your Practice",
+            "text": "<p>Build your practice with<br\/>Evolve Cosmetics.<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/practice"
+          }
+        },
+        "1658540094eeaceda4-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 650,
+            "title": "Become a Brand Partner",
+            "text": "<p>Partnering with Evolve Cosmetics might just be the best decision you make!<\/p>",
+            "button_label": "LEARN MORE",
+            "button_link": "shopify:\/\/pages\/partner"
+          }
+        }
+      },
+      "block_order": [
+        "1658540094eeaceda4-0",
+        "1658540094eeaceda4-1",
+        "1658540094eeaceda4-2"
+      ],
+      "settings": {
+        "title": "Want to know more?",
+        "align_text": "center",
+        "divider": false,
+        "color_scheme": "3"
+      }
+    }
+  },
+  "order": [
+    "1658506325a7065d8d",
+    "1658426105f92b7082",
+    "main",
+    "1658540094025ced74"
+  ]
+}

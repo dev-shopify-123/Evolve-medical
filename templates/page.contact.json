@@ -16,7 +16,10 @@
         },
         "text": {
           "type": "text",
-          "settings": {}
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We’d love to hear from you! If you have a question about a product or a service that Evolve Cosmetics offers please get in touch. Send us a message below:<\/p>"
+          }
         }
       },
       "block_order": [
@@ -24,17 +27,99 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "none"
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
       }
     },
     "form": {
       "type": "contact-form",
-      "settings": {}
+      "settings": {
+        "title": "",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true,
+        "color_scheme": "none"
+      }
+    },
+    "1658423681ce7780d0": {
+      "type": "rich-text",
+      "blocks": {
+        "1658423681181611a6-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Other points of contact:"
+          }
+        },
+        "1658423681181611a6-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Press & Media Inquiries:<br\/><\/strong>info@evolvecosmetics.ca<\/p><p><strong>Partnership<br\/>& Influencer Inquiries:<br\/><\/strong>info@evolvecosmetics.ca<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658423681181611a6-0",
+        "1658423681181611a6-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658423719b34c9f5b": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16584237193567fb80-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "phone",
+            "title": "Call Us",
+            "text": "<p>Do you have a question and want to speak with an expert? Call us!<br\/>Monday – Friday 9-5 pm EST<br\/>+1 <a href=\"https:\/\/www.google.com\/search?q=evolve+medical+canada&client=firefox-b-1-d&ei=LYrZYuvtAuaRwbkPx5CnmA8&gs_ssp=eJzj4tVP1zc0LDSqzM5KLjcyYLRSNaiwsDBKMk22NExLS0wxSE5JszKoMDMBMiwMUs0tjEDCRl6iqWX5OWWpCrmpKZnJiTkKyYl5iSmJAHnAGAA&oq=Evolve+Medical+Canada&gs_lcp=Cgdnd3Mtd2l6EAEYADILCC4QgAQQxwEQrwEyBggAEB4QFjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgcIABBHELADOgoILhDHARCvARBDOgUIABCRAjoECAAQQzoRCC4QgAQQsQMQgwEQxwEQ0QM6CwgAEIAEELEDEIMBOggILhCxAxCDAToICC4QgAQQsQM6CwguEIAEELEDEIMBOgoIABCxAxCDARBDOhEILhCABBCxAxCDARDHARCvAToLCC4QgAQQxwEQ0QM6CAgAEIAEELEDOgsIABCABBCxAxDJAzoFCAAQkgM6BwgAELEDEEM6BQgAEIAEOhAILhCxAxCDARDHARCvARBDOgsILhDHARCvARCRAkoECEEYAEoECEYYAFCQAliJM2CnPmgBcAF4AIAB0AGIAdQVkgEGMi4xOC4xmAEAoAEByAEDwAEB&sclient=gws-wiz#\">905-844-5500<\/a><\/p>"
+          }
+        },
+        "16584237193567fb80-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "title": "Email Us",
+            "text": "<p>info@evolvecosmetics.ca<\/p>"
+          }
+        },
+        "16584237193567fb80-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "store",
+            "title": "Find Us",
+            "text": "<p>Head Office:<br\/>277 Lakeshore Rd E, Oakville, <br\/>ON, L6J 6J3, Canada<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16584237193567fb80-0",
+        "16584237193567fb80-1",
+        "16584237193567fb80-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
     }
   },
   "order": [
     "main",
     "rich-text",
-    "form"
+    "form",
+    "1658423681ce7780d0",
+    "1658423719b34c9f5b"
   ]
 }

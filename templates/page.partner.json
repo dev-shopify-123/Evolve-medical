@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "1658506325a7065d8d": {
+      "type": "rich-text",
+      "blocks": {
+        "1658506325b26b5f74-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Become a Brand Partner"
+          }
+        },
+        "1658506325b26b5f74-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Partnering with Evolve Cosmetics might just be the best decision you make!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658506325b26b5f74-0",
+        "1658506325b26b5f74-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658426105f92b7082": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "We are always looking for the next unique and ground-breaking skincare or beauty product.",
+        "text": "<p>If you have an established skincare or cosmetic product and are looking for a distributor, the Evolve Cosmetics marketplace is the perfect destination for you. <\/p><p>We are always looking for the next unique and ground-breaking skincare or beauty product. We love to work with brands that employ unique skincare technology, demonstrate results that match product claims, are founded in science, and clinically tested. <\/p><p>Evolve Cosmetics works in skin solutions and only with brands that exact the same high standards, in products and practice, Evolve employs.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16585403535eed1143": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "We know skin & we know the industry",
+        "text": "<p>We are connected with Dermatology and Med Spa Practices across Canada & partnering with Evolve gives your<br\/>brand a step up in this highly competitive market. Not only are the Evolve team players highly reputed and well connected within the industry, together they have more than 100 years of industry experience. They are an expert team that knows how to source, research, test and bring the next BIG product to market. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658540840ed18dda8": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Is your brand our next big seller?",
+        "text": "<p>Evolve Cosmetics is an eCommerce<br\/>platform that enables customers to explore and shop our curated catalogue of skincare and beauty products. We are not just a marketplace but a destination that empowers women to learn about their skin and the products created to support their evolving beauty journey. Partner with Evolve Cosmetics and your brand could be positioned to become our next best seller.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "165854110573c62226": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "text": "<p><strong>To learn more about how your brand may qualify to partner with Evolve Cosmetics, please fill out the submission form below:<\/strong><\/p>",
+        "show_phone": true,
+        "narrow_column": true,
+        "color_scheme": "3"
+      }
+    }
+  },
+  "order": [
+    "1658506325a7065d8d",
+    "1658426105f92b7082",
+    "main",
+    "16585403535eed1143",
+    "1658540840ed18dda8",
+    "165854110573c62226"
+  ]
+}

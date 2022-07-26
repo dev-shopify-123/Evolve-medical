@@ -1,3 +1,10 @@
+<style>
+  #map {
+    height: 300px;
+  }
+</style>
+  
+
 <div class="page-width">
   <div class="header_content">
     <div class="left_content">
@@ -14,13 +21,33 @@
       {% endif %}
     </div>
   </div>
+  <input type="hidden" name="mapLat" id="mapLat" value="">
+  <input type="hidden" name="mapLng" id="mapLng" value="">
+  <div class="row">
+    <div class="col-md-6">
+      <input id="autocomplete" class="form-control mb-3 pac-target-input" placeholder="enter postcode, town or city" type="text" autocomplete="off">
+    </div>
+    <div class="col-md-6 d-none">
+      <select id="maprange" name="maprange" class="form-control" onchange="LoadPlaces($('#mapLat').val(),$('#mapLng').val());">
+        <option value="10">10 Miles</option>
+        <option value="20">20 Miles</option>
+        <option value="30">20 Miles</option>
+        <option value="50">50 Miles</option>
+        <option value="100">100 Miles</option>
+        <option value="1000" selected="">1000 Miles</option>
+      </select>
+    </div>
+  </div>
+  <div id="map" style="position: relative; overflow: hidden;"></div>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7AjF9QrqugU_d9S0vimDXYhC6d7CqIeU&amp;libraries=places&amp;v=weekly&amp;style=element:geometry%7Ccolor:0xebe3cd&amp;style=element:labels.text.fill%7Ccolor:0x523735&amp;style=element:labels.text.stroke%7Ccolor:0xf5f1e6&amp;style=feature:administrative%7Celement:geometry%7Cvisibility:off&amp;style=feature:administrative%7Celement:geometry.stroke%7Ccolor:0xc9b2a6&amp;style=feature:administrative.land_parcel%7Celement:geometry.stroke%7Ccolor:0xdcd2be&amp;style=feature:administrative.land_parcel%7Celement:labels.text.fill%7Ccolor:0xae9e90&amp;style=feature:landscape.natural%7Celement:geometry%7Ccolor:0xdfd2ae&amp;style=feature:poi%7Cvisibility:off&amp;style=feature:poi%7Celement:geometry%7Ccolor:0xdfd2ae&amp;style=feature:poi%7Celement:labels.text.fill%7Ccolor:0x93817c&amp;style=feature:poi.park%7Celement:geometry.fill%7Ccolor:0xa5b076&amp;style=feature:poi.park%7Celement:labels.text.fill%7Ccolor:0x447530&amp;style=feature:road%7Celement:geometry%7Ccolor:0xf5f1e6&amp;style=feature:road%7Celement:labels.icon%7Cvisibility:off&amp;style=feature:road.arterial%7Celement:geometry%7Ccolor:0xfdfcf8&amp;style=feature:road.highway%7Celement:geometry%7Ccolor:0xf8c967&amp;style=feature:road.highway%7Celement:geometry.stroke%7Ccolor:0xe9bc62&amp;style=feature:road.highway.controlled_access%7Celement:geometry%7Ccolor:0xe98d58&amp;style=feature:road.highway.controlled_access%7Celement:geometry.stroke%7Ccolor:0xdb8555&amp;style=feature:road.local%7Celement:labels.text.fill%7Ccolor:0x806b63&amp;style=feature:transit%7Cvisibility:off&amp;style=feature:transit.line%7Celement:geometry%7Ccolor:0xdfd2ae&amp;style=feature:transit.line%7Celement:labels.text.fill%7Ccolor:0x8f7d77&amp;style=feature:transit.line%7Celement:labels.text.stroke%7Ccolor:0xebe3cd&amp;style=feature:transit.station%7Celement:geometry%7Ccolor:0xdfd2ae&amp;style=feature:water%7Celement:geometry.fill%7Ccolor:0xb9d3c2&amp;style=feature:water%7Celement:labels.text.fill%7Ccolor:0x92998d&amp;size=480x360"></script>
+
   <table> 
-    <th>Physician</th>
-    <th></th>
-    <th>Name</th>
-    <th>Address</th>
-    <th>Telephone</th>
-    <th>Website</th>
+  <th width="20%">Physician</th>
+  <th width="15%"></th>
+  <th width="20%">Name</th>
+  <th width="20%">Address</th>
+  <th width="15%">Telephone</th>
+  <th width="10%">Website</th>
  
       {% for block in section.blocks %}
         <tr>

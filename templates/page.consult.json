@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "1658506325a7065d8d": {
+      "type": "rich-text",
+      "blocks": {
+        "1658506325b26b5f74-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Consult"
+          }
+        },
+        "1658506325b26b5f74-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Your skin is important to us and we want you to feel and look your best, because you deserve it!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658506325b26b5f74-0",
+        "1658506325b26b5f74-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658426105f92b7082": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Book a Consult with us",
+        "text": "<p>With our help you can learn more<br\/>about your skin and the products that your skin will benefit from. Evolve is on<br\/>a mission to empower and educate women on how to care for their skin with skin care products and cosmetics that heal, soothe and perform as promised. <\/p><p>We call it: <strong>The Evolving Beauty Experience<\/strong>.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16585403535eed1143": {
+      "type": "text-and-image",
+      "settings": {
+        "image_width": 700,
+        "subtitle": "",
+        "title": "A beauty connoisseurs’ destination",
+        "text": "<p>Equipped to empower customers to<br\/>take more control over their individual skincare and beauty regimes. At, Evolve we are going to give you the tools and the vital information necessary to understand and analyse your skin. We are going to teach you how to hydrate without over moisturizing with products that do more harm than good and how to stay away from harmful chemicals, which can be toxic if used long-term on your skin.<br\/><\/p><p>There is so much information out<br\/>there that it can be hard to ascertain the truth from the claims and promises<br\/>of youth, but with Evolve, you can rest assured that we are committed to<br\/>helping you learn, source and employ the most appropriate skincare and beauty products for your evolving skin.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658540437100cb816": {
+      "type": "rich-text",
+      "blocks": {
+        "1658540436ae05ac76-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Evolve is recognized as an authority and industry leader"
+          }
+        },
+        "1658540436ae05ac76-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We have partnered with Dermatology and Med Spa Practices across Canada.<br\/>These partnerships have a direct impact on how we are able to serve our customers. <\/p><p>An initial online skincare and cosmetic assessment will provide us with enough information<br\/>to offer a referral to a skincare practice and practitioner local to your area.<\/p><p>This is beauty your way, you’re in control and we’re your skincare and beauty ally.<\/p>"
+          }
+        },
+        "6bae393f-3d10-4cdf-b574-6ce2d5a764be": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p><strong>Let’s get started with a personalized skincare quiz to find out<br\/>what skincare regime is right for you:<\/strong><\/p>"
+          }
+        },
+        "5f2c67dd-2743-4cea-b784-48a675a91fd8": {
+          "type": "button",
+          "settings": {
+            "link": "#quiz-koHbLW",
+            "link_text": "TAKE THE QUIZ"
+          }
+        }
+      },
+      "block_order": [
+        "1658540436ae05ac76-0",
+        "1658540436ae05ac76-1",
+        "6bae393f-3d10-4cdf-b574-6ce2d5a764be",
+        "5f2c67dd-2743-4cea-b784-48a675a91fd8"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "1658506325a7065d8d",
+    "1658426105f92b7082",
+    "main",
+    "16585403535eed1143",
+    "1658540437100cb816"
+  ]
+}

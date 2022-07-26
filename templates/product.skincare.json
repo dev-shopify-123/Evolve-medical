@@ -3,12 +3,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "56044375-6d3c-48c2-88b5-55dd59615a4b": {
-          "type": "description",
-          "settings": {
-            "is_tab": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -28,6 +22,20 @@
             "text": "Ships only in Canada"
           }
         },
+        "sales_point2": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "Free returns"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "leaf",
+            "text": "Carbon neutral"
+          }
+        },
         "sales_point4": {
           "type": "sales_point",
           "settings": {
@@ -45,16 +53,17 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": false
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
           }
         }
       },
       "block_order": [
-        "56044375-6d3c-48c2-88b5-55dd59615a4b",
         "variant_picker",
         "price",
         "sales_point",
+        "sales_point2",
+        "sales_point3",
         "sales_point4",
         "inventory_status",
         "buy_buttons"
@@ -72,49 +81,11 @@
         "product_video_style": "muted"
       }
     },
-    "16563589487f6beb7f": {
-      "type": "apps",
-      "blocks": {
-        "75bd4e6c-c02c-4420-b4f7-1f0e14920f3d": {
-          "type": "shopify:\/\/apps\/advanced-product-descriptions\/blocks\/advanced-description\/cffc7d91-64c9-4f4d-88f8-8eb78b420747",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "75bd4e6c-c02c-4420-b4f7-1f0e14920f3d"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "1657569474b61ebd51": {
-      "type": "apps",
-      "blocks": {
-        "4559437d-9cbe-425c-b4d6-e3441fdd546b": {
-          "type": "shopify:\/\/apps\/cross-sell-cart-upsell\/blocks\/app-general\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-            "titleproductpage": "You may also like...",
-            "titleproductpagedefault": "Our Bestsellers...",
-            "titlecheckoutpage": "Before you checkout, have you considered..."
-          }
-        }
-      },
-      "block_order": [
-        "4559437d-9cbe-425c-b4d6-e3441fdd546b"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "sub": {
       "type": "product-full-width",
-      "disabled": true,
       "blocks": {
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {
             "is_tab": true
           }
@@ -146,7 +117,6 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like"
       }
@@ -157,7 +127,6 @@
     },
     "more-products-collection": {
       "type": "more-products-collection",
-      "disabled": true,
       "settings": {}
     },
     "recently-viewed": {
@@ -167,14 +136,12 @@
     "collection-return": {
       "type": "collection-return",
       "settings": {
-        "color_scheme": "3"
+        "color_scheme": "2"
       }
     }
   },
   "order": [
     "main",
-    "16563589487f6beb7f",
-    "1657569474b61ebd51",
     "sub",
     "recommendations",
     "more-products-vendor",

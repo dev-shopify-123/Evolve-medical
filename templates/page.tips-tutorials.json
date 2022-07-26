@@ -1,0 +1,217 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Tips & Tutorials"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Let’s celebrate our laugh lines and the wrinkles we’ve earned<br\/>by embracing the skin we’re in!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1658499269035d4d55": {
+      "type": "rich-text",
+      "blocks": {
+        "1658499268f22b1613-0": {
+          "type": "heading",
+          "settings": {
+            "title": "How To Videos"
+          }
+        },
+        "bfa7543e-f304-4013-b5f5-e4fe6a2130d8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We’ve got what your evolving skin needs, and we want to equip you with the knowledge to use it properly.<\/p><p>There is so much information out there and it can be difficult to know what sources to trust. At Evolve, we won’t leave you hanging. We want to empower you to embrace your evolving beauty and express it as your own. Explore these amazing tips and tutorials designed to transform your skincare and beauty journey. <\/p><p>With Evolve Cosmetics on your side, you have a trusted ally in skincare & makeup.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1658499268f22b1613-0",
+        "bfa7543e-f304-4013-b5f5-e4fe6a2130d8"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": false,
+        "color_scheme": "none",
+        "divider": false
+      }
+    },
+    "16585012161aa6d061": {
+      "type": "advanced-content",
+      "blocks": {
+        "1658501216d8aaff1e-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259277688?h=87eada2607\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nAlto Defense Serum™<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/456695990?h=b1a95a5360\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Cleansing Gel<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658501216d8aaff1e-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16585012786dd40471": {
+      "type": "advanced-content",
+      "blocks": {
+        "16585012784f1a529a-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259280262?h=dbc1007bb5\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nDetoxifying Scrub Mask<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/265620220?h=ed8543c8dc\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Even Tone Correcting Serum™<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16585012784f1a529a-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1658501436403bf4d1": {
+      "type": "advanced-content",
+      "blocks": {
+        "16585014363676cd10-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259280439?h=e1174d2722\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nHydration Boosting Cream<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/265622962?h=01679d98e8\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Instant Effect Gel EYE<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16585014363676cd10-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16585015133ba1011b": {
+      "type": "advanced-content",
+      "blocks": {
+        "1658501513dfabf68b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259278615?h=4a399c77f5\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nInterFuse® Intensive Treatment LINES<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259279437?h=d40cfe6a9c\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>InterFuse® Treatment Cream EYE<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658501513dfabf68b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "165850157160324261": {
+      "type": "advanced-content",
+      "blocks": {
+        "165850157126cc2e64-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259278936?h=0454772322\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nInterFuse® Treatment Cream FACE & NECK<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/259279652?h=f1235e5f29\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Oxygen Infusion Wash<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "165850157126cc2e64-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16585016348bb98d27": {
+      "type": "advanced-content",
+      "blocks": {
+        "1658501634b3c82764-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/456691118?h=5e5a0eb855\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe><center>\nSolo Hydrating Defense™ MEN<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/635645632?h=a20bd1c954\" width=\"640\" height=\"360\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Techno™ Neck Perfecting Cream<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1658501634b3c82764-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1658502907b46e84d8": {
+      "type": "advanced-content",
+      "blocks": {
+        "16585029079782cc0e-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<table width=\"100%\">\n<tr>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe width=\"640\" height=\"305\" src=\"https:\/\/www.youtube.com\/embed\/cqh2PFHF3g4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><center>\nTone Smart Priming Compact<\/center>\n<\/td>\n<td align=\"left\" valign=\"top\" width=\"100%\">\n<iframe title=\"vimeo-player\" src=\"https:\/\/player.vimeo.com\/video\/316029784?h=0b2319cafa\" width=\"640\" height=\"305\" frameborder=\"0\" allowfullscreen><\/iframe>\n<center>Trio Rebalancing Moisture Treatment™<\/center>\n<\/td\n<\/tr>\n<\/table>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16585029079782cc0e-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "1658499269035d4d55",
+    "16585012161aa6d061",
+    "16585012786dd40471",
+    "1658501436403bf4d1",
+    "16585015133ba1011b",
+    "165850157160324261",
+    "16585016348bb98d27",
+    "1658502907b46e84d8"
+  ]
+}
