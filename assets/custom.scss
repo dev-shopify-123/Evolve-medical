@@ -261,3 +261,39 @@
     width: 100%;
     margin-bottom: 20px;
 }
+
+.footer__section--newsletter {
+    background-color: #E5D2C4;
+}
+
+#admin-bar-iframe {
+    display: none;
+}
+.collection-filter__item--count {
+    display: none;
+}
+.no-bullets.inline-list {
+    display: none;
+}
+
+[data-product-blocks] {
+    display: flex;
+    flex-wrap: wrap;
+    .product-block {
+        width: 100%;
+    }
+    .product-block--sales-point {
+        margin-top: -30px !important;
+        width: 50%;
+    }
+}
+@media (max-width: 767px) {
+    .site-header__element {
+        .header-layout {
+            justify-content: space-between;
+            .header-item {
+                flex: none !important;
+            }
+        }
+    }
+}

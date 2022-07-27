@@ -21,11 +21,26 @@
           "type": "price",
           "settings": {}
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
         "sales_point": {
           "type": "sales_point",
           "settings": {
             "icon": "globe",
             "text": "Ships only in Canada"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
           }
         },
         "sales_point4": {
@@ -34,30 +49,16 @@
             "icon": "lock",
             "text": "Secure payments"
           }
-        },
-        "inventory_status": {
-          "type": "inventory_status",
-          "settings": {
-            "inventory_threshold": 10,
-            "inventory_transfers_enable": true
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "surface_pickup_enable": false
-          }
         }
       },
       "block_order": [
         "56044375-6d3c-48c2-88b5-55dd59615a4b",
         "variant_picker",
         "price",
+        "buy_buttons",
         "sales_point",
-        "sales_point4",
         "inventory_status",
-        "buy_buttons"
+        "sales_point4"
       ],
       "settings": {
         "sku_enable": false,
@@ -82,26 +83,6 @@
       },
       "block_order": [
         "75bd4e6c-c02c-4420-b4f7-1f0e14920f3d"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
-    "1657569474b61ebd51": {
-      "type": "apps",
-      "blocks": {
-        "4559437d-9cbe-425c-b4d6-e3441fdd546b": {
-          "type": "shopify:\/\/apps\/cross-sell-cart-upsell\/blocks\/app-general\/d57b28bc-34f0-4ebc-b397-9eb9c6ea4220",
-          "settings": {
-            "titleproductpage": "You may also like...",
-            "titleproductpagedefault": "Our Bestsellers...",
-            "titlecheckoutpage": "Before you checkout, have you considered..."
-          }
-        }
-      },
-      "block_order": [
-        "4559437d-9cbe-425c-b4d6-e3441fdd546b"
       ],
       "settings": {
         "full_width": false,
@@ -146,13 +127,13 @@
     },
     "recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
         "product_recommendations_heading": "You may also like"
       }
     },
     "more-products-vendor": {
       "type": "more-products-vendor",
+      "disabled": true,
       "settings": {}
     },
     "more-products-collection": {
@@ -162,19 +143,20 @@
     },
     "recently-viewed": {
       "type": "recently-viewed",
+      "disabled": true,
       "settings": {}
     },
     "collection-return": {
       "type": "collection-return",
+      "disabled": true,
       "settings": {
-        "color_scheme": "3"
+        "color_scheme": "1"
       }
     }
   },
   "order": [
     "main",
     "16563589487f6beb7f",
-    "1657569474b61ebd51",
     "sub",
     "recommendations",
     "more-products-vendor",

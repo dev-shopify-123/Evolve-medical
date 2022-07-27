@@ -4756,7 +4756,7 @@ lazySizesConfig.expFactor = 4;
   
         output = `
           <div data-type-products>
-            <div class="new-grid product-grid" data-view="small">
+            <div class="new-grid product-grid" data-view="medium">
               ${markup}
             </div>
           </div>

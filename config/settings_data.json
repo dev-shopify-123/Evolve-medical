@@ -12,46 +12,48 @@
     "color_small_image_bg": "#ffffff",
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
-    "color_header_text": "#b1912e",
-    "color_announcement": "#000000",
-    "color_announcement_text": "#ffffff",
+    "color_header_text": "#1c1d1d",
+    "color_announcement": "#e5d2c4",
+    "color_announcement_text": "#080808",
     "color_header_search": "#ffffff",
-    "color_footer": "#ffffff",
-    "color_footer_border": "#e8e8e1",
+    "color_footer": "#e5d2c4",
+    "color_footer_border": "#1d1d1d",
     "color_footer_text": "#000000",
     "color_scheme_1_bg": "#fbfbfb",
     "color_scheme_1_text": "#000000",
-    "color_scheme_1_texture": "marble.jpg",
-    "color_scheme_2_bg": "#454a59",
-    "color_scheme_2_text": "#ffffff",
+    "color_scheme_1_texture": "space.jpg",
+    "color_scheme_2_bg": "#e5d2c4",
+    "color_scheme_2_text": "#1d1d1d",
     "color_scheme_2_texture": "none",
     "color_scheme_3_bg": "#000000",
-    "color_scheme_3_text": "#ffffff",
+    "color_scheme_3_text": "#080808",
     "color_scheme_3_texture": "marble.jpg",
-    "type_header_font_family": "montserrat_n6",
-    "type_header_spacing": "50",
-    "type_header_base_size": 30,
+    "type_header_font_family": "poppins_n5",
+    "type_header_spacing": "25",
+    "type_header_base_size": 26,
     "type_header_line_height": 1,
     "type_header_capitalize": false,
-    "type_base_font_family": "montserrat_n4",
+    "type_base_font_family": "lora_n4",
     "type_base_spacing": "25",
     "type_base_size": 15,
     "type_base_line_height": 1.1,
-    "type_navigation_style": "body",
+    "type_navigation_style": "heading",
     "type_navigation_size": 14,
     "type_navigation_capitalize": true,
-    "button_style": "square",
+    "button_style": "round-slight",
     "cart_icon": "bag-minimal",
     "icon_weight": "3px",
-    "icon_linecaps": "miter",
-    "superscript_decimals": true,
-    "quick_shop_enable": true,
-    "quick_add_enable": true,
+    "icon_linecaps": "round",
+    "animate_page_transitions": false,
+    "superscript_decimals": false,
+    "quick_shop_enable": false,
+    "quick_add_enable": false,
     "product_grid_image_size": "square",
     "product_grid_image_fill": false,
     "product_hover_image": true,
     "product_grid_style": "simple",
     "product_grid_image_margin": 10,
+    "enable_product_reviews": true,
     "collection_grid_shape": "circle",
     "collection_grid_image": "product",
     "collection_grid_image_margin": 15,
@@ -66,7 +68,7 @@
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/evolve-cosmetics\/",
     "favicon": "shopify:\/\/shop_images\/Evolve_Medical_Icon_Transparent_PNG.png",
     "show_breadcrumbs": true,
-    "show_breadcrumbs_collection_link": true,
+    "show_breadcrumbs_collection_link": false,
     "checkout_header_image": "shopify:\/\/shop_images\/5.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/Evolve_Cosmetics_Transparent_PNG_CROPPED_0814c73b-8141-4112-a77b-0b9662dee2e9.png",
     "checkout_logo_position": "left",
@@ -106,7 +108,7 @@
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/Evolve_Cosmetics_Transparent_PNG_CROPPED_0814c73b-8141-4112-a77b-0b9662dee2e9.png",
-              "desktop_logo_width": 150,
+              "desktop_logo_width": 230,
               "mobile_logo_width": 80
             }
           }
@@ -116,9 +118,9 @@
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
-          "main_menu_alignment": "left",
-          "mega_products": true,
-          "header_sticky": false,
+          "main_menu_alignment": "center",
+          "mega_products": false,
+          "header_sticky": true,
           "header_footer_menu": true,
           "sticky_index": false,
           "sticky_collection": false
@@ -236,6 +238,7 @@
           },
           "cff431d4-9a3a-4622-a731-bd2d4c67a45c": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "richtext": "<p>Take our <a href=\"#quiz-koHbLW\" title=\"Evolve Skincare Quiz\">personalized skincare quiz<\/a> to find out what skincare regime is right for you<\/p>",
               "richtext_mobile": "<p>Take our <a href=\"#quiz-koHbLW\" title=\"Evolve Skincare Quiz\">personalized skincare quiz<\/a> to find out what skincare regime is right for you<\/p>"
@@ -249,7 +252,7 @@
         "settings": {
           "announcement_center": true,
           "toolbar_social": false,
-          "show_locale_selector": true,
+          "show_locale_selector": false,
           "show_currency_selector": true,
           "show_currency_flags": false
         }
@@ -260,8 +263,16 @@
           "footer-0": {
             "type": "menu",
             "settings": {
-              "title": "Quick Links",
+              "title": "CUSTOMER INFO",
               "menu": "footer-menu",
+              "enable_account_link": false
+            }
+          },
+          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9": {
+            "type": "menu",
+            "settings": {
+              "title": "PROFESSIONAL",
+              "menu": "professional",
               "enable_account_link": false
             }
           },
@@ -283,23 +294,24 @@
               "show_currency_flags": true
             }
           },
-          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9": {
+          "fbdd2905-337d-4f05-ab2d-4576b22ed684": {
             "type": "menu",
             "settings": {
-              "title": "Professional",
-              "menu": "professional",
+              "title": "SHOP",
+              "menu": "shop",
               "enable_account_link": false
             }
           }
         },
         "block_order": [
           "footer-0",
+          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9",
           "fe6a67a0-686e-435b-a946-f28802053c97",
           "c296bc3e-1d7f-4750-b993-050176521596",
-          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9"
+          "fbdd2905-337d-4f05-ab2d-4576b22ed684"
         ],
         "settings": {
-          "show_newsletter": false,
+          "show_newsletter": true,
           "newsletter_richtext": "<p>Subscribe to our mailing list to keep up to date with product information & news!<\/p>",
           "footer_main_menu": true,
           "show_copyright": true,

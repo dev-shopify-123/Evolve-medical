@@ -184,14 +184,14 @@
                         <div class="hero__text-shadow">
                           {%- unless block.settings.top_subheading == blank -%}
                             <div class="hero__top-subtitle">
-                              <div class="hero__animation-contents">
+                              <div class="hero__animation-contents" style="color: {{ block.settings.text_color }};">
                                 {{ block.settings.top_subheading | escape }}
                               </div>
                             </div>
                           {%- endunless -%}
                           {%- unless block.settings.title == blank -%}
                             <h2 class="h1 hero__title">
-                              <div class="hero__animation-contents">
+                              <div class="hero__animation-contents" style="color: {{ block.settings.text_color }};">
                               {{ block.settings.title | newline_to_br }}
                               </div>
                             </h2>
@@ -199,7 +199,7 @@
                           {%- if block.settings.subheading or block.settings.link or block.settings.link_2 -%}
                             {%- unless block.settings.subheading == blank -%}
                               <div class="hero__subtitle">
-                                <div class="hero__animation-contents">
+                                <div class="hero__animation-contents" style="color: {{ block.settings.text_color }};">
                                   {{ block.settings.subheading | escape }}
                                 </div>
                               </div>
@@ -329,6 +329,11 @@
           "id": "title",
           "label": "t:sections.slideshow.blocks.hero.settings.title.label",
           "default": "<p>Overlaid Hero Slide</p>"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text Color"
         },
         {
           "type": "range",

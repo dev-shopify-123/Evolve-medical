@@ -3,21 +3,40 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
+        "8e105773-f2dc-4fa6-8252-65eb7dd263a5": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>The Base Primer<\/p>",
+            "text_color": "#000000",
+            "title_size": 40,
+            "subheading": "A 100% organic facial primer boosted with vegetal collagen.",
+            "link": "shopify:\/\/products\/the-base-primer",
+            "link_text": "SHOP EYE CARE",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_4_copy.png",
+            "overlay_opacity": 0,
+            "focal_point": "80% 50%"
+          }
+        },
         "befcffc5-78b1-4b8c-b8d0-14bcacc0d211": {
           "type": "hero",
           "settings": {
             "top_subheading": "skinbetter science®",
             "title": "<p>Shop our Award Winning Skincare Products<\/p>",
+            "text_color": "#000000",
             "title_size": 40,
             "subheading": "A new paradigm in skincare",
             "link": "",
             "link_text": "",
             "link_2": "shopify:\/\/collections\/skinbetter",
-            "link_text_2": "Shop Now",
+            "link_text_2": "SHOP MAKEUP",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-left",
-            "image": "shopify:\/\/shop_images\/16_6eb72cbd-bbef-4588-bf20-7796b2fce5cd.png",
-            "image_mobile": "shopify:\/\/shop_images\/16_V2_c968c8c9-73d1-4cd6-85de-263ef6d4cdff.png",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_4.png",
             "overlay_opacity": 0,
             "focal_point": "80% 50%"
           }
@@ -27,15 +46,16 @@
           "settings": {
             "top_subheading": "",
             "title": "<p><strong>Hello, Summer<\/strong><\/p>",
+            "text_color": "#000000",
             "title_size": 67,
             "subheading": "With our Evolve All Day Makeup Finishing spray, lock in your look and stay cool for those hot summer days.",
             "link": "shopify:\/\/products\/evolve-all-day-spray",
-            "link_text": "Shop Now",
+            "link_text": "SHOP MAKEUP",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/13_f4dafd44-3856-4ecf-b864-d9892748f7a4.png",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify:\/\/shop_images\/Add_a_heading_4_copy_2.png",
             "image_mobile": "shopify:\/\/shop_images\/13_V2_a104ebaa-c262-4d72-96bc-39772618f5fa.png",
             "overlay_opacity": 0,
             "focal_point": "center center"
@@ -47,6 +67,7 @@
           "settings": {
             "top_subheading": "",
             "title": "<p><strong>Empowering Women to Embrace Their Beauty At Every Age<\/strong><\/p>",
+            "text_color": "",
             "title_size": 40,
             "subheading": "We provide the best possible skincare and cosmetic products and solutions for the needs of evolving skin.",
             "link": "shopify:\/\/collections\/all",
@@ -60,199 +81,135 @@
             "overlay_opacity": 0,
             "focal_point": "80% 50%"
           }
-        },
-        "8e105773-f2dc-4fa6-8252-65eb7dd263a5": {
-          "type": "hero",
-          "settings": {
-            "top_subheading": "",
-            "title": "<p>The Base Primer<\/p>",
-            "title_size": 40,
-            "subheading": "A 100% organic facial primer boosted with vegetal collagen.",
-            "link": "shopify:\/\/products\/the-base-primer",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#000000",
-            "text_align": "vertical-center horizontal-right",
-            "image": "shopify:\/\/shop_images\/14_4634d1c3-ea3b-4e8b-87c3-7d6c8ff30af0.png",
-            "image_mobile": "shopify:\/\/shop_images\/14_4634d1c3-ea3b-4e8b-87c3-7d6c8ff30af0.png",
-            "overlay_opacity": 0,
-            "focal_point": "20% 50%"
-          }
         }
       },
       "block_order": [
+        "8e105773-f2dc-4fa6-8252-65eb7dd263a5",
         "befcffc5-78b1-4b8c-b8d0-14bcacc0d211",
         "slideshow-0",
-        "slideshow-1",
-        "8e105773-f2dc-4fa6-8252-65eb7dd263a5"
+        "slideshow-1"
       ],
       "settings": {
         "full_width": true,
-        "desktop_size": -20,
+        "desktop_size": 0,
         "mobile_size": 20,
-        "style": "dots",
-        "autoplay": true,
+        "style": "arrows",
+        "autoplay": false,
         "autoplay_speed": 8
       }
     },
     "featured-collection2": {
       "type": "featured-collection",
       "settings": {
-        "title": "What we are loving right now",
+        "title": "Get The Summer Glow",
         "home_featured_products": "featured",
-        "count": 5,
-        "mobile_scrollable": false,
+        "count": 4,
+        "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
     },
-    "1657216257cc5644e2": {
-      "type": "rich-text",
+    "1658845108eddc2481": {
+      "type": "slideshow",
       "blocks": {
-        "16572162572694f83e-0": {
-          "type": "heading",
+        "16588451083a6a0266-0": {
+          "type": "hero",
           "settings": {
-            "title": "Discover What Products Are Right For You"
-          }
-        },
-        "16572162572694f83e-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Take our personalized skin care quiz which delivers tailored product recommendations from experts, based on your skin care concerns & goals.<\/p>"
-          }
-        },
-        "918a9195-be23-4ec6-aa4e-f7a398593b4c": {
-          "type": "button",
-          "settings": {
-            "link": "#quiz-koHbLW",
-            "link_text": "Take the Quiz"
-          }
-        }
-      },
-      "block_order": [
-        "16572162572694f83e-0",
-        "16572162572694f83e-1",
-        "918a9195-be23-4ec6-aa4e-f7a398593b4c"
-      ],
-      "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "3",
-        "divider": false
-      }
-    },
-    "1642603763ed6bc480": {
-      "type": "slideshow-split",
-      "blocks": {
-        "16426037633c22a975-0": {
-          "type": "slide",
-          "settings": {
-            "top_subheading": "EVOLVE ALL DAY",
-            "title": "The Makeup Finishing Spray",
-            "title_size": 60,
-            "subheading": "Eliminate the makeup melt and lock in your look for a fresh and flawless face that lasts all day!",
-            "link": "shopify:\/\/products\/evolve-all-day-spray",
-            "link_text": "Shop Now",
+            "top_subheading": "customer favourite",
+            "title": "<p>Refresh Your Skin<\/p>",
+            "text_color": "#000000",
+            "title_size": 52,
+            "subheading": "Our Alto Defence Serum promotes an even skin tone, enhances skin’s vitality and radiance",
+            "link": "",
+            "link_text": "SHOP SERUM",
             "link_2": "",
             "link_text_2": "",
-            "text_position": "right",
-            "image": "shopify:\/\/shop_images\/EAD_Spray_on_its_own.jpg",
-            "indent_image": false,
-            "focal_point": "20% 100%",
-            "color_scheme": "1"
+            "color_accent": "#ffffff",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-07-26T101512.508.png",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "16426037633c22a975-0"
+        "16588451083a6a0266-0"
       ],
       "settings": {
-        "full_width": true,
-        "height": 650,
-        "height_mobile": 450,
+        "full_width": false,
+        "desktop_size": 0,
+        "mobile_size": 0,
         "style": "arrows",
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 7
       }
     },
     "16426037678005f597": {
       "type": "featured-collection",
       "settings": {
-        "title": "Summer Skin is in!",
-        "home_featured_products": "summer-collection",
-        "count": 5,
+        "title": "Award Winners & Best Sellers",
+        "home_featured_products": "award-winners",
+        "count": 4,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
       }
     },
-    "slideshow-split2": {
-      "type": "slideshow-split",
+    "1658807480cfc03d02": {
+      "type": "text-columns",
       "blocks": {
-        "slideshow-split2-0": {
-          "type": "slide",
+        "165880748027564aad-2": {
+          "type": "text_block",
           "settings": {
-            "top_subheading": "skinbetter science®",
-            "title": "Accomplished Science.\nReal Life Results.",
-            "title_size": 41,
-            "subheading": "Our award-winning products leverage decades of rigorous research to deliver remarkable results in skincare.\n\nEvolve Cosmetics is the Official Canadian Distributor for skinbetter science®.",
-            "link": "shopify:\/\/collections\/skinbetter",
-            "link_text": "Shop Now",
-            "link_2": "",
-            "link_text_2": "",
-            "text_position": "left",
-            "image": "shopify:\/\/shop_images\/Canada_-_Portfolio_Group_Shot_Refresh_Collection_added.png",
-            "indent_image": false,
-            "focal_point": "bottom center",
-            "color_scheme": "2"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/7_8570ec0e-01d1-4464-b98d-d14303d93a35.png",
+            "image_width": 420,
+            "title": "Anti-Aging",
+            "text": "<p>Let your skin age backwards.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": ""
+          }
+        },
+        "165880748027564aad-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/2_bb79931a-3e59-42d8-9362-f60bb776cfe1.png",
+            "image_width": 420,
+            "title": "Dry Skin",
+            "text": "<p>Show off your glowy and dewy skin.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": ""
+          }
+        },
+        "165880748027564aad-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/3_da503738-bcb8-4720-ae86-2fcae364bc4e.png",
+            "image_width": 420,
+            "title": "Fine Lines & Wrinkles",
+            "text": "<p>Help your skin bounce back.<\/p>",
+            "button_label": "SHOP NOW",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "slideshow-split2-0"
+        "165880748027564aad-2",
+        "165880748027564aad-1",
+        "165880748027564aad-0"
       ],
       "settings": {
-        "full_width": true,
-        "height": 550,
-        "height_mobile": 520,
-        "style": "arrows",
-        "autoplay": true,
-        "autoplay_speed": 7
-      }
-    },
-    "newsletter": {
-      "type": "newsletter",
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "title": "Stay in the know"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Subscribe to our mailing list to keep up to date with the latest product announcements & deals.<\/p>"
-          }
-        },
-        "form": {
-          "type": "form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title",
-        "text",
-        "form"
-      ],
-      "settings": {
-        "color_scheme": "3"
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
       }
     },
     "16425467458e4466dd": {
       "type": "testimonials",
+      "disabled": true,
       "blocks": {
         "164254674585cc4a76-0": {
           "type": "testimonial",
@@ -323,17 +280,17 @@
           "settings": {
             "top_subheading": "Evolve Cosmetics",
             "title": "We'll help you grow",
-            "title_size": 60,
+            "title_size": 51,
             "subheading": "We offer industry-proven insights and strategies to develop and grow medical practices & spas that can be measured and monetized with an exit.",
             "link": "shopify:\/\/pages\/services",
             "link_text": "Learn More",
             "link_2": "",
             "link_text_2": "",
             "text_position": "left",
-            "image": "shopify:\/\/shop_images\/10.png",
+            "image": "shopify:\/\/shop_images\/pic_2_378684f2-d7bd-4d9b-a709-00b2aa3be6ec.png",
             "indent_image": false,
-            "focal_point": "20% 50%",
-            "color_scheme": "3"
+            "focal_point": "80% 50%",
+            "color_scheme": "none"
           }
         }
       },
@@ -341,7 +298,7 @@
         "1642604278aea4d9b5-1"
       ],
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "height": 650,
         "height_mobile": 450,
         "style": "arrows",
@@ -353,11 +310,9 @@
   "order": [
     "slideshow",
     "featured-collection2",
-    "1657216257cc5644e2",
-    "1642603763ed6bc480",
+    "1658845108eddc2481",
     "16426037678005f597",
-    "slideshow-split2",
-    "newsletter",
+    "1658807480cfc03d02",
     "16425467458e4466dd",
     "1642604278a4105efe"
   ]

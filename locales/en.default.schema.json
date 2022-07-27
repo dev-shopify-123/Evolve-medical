@@ -1060,6 +1060,9 @@
                 "small": {
                   "label": "Small grid"
                 },
+                "medium": {
+                  "label": "Medium grid"
+                },
                 "list": {
                   "label": "List"
                 }
@@ -1202,6 +1205,9 @@
             },
             "small": {
               "label": "Small grid"
+            },
+            "medium": {
+              "label": "Medium grid"
             },
             "list": {
               "label": "List"
