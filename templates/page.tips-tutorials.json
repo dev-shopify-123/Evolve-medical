@@ -17,7 +17,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p>Let’s celebrate our laugh lines and the wrinkles we’ve earned<br\/>by embracing the skin we’re in!<\/p>"
           }
         }
@@ -29,7 +29,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": false,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
@@ -45,8 +45,8 @@
         "bfa7543e-f304-4013-b5f5-e4fe6a2130d8": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>We’ve got what your evolving skin needs, and we want to equip you with the knowledge to use it properly.<\/p><p>There is so much information out there and it can be difficult to know what sources to trust. At Evolve, we won’t leave you hanging. We want to empower you to embrace your evolving beauty and express it as your own. Explore these amazing tips and tutorials designed to transform your skincare and beauty journey. <\/p><p>With Evolve Cosmetics on your side, you have a trusted ally in skincare & makeup.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>We’ve got what your evolving skin needs, and we want to equip you with the knowledge to use it properly.<\/p><p>There is so much information out there and it can be difficult to know what sources to trust. At Evolve, we want to empower you to embrace your evolving beauty and express it as your own. Explore these amazing tips and tutorials designed to transform your skincare and beauty journey. <\/p><p>With Evolve Cosmetics on your side, you have a trusted ally in skincare & makeup.<\/p>"
           }
         }
       },
@@ -55,7 +55,7 @@
         "bfa7543e-f304-4013-b5f5-e4fe6a2130d8"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": false,
         "color_scheme": "none",
         "divider": false
@@ -197,7 +197,7 @@
         "16585029079782cc0e-1"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "space_around": true
       }
     }

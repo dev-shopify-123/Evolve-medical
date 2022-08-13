@@ -33,6 +33,8 @@
               case block.type
                 when 'menu'
                   render 'footer-menu', block: block
+                when 'menu-2'
+                  render 'footer-menu-2', block: block
                 when 'payment'
                   assign show_currency_flags = block.settings.show_currency_flags
                   render 'footer-payments', block: block, show_currency_flags: show_currency_flags
@@ -165,6 +167,43 @@
         {
           "type": "link_list",
           "id": "menu",
+          "label": "t:sections.footer.blocks.navigation.settings.menu.label",
+          "default": "footer",
+          "info": "t:sections.footer.blocks.navigation.settings.menu.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "enable_account_link",
+          "label": "t:sections.footer.blocks.navigation.settings.enable_account_link.label"
+        }
+      ]
+    },
+    {
+      "type": "menu-2",
+      "name": "Navigation 2",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.footer.blocks.navigation.settings.title.label",
+          "info": "t:sections.footer.blocks.navigation.settings.title.info"
+        },
+        {
+          "type": "link_list",
+          "id": "menu",
+          "label": "t:sections.footer.blocks.navigation.settings.menu.label",
+          "default": "footer",
+          "info": "t:sections.footer.blocks.navigation.settings.menu.info"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "t:sections.footer.blocks.navigation.settings.title.label",
+          "info": "t:sections.footer.blocks.navigation.settings.title.info"
+        },
+        {
+          "type": "link_list",
+          "id": "menu2",
           "label": "t:sections.footer.blocks.navigation.settings.menu.label",
           "default": "footer",
           "info": "t:sections.footer.blocks.navigation.settings.menu.info"

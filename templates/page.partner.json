@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Partnering with Evolve Cosmetics might just be the best decision you make!<\/p>"
+            "text": "<p>Partnering with Evolve Cosmetics might just be the best decision you ever make!<\/p>"
           }
         }
       },
@@ -24,17 +24,18 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
     "1658426105f92b7082": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
+        "image_width": 500,
         "subtitle": "",
-        "title": "We are always looking for the next unique and ground-breaking skincare or beauty product.",
-        "text": "<p>If you have an established skincare or cosmetic product and are looking for a distributor, the Evolve Cosmetics marketplace is the perfect destination for you. <\/p><p>We are always looking for the next unique and ground-breaking skincare or beauty product. We love to work with brands that employ unique skincare technology, demonstrate results that match product claims, are founded in science, and clinically tested. <\/p><p>Evolve Cosmetics works in skin solutions and only with brands that exact the same high standards, in products and practice, Evolve employs.<\/p>",
+        "title": "We are always looking for the next unique, ground-breaking skincare or beauty product.",
+        "text": "<p>If you have an established skincare or cosmetic product and are looking for a distributor, the Evolve Cosmetics marketplace is the perfect destination.<\/p><p>Evolve Cosmetics is an ecommerce platform providing our customers with a curated catalogue of skincare and beauty products. We are not just a marketplace, but a destination that empowers women to learn about their skin and explore products that support their evolving beauty journey. <\/p><p>We love to work with brands founded in science that employ unique skincare technology, demonstrate results that match product claims and are clinically tested. <\/p><p>Evolve Cosmetics works with brands that share our high standards in products and practice.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -52,31 +53,33 @@
     "16585403535eed1143": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/2_b045659d-4d90-45db-be96-301333b62b69.png",
+        "image_width": 500,
         "subtitle": "",
-        "title": "We know skin & we know the industry",
-        "text": "<p>We are connected with Dermatology and Med Spa Practices across Canada & partnering with Evolve gives your<br\/>brand a step up in this highly competitive market. Not only are the Evolve team players highly reputed and well connected within the industry, together they have more than 100 years of industry experience. They are an expert team that knows how to source, research, test and bring the next BIG product to market. <\/p>",
+        "title": "We know skin & we know the industry.",
+        "text": "<p>Evolve is connected with Dermatology and Med Spa Practices across Canada allowing us to support your brand as a leader in the highly competitive skincare market. Together, the Evolve team has more than 100 years of industry experience. We know how to source, research and test to bring the next <em>big<\/em> product to market. <\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
     "1658540840ed18dda8": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
         "title": "Is your brand our next big seller?",
-        "text": "<p>Evolve Cosmetics is an eCommerce<br\/>platform that enables customers to explore and shop our curated catalogue of skincare and beauty products. We are not just a marketplace but a destination that empowers women to learn about their skin and the products created to support their evolving beauty journey. Partner with Evolve Cosmetics and your brand could be positioned to become our next best seller.<\/p>",
+        "text": "<p>Evolve Cosmetics is an ecommerce<br\/>platform that enables customers to explore and shop our curated catalogue of skincare and beauty products. We are not just a marketplace, but a destination that empowers women to learn about their skin and explore products created to support their evolving beauty journey. We are with Evolve Cosmetics and your brand could be positioned to become our next best seller.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "layout": "left",
+        "layout": "right",
         "color_scheme": "none",
         "divider": false
       }
@@ -88,7 +91,7 @@
         "text": "<p><strong>To learn more about how your brand may qualify to partner with Evolve Cosmetics, please fill out the submission form below:<\/strong><\/p>",
         "show_phone": true,
         "narrow_column": true,
-        "color_scheme": "3"
+        "color_scheme": "1"
       }
     }
   },

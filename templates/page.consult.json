@@ -13,7 +13,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Your skin is important to us and we want you to feel and look your best, because you deserve it!<\/p>"
+            "text": "<p>Your skin is important to us. We want you to feel and look your best because you deserve it!<\/p>"
           }
         }
       },
@@ -24,19 +24,20 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
     "1658426105f92b7082": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/photo_edits_10.png",
+        "image_width": 400,
         "subtitle": "",
         "title": "Book a Consult with us",
-        "text": "<p>With our help you can learn more<br\/>about your skin and the products that your skin will benefit from. Evolve is on<br\/>a mission to empower and educate women on how to care for their skin with skin care products and cosmetics that heal, soothe and perform as promised. <\/p><p>We call it: <strong>The Evolving Beauty Experience<\/strong>.<\/p>",
-        "button_label": "",
-        "button_link": "",
+        "text": "<p>Using skin care products and cosmetics that perform as promised, Evolve is on a mission to empower and educate women on how to care for their skin. <\/p><p>We call it: <strong>The Evolving Beauty Experience<\/strong>.<\/p>",
+        "button_label": "Get In Touch",
+        "button_link": "shopify:\/\/pages\/contact",
         "button_style": "primary",
         "align_text": "left",
         "layout": "left",
@@ -52,16 +53,17 @@
     "16585403535eed1143": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/5.png",
+        "image_width": 480,
         "subtitle": "",
-        "title": "A beauty connoisseurs’ destination",
-        "text": "<p>Equipped to empower customers to<br\/>take more control over their individual skincare and beauty regimes. At, Evolve we are going to give you the tools and the vital information necessary to understand and analyse your skin. We are going to teach you how to hydrate without over moisturizing with products that do more harm than good and how to stay away from harmful chemicals, which can be toxic if used long-term on your skin.<br\/><\/p><p>There is so much information out<br\/>there that it can be hard to ascertain the truth from the claims and promises<br\/>of youth, but with Evolve, you can rest assured that we are committed to<br\/>helping you learn, source and employ the most appropriate skincare and beauty products for your evolving skin.<\/p>",
+        "title": "A beauty connoisseur's destination",
+        "text": "<p>At Evolve we give you the tools and information necessary to understand your skin. We want you to take control over your skincare and beauty regime. <\/p><p>The beauty industry is overrun by information and it can be hard to ascertain what is true. When using Evolve Cosmetics products, you can rest assured that we are committed to providing you the most appropriate skincare and beauty products for your evolving skin.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
@@ -71,21 +73,21 @@
         "1658540436ae05ac76-0": {
           "type": "heading",
           "settings": {
-            "title": "Evolve is recognized as an authority and industry leader"
+            "title": "Evolve Cosmetics is recognized as an authority and industry leader."
           }
         },
         "1658540436ae05ac76-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>We have partnered with Dermatology and Med Spa Practices across Canada.<br\/>These partnerships have a direct impact on how we are able to serve our customers. <\/p><p>An initial online skincare and cosmetic assessment will provide us with enough information<br\/>to offer a referral to a skincare practice and practitioner local to your area.<\/p><p>This is beauty your way, you’re in control and we’re your skincare and beauty ally.<\/p>"
+            "enlarge_text": false,
+            "text": "<p>We are partnered with Dermatology and Med Spa Practices across Canada. These partnerships have a direct impact on how we are able to serve our customers. <\/p><p>An initial online skincare and cosmetic assessment will provide us with enough information to offer a referral to a skincare practice and practitioner local to your area.<\/p><p>This is beauty your way. You are in control and we are your skincare and beauty ally.<\/p>"
           }
         },
         "6bae393f-3d10-4cdf-b574-6ce2d5a764be": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p><strong>Let’s get started with a personalized skincare quiz to find out<br\/>what skincare regime is right for you:<\/strong><\/p>"
+            "enlarge_text": false,
+            "text": "<p>Let’s get started with a personalized skincare quiz to find out what skincare regime is right for you.<\/p>"
           }
         },
         "5f2c67dd-2743-4cea-b784-48a675a91fd8": {
@@ -103,10 +105,10 @@
         "5f2c67dd-2743-4cea-b784-48a675a91fd8"
       ],
       "settings": {
-        "align_text": "center",
+        "align_text": "left",
         "narrow_column": false,
         "color_scheme": "none",
-        "divider": false
+        "divider": true
       }
     }
   },

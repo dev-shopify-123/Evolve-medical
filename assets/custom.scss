@@ -109,10 +109,26 @@
         }
     }
     .inner-wrapper {
+        position: relative;
         display: flex;
         justify-content: center;
         gap: 5%;
-      margin-top: 100px;
+        margin-top: 100px;
+        
+        &::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            height: 90%;
+            width: 2px;
+            background-color: black;
+            @media (max-width: 767px) {
+                top: 53.5%;
+                left: 5%;
+                height: 2px;
+                width: 90%;
+            }
+        }
       @media (max-width: 767px) {
         margin-top: 20px;
       }
@@ -204,7 +220,11 @@
                 font-weight: 500;
                 font-size: 15px;
                 text-transform: uppercase;
-                width: 100%;
+                width: max-content;
+                padding: 10px 55px;
+                @media (max-width: 767px) {
+                    width: 100%;
+                }
             }
             
             .label-info {
@@ -234,7 +254,7 @@
         }
     }
     .register-wrapper {
-        max-width: 28%;
+        max-width: 35%;
         width: 100%;
         padding: 1.25rem;
         p {
@@ -244,9 +264,14 @@
             color: white;
             background-color: #000;
             font-weight: 400;
-            width: 100%;
+            width: max-content;
             font-size: 15px;
             text-transform: uppercase;
+            margin-top: 5px;
+            padding: 10px 55px;
+            @media (max-width: 767px) {
+                width: 100%;
+            }
         }
         @media (max-width: 767px) {
             max-width: 100%;
@@ -296,4 +321,30 @@
             }
         }
     }
+}
+
+#apd-root .apd-acc-section .apd-content {
+    .media, .image {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+}
+
+.custom-social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.grid-item.grid-product {
+    justify-content: space-between;
 }

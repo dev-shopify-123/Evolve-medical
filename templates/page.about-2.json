@@ -24,17 +24,18 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
     "1658426105f92b7082": {
       "type": "text-and-image",
       "settings": {
-        "image_width": 700,
+        "image": "shopify:\/\/shop_images\/photo_edits_12.png",
+        "image_width": 440,
         "subtitle": "",
-        "title": "Embrace who you are",
-        "text": "<p>We encourage you to embrace and enhance your individual beauty and confidently express it as your own, on your terms.<\/p><p><\/p><p>Evolve was founded on the idea that women should be able to age on their own terms. With age comes refined sophistication, and beauty that evolves with elegance and experience. Evolve Cosmetics is less about anti-aging and more about providing your skin with what it needs when it needs it, so you can feel your best at any stage of life.<\/p><p>In a crowded beauty marketplace, we eliminate the confusion. Whether you are just starting to worry about wrinkles or are bothered by the way your makeup settles into your fine lines, Evolve has a solution for your maturing skin.<\/p><p>You are an <strong>Evolving Beauty <\/strong>and we are your <strong>Evolving Beauty Collective<\/strong>. So, get connected to stay up-to-date and in the know with all things related to aging skin health and purposeful products that offer solutions and results. Embrace your life and define your beauty at any age with Evolve Cosmetics.<\/p>",
+        "title": "Embrace your evolving beauty",
+        "text": "<p>Evolve Cosmetics encourages you to embrace and enhance your individual beauty, confidently expressing it as your own.<\/p><p>Evolve wants you to age on your own terms by offering skincare and makeup products tailored to suit your skin at every stage of your life.<\/p><p>Whether you are just starting to worry about wrinkles or are bothered by the way your makeup settles into your fine lines, Evolve has a solution for your maturing skin.<\/p><p>You are an <strong>Evolving Beauty <\/strong>and we are your <strong>Evolving Beauty Collective<\/strong>. Embrace your life and define your beauty at any age with Evolve Cosmetics.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -51,6 +52,7 @@
     },
     "165842618322ab6158": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
@@ -68,21 +70,23 @@
     "16585065001c409c47": {
       "type": "text-and-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/image0.jpg",
         "image_width": 700,
         "subtitle": "",
         "title": "Our Story",
-        "text": "<p>A young beauty company with rich <em><strong>Herstory<\/strong><\/em><\/p><p>After decades in the industry with multiple business start-ups and successful product launches to her credit, Sharon Clarke founded Evolve Cosmetics in 2018 with a single motivation in mind; to provide women with a simplified approach to skincare and cosmetics. <\/p><p>Essentially, Sharon wanted to remove the confusion, false promises and negativity surrounding a woman’s right to control her beauty and aging narrative. Evolve was born to empower women with knowledge about their skin and the products developed to benefit and perform on mature skin.<\/p>",
+        "text": "<p>A young and evolving beauty company with rich <em><strong>Herstory.<\/strong><\/em><\/p><p>After decades in the industry with multiple business start-ups and successful product launches to her credit, Sharon Clarke founded Evolve Cosmetics in 2018. Evolve began with a single motivation in mind: to provide women with a simplified approach to skincare and cosmetics. <\/p><p>Sharon wanted to bring positivity to the narrative surrounding a woman’s right to control her beauty in the ageing process. Evolve was born to empower women with the knowledge about their skin needed to age with elegance.<\/p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
         "align_text": "left",
-        "layout": "left",
-        "color_scheme": "none",
+        "layout": "right",
+        "color_scheme": "2",
         "divider": false
       }
     },
     "1658506618b9f021b1": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image_width": 700,
         "subtitle": "",
@@ -104,6 +108,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/1580510234943.jpg",
             "image_width": 650,
             "title": "Sharon Clarke",
             "text": "<p><strong>Founder<\/strong><\/p><p>Passionate, experienced and equipped with a genuine motivation to provide the best solutions for skincare and beauty for maturing skin.<br\/><\/p>",
@@ -115,6 +120,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/21.png",
             "image_width": 650,
             "title": "Marijke Coffa",
             "text": "<p><strong>Director of Sales & Operations<\/strong><\/p><p>A relationship builder with a keen focus on the customer and practice  success equipped to offer business and industry expertise at every  organizational level.<br\/><\/p>",
@@ -126,6 +132,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
             "image_width": 650,
             "title": "Julie Reid",
             "text": "<p><strong>Sales Specialist<\/strong><\/p><p>An entrepreneur at heart who is poised with passion and compassion for  providing women with tools that support their skin, build their confidence and change their lives.<br\/><\/p>",

@@ -21,7 +21,7 @@
     "color_footer_text": "#000000",
     "color_scheme_1_bg": "#fbfbfb",
     "color_scheme_1_text": "#000000",
-    "color_scheme_1_texture": "space.jpg",
+    "color_scheme_1_texture": "none",
     "color_scheme_2_bg": "#e5d2c4",
     "color_scheme_2_text": "#1d1d1d",
     "color_scheme_2_texture": "none",
@@ -30,12 +30,12 @@
     "color_scheme_3_texture": "marble.jpg",
     "type_header_font_family": "poppins_n5",
     "type_header_spacing": "25",
-    "type_header_base_size": 26,
+    "type_header_base_size": 38,
     "type_header_line_height": 1,
     "type_header_capitalize": false,
-    "type_base_font_family": "lora_n4",
+    "type_base_font_family": "lato_n4",
     "type_base_spacing": "25",
-    "type_base_size": 15,
+    "type_base_size": 16,
     "type_base_line_height": 1.1,
     "type_navigation_style": "heading",
     "type_navigation_size": 14,
@@ -63,8 +63,9 @@
     "cart_notes_enable": false,
     "cart_terms_conditions_enable": false,
     "social_facebook_link": "https:\/\/www.facebook.com\/evolvecosmeticscanada",
+    "social_pinterest_link": "https:\/\/www.pinterest.ca\/skinbetterCanada\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/evolvecosmeticscanada\/",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@evolvecanada",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@evolvecanada?lang=en",
     "social_linkedin_link": "https:\/\/www.linkedin.com\/company\/evolve-cosmetics\/",
     "favicon": "shopify:\/\/shop_images\/Evolve_Medical_Icon_Transparent_PNG.png",
     "show_breadcrumbs": true,
@@ -109,7 +110,7 @@
             "settings": {
               "logo": "shopify:\/\/shop_images\/Evolve_Cosmetics_Transparent_PNG_CROPPED_0814c73b-8141-4112-a77b-0b9662dee2e9.png",
               "desktop_logo_width": 230,
-              "mobile_logo_width": 80
+              "mobile_logo_width": 150
             }
           }
         },
@@ -148,7 +149,7 @@
           "popup_text": "<p>Sign up today to receive the latest news & updates from Evolve Cosmetics.<\/p>",
           "popup_image": "shopify:\/\/shop_images\/Evolve_Canada_Icon_Transparent_PNG.png",
           "image_position": "left",
-          "color_scheme": "3",
+          "color_scheme": "2",
           "show_social_icons": false,
           "enable_newsletter": true,
           "button_label": "",
@@ -232,8 +233,8 @@
           "ee076d98-526f-494d-814a-66721491ba28": {
             "type": "announcement",
             "settings": {
-              "richtext": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"\/pages\/skinbetter-science®\" title=\"skinbetter science®\">SHOP NOW<\/a><br\/><\/p>",
-              "richtext_mobile": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"\/pages\/skinbetter-science®\" title=\"skinbetter science®\">SHOP NOW<\/a><\/p>"
+              "richtext": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"https:\/\/www.evolvecosmetics.ca\/collections\/skinbetter?ose=false\" title=\"https:\/\/www.evolvecosmetics.ca\/collections\/skinbetter?ose=false\">SHOP NOW<\/a><br\/><\/p>",
+              "richtext_mobile": "<p>Evolve Cosmetics is the official Canadian Distributor for skinbetter science®. <a href=\"https:\/\/www.evolvecosmetics.ca\/collections\/skinbetter?ose=false\" title=\"https:\/\/www.evolvecosmetics.ca\/collections\/skinbetter?ose=false\">SHOP NOW<\/a><\/p>"
             }
           },
           "cff431d4-9a3a-4622-a731-bd2d4c67a45c": {
@@ -268,11 +269,13 @@
               "enable_account_link": false
             }
           },
-          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9": {
-            "type": "menu",
+          "560d9104-fcb3-4e12-995c-1831749547ec": {
+            "type": "menu-2",
             "settings": {
               "title": "PROFESSIONAL",
               "menu": "professional",
+              "title2": "SHOP",
+              "menu2": "shop",
               "enable_account_link": false
             }
           },
@@ -293,22 +296,13 @@
               "show_currency_selector": true,
               "show_currency_flags": true
             }
-          },
-          "fbdd2905-337d-4f05-ab2d-4576b22ed684": {
-            "type": "menu",
-            "settings": {
-              "title": "SHOP",
-              "menu": "shop",
-              "enable_account_link": false
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "1082c6a5-bb2d-4c48-b0d5-67dba151b5b9",
+          "560d9104-fcb3-4e12-995c-1831749547ec",
           "fe6a67a0-686e-435b-a946-f28802053c97",
-          "c296bc3e-1d7f-4750-b993-050176521596",
-          "fbdd2905-337d-4f05-ab2d-4576b22ed684"
+          "c296bc3e-1d7f-4750-b993-050176521596"
         ],
         "settings": {
           "show_newsletter": true,

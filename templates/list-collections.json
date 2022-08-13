@@ -5,12 +5,14 @@
       "blocks": {
         "8c529192-bf95-4402-ad52-4521f65e27ff": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "skincare"
           }
         },
         "c1673f60-19fd-4295-a8e2-2ada204691fc": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "makeup"
           }

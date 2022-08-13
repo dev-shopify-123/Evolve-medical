@@ -20,7 +20,12 @@
       <div class="cart__page">
         <div class="cart__page-col">
           <div data-products>
+            {% assign skin_better = false %}
             {% for item in cart.items %}
+              <script>console.log({{item | json}})</script>
+              {% if item.vendor contains "skinbetter science®" %}
+                {% assign skin_better = true %}
+              {% endif %}
               {%- render 'cart-item', product: item -%}
             {% endfor %}
           </div>
@@ -44,20 +49,22 @@
             </div>
           {% endif %}
 
+{% if skin_better %}
+  <!-- goaffpro picker display -->
+  <select id="goaffpro-picker"></select>
 
-          <!-- goaffpro picker display -->
-<select id="goaffpro-picker"></select>
+  <!-- goaffpro picker script -->
+  <script type="text/javascript">
+  // goaffpro picker config
+  window.GoaffproAffiliatePicker = {
+  token:'a9cd77bdbc616ce9f8146626b496fcf1613196cd52cc87bf662b55dd6cd40edb', //required
+  key:'name', //optional
+  }
 
-<!-- goaffpro picker script -->
-<script type="text/javascript">
-// goaffpro picker config
-window.GoaffproAffiliatePicker = {
- token:'a9cd77bdbc616ce9f8146626b496fcf1613196cd52cc87bf662b55dd6cd40edb', //required
- key:'name', //optional
-}
-
-!function(e){var o={};function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}t.m=e,t.c=o,t.d=function(e,o,n){t.o(e,o)||Object.defineProperty(e,o,{enumerable:!0,get:n})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,o){if(1&o&&(e=t(e)),8&o)return e;if(4&o&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(t.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&o&&"string"!=typeof e)for(var r in e)t.d(n,r,function(o){return e[o]}.bind(null,r));return n},t.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(o,"a",o),o},t.o=function(e,o){return Object.prototype.hasOwnProperty.call(e,o)},t.p="",t(t.s=0)}([function(e,o,t){e.exports=t(1)},function(e,o,t){const n=t(2);(async function(){const e=document.querySelector("#goaffpro-picker");if(e.onchange=function(e){var o=e.target.value;"undefined"!=typeof setCookie?setCookie("ref",o):n.setCookie("ref",o);const t=new CustomEvent("goaffpro-ref-cookie",{detail:o});window.dispatchEvent(t)},!e.hasChildNodes()&&"undefined"!=typeof GoaffproAffiliatePicker&&GoaffproAffiliatePicker.token){const{key:t,group_id:n,token:r,fallback:i}=GoaffproAffiliatePicker;console.log(t,n,r);const a={};t&&(a.key=t),i&&(a.fallback=i),n&&(a.group_id=n);var o="https://api.goaffpro.com/v1/sdk/affiliates?"+new URLSearchParams(a);const{affiliates:f}=await fetch(o,{headers:{"x-goaffpro-public-token":r}}).then(e=>e.json()),c=document.createElement("option");c.value="72",  c.innerText="Skinbetter Physician",e.appendChild(c);for(const o of f){if(o.ref_code != 72){const t=document.createElement("option"); t.value=o.ref_code,t.innerText=o.name||o.label,e.appendChild(t)}}}e.value="72"})().then(e=>console.log("loaded"))},function(e,o){function t(e){for(var o=e+"=",t=decodeURIComponent(document.cookie).split(";"),n=0;n<t.length;n++){for(var r=t[n];" "==r.charAt(0);)r=r.substring(1);if(0==r.indexOf(o))return r.substring(o.length,r.length)}return""}e.exports={getCookie:t,setCookie:function(e,o){var n=window.__goaffpro&&window.__goaffpro.cookie_duration>-1?window.__goaffpro.cookie_duration:604800,r="";n&&(r="; expires="+new Date((new Date).getTime()+1e3*n).toUTCString()+";");var i=location.host,a=i.split(".");if(1===a.length)document.cookie=e+"="+o+r+"; path=/";else{a.shift();var f="."+a.join(".");document.cookie=e+"="+o+r+"path=/; domain="+f,!t(e)!==o&&(f="."+i,document.cookie=e+"="+o+r+"path=/; domain="+f)}},deleteCookie:function(e){document.cookie=e+"=; path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"}}}]);
-</script>
+  !function(e){var o={};function t(n){if(o[n])return o[n].exports;var r=o[n]={i:n,l:!1,exports:{}};return e[n].call(r.exports,r,r.exports,t),r.l=!0,r.exports}t.m=e,t.c=o,t.d=function(e,o,n){t.o(e,o)||Object.defineProperty(e,o,{enumerable:!0,get:n})},t.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},t.t=function(e,o){if(1&o&&(e=t(e)),8&o)return e;if(4&o&&"object"==typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(t.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&o&&"string"!=typeof e)for(var r in e)t.d(n,r,function(o){return e[o]}.bind(null,r));return n},t.n=function(e){var o=e&&e.__esModule?function(){return e.default}:function(){return e};return t.d(o,"a",o),o},t.o=function(e,o){return Object.prototype.hasOwnProperty.call(e,o)},t.p="",t(t.s=0)}([function(e,o,t){e.exports=t(1)},function(e,o,t){const n=t(2);(async function(){const e=document.querySelector("#goaffpro-picker");if(e.onchange=function(e){var o=e.target.value;"undefined"!=typeof setCookie?setCookie("ref",o):n.setCookie("ref",o);const t=new CustomEvent("goaffpro-ref-cookie",{detail:o});window.dispatchEvent(t)},!e.hasChildNodes()&&"undefined"!=typeof GoaffproAffiliatePicker&&GoaffproAffiliatePicker.token){const{key:t,group_id:n,token:r,fallback:i}=GoaffproAffiliatePicker;console.log(t,n,r);const a={};t&&(a.key=t),i&&(a.fallback=i),n&&(a.group_id=n);var o="https://api.goaffpro.com/v1/sdk/affiliates?"+new URLSearchParams(a);const{affiliates:f}=await fetch(o,{headers:{"x-goaffpro-public-token":r}}).then(e=>e.json()),c=document.createElement("option");c.value="72",  c.innerText="Skinbetter Physician",e.appendChild(c);for(const o of f){if(o.ref_code != 72){const t=document.createElement("option"); t.value=o.ref_code,t.innerText=o.name||o.label,e.appendChild(t)}}}e.value="72"})().then(e=>console.log("loaded"))},function(e,o){function t(e){for(var o=e+"=",t=decodeURIComponent(document.cookie).split(";"),n=0;n<t.length;n++){for(var r=t[n];" "==r.charAt(0);)r=r.substring(1);if(0==r.indexOf(o))return r.substring(o.length,r.length)}return""}e.exports={getCookie:t,setCookie:function(e,o){var n=window.__goaffpro&&window.__goaffpro.cookie_duration>-1?window.__goaffpro.cookie_duration:604800,r="";n&&(r="; expires="+new Date((new Date).getTime()+1e3*n).toUTCString()+";");var i=location.host,a=i.split(".");if(1===a.length)document.cookie=e+"="+o+r+"; path=/";else{a.shift();var f="."+a.join(".");document.cookie=e+"="+o+r+"path=/; domain="+f,!t(e)!==o&&(f="."+i,document.cookie=e+"="+o+r+"path=/; domain="+f)}},deleteCookie:function(e){document.cookie=e+"=; path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;"}}}]);
+  </script>
+{% endif %}
+          
 
 
           <div class="cart__item-sub cart__item-row cart__item--subtotal">

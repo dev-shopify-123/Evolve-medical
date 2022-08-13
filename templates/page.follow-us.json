@@ -13,45 +13,119 @@
           "settings": {
             "title": "Follow Us"
           }
+        },
+        "eb449fa2-9e84-4e07-8a55-761b1cbeefce": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Follow Evolve Cosmetics on social media to stay up to date with empowering content, amazing product features, skincare tips and makeup tutorials.<\/p>"
+          }
         }
       },
       "block_order": [
-        "heading"
+        "heading",
+        "eb449fa2-9e84-4e07-8a55-761b1cbeefce"
       ],
       "settings": {
         "align_text": "center",
-        "narrow_column": true,
-        "color_scheme": "3",
+        "narrow_column": false,
+        "color_scheme": "none",
         "divider": false
       }
     },
-    "1658505572c8cbfb3b": {
-      "type": "advanced-content",
+    "1659723333bf9d8778": {
+      "type": "social-icons",
+      "settings": {}
+    },
+    "1658505830bac26513": {
+      "type": "text-columns",
       "blocks": {
-        "1658505572cb914e91-1": {
-          "type": "liquid",
+        "16585058305cd8d321-0": {
+          "type": "text_block",
           "settings": {
-            "code": "<center><h3>Follow Evolve Cosmetics on social media!<br>We show up with empowering content, feature amazing products<br>and have a ton of tips and tutorials to share.<\/center><\/h3>",
-            "width": "100%",
-            "alignment": "center"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/July_6.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/tone-smart-priming-compact"
           }
         },
-        "4f574054-c7f9-41fa-8f4f-a6e2883319d6": {
-          "type": "liquid",
+        "16585058305cd8d321-1": {
+          "type": "text_block",
           "settings": {
-            "code": "<div class=\"elfsight-sapp-febea673-e407-4cc8-b899-5e8098631a5b\"><\/div>",
-            "width": "100%",
-            "alignment": "center"
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/EAD_Spray_on_its_own.jpg",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/evolve-all-day-spray"
+          }
+        },
+        "16585058305cd8d321-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/August_22.jpg",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/skinbetter"
+          }
+        },
+        "19baf297-5d86-4f2c-af6a-338fe336dbf7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Base_of_Sweden_Primer_Banner_3cfb1cf6-a452-437e-872f-d79eee5039d1.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/the-base-primer"
+          }
+        },
+        "d087a50b-5200-445e-a622-f53abd554dd5": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Alto_in_Box.png",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/alto-defense-serum™-30ml"
+          }
+        },
+        "291934df-74d0-49df-97dd-300fe1a222a7": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Even_Gold_Petals..jpg",
+            "image_width": 650,
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/even-tone-correcting-serum™"
           }
         }
       },
       "block_order": [
-        "1658505572cb914e91-1",
-        "4f574054-c7f9-41fa-8f4f-a6e2883319d6"
+        "16585058305cd8d321-0",
+        "16585058305cd8d321-1",
+        "16585058305cd8d321-2",
+        "19baf297-5d86-4f2c-af6a-338fe336dbf7",
+        "d087a50b-5200-445e-a622-f53abd554dd5",
+        "291934df-74d0-49df-97dd-300fe1a222a7"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "title": "",
+        "align_text": "left",
+        "divider": false,
+        "color_scheme": "none"
       }
     },
     "1658504293f3cf244c": {
@@ -80,106 +154,15 @@
         "1658504293f21cb155-2"
       ],
       "settings": {
-        "color_scheme": "3"
-      }
-    },
-    "1658505830bac26513": {
-      "type": "text-columns",
-      "blocks": {
-        "16585058305cd8d321-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/July_6.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "16585058305cd8d321-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/EAD_Spray_on_its_own.jpg",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "16585058305cd8d321-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/August_22.jpg",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "19baf297-5d86-4f2c-af6a-338fe336dbf7": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Base_of_Sweden_Primer_Banner_3cfb1cf6-a452-437e-872f-d79eee5039d1.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "d087a50b-5200-445e-a622-f53abd554dd5": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Alto_in_Box.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "291934df-74d0-49df-97dd-300fe1a222a7": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/June_15.png",
-            "image_width": 650,
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16585058305cd8d321-0",
-        "16585058305cd8d321-1",
-        "16585058305cd8d321-2",
-        "19baf297-5d86-4f2c-af6a-338fe336dbf7",
-        "d087a50b-5200-445e-a622-f53abd554dd5",
-        "291934df-74d0-49df-97dd-300fe1a222a7"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "left",
-        "divider": false,
-        "color_scheme": "none"
+        "color_scheme": "2"
       }
     }
   },
   "order": [
     "main",
     "rich-text",
-    "1658505572c8cbfb3b",
-    "1658504293f3cf244c",
-    "1658505830bac26513"
+    "1659723333bf9d8778",
+    "1658505830bac26513",
+    "1658504293f3cf244c"
   ]
 }

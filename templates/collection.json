@@ -21,10 +21,20 @@
             "label": "Shop now",
             "color_scheme": "1"
           }
+        },
+        "a1d5a542-e79b-4071-8c55-a4e77839fcad": {
+          "type": "simple",
+          "settings": {
+            "link": "",
+            "text": "Skin",
+            "width": "50",
+            "height": 300
+          }
         }
       },
       "block_order": [
-        "banner"
+        "banner",
+        "a1d5a542-e79b-4071-8c55-a4e77839fcad"
       ],
       "settings": {
         "full_width": false,
@@ -36,10 +46,6 @@
     "main-collection": {
       "type": "main-collection",
       "blocks": {
-        "collection_description": {
-          "type": "collection_description",
-          "settings": {}
-        },
         "product_grid": {
           "type": "product_grid",
           "settings": {
@@ -48,7 +54,6 @@
         }
       },
       "block_order": [
-        "collection_description",
         "product_grid"
       ],
       "settings": {

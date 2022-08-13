@@ -17,7 +17,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p>We’d love to hear from you! If you have a question about a product or a service that Evolve Cosmetics offers please get in touch. Send us a message below:<\/p>"
           }
         }
@@ -29,7 +29,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },
@@ -55,7 +55,7 @@
         "1658423681181611a6-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
+            "enlarge_text": false,
             "text": "<p><strong>Press & Media Inquiries:<br\/><\/strong>info@evolvecosmetics.ca<\/p><p><strong>Partnership<br\/>& Influencer Inquiries:<br\/><\/strong>info@evolvecosmetics.ca<\/p>"
           }
         }
@@ -67,7 +67,7 @@
       "settings": {
         "align_text": "center",
         "narrow_column": true,
-        "color_scheme": "3",
+        "color_scheme": "2",
         "divider": false
       }
     },

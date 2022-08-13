@@ -51,7 +51,7 @@
   --pageNarrow:700px;
   --pageWidthPadding:40px;
   --gridGutter:22px;
-  --indexSectionPadding:60px;
+  --indexSectionPadding:30px;
   --sectionHeaderBottom:40px;
   --collapsibleIconWidth:12px;
 
@@ -3173,12 +3173,7 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
   list-style:none
 }
 
-@media only screen and (max-width:768px){
 
-.footer__menu{
-    margin-bottom:0
-}
-  }
 
 .footer__menu li{
     margin:0;
@@ -6007,7 +6002,7 @@ input[type=image]{
     margin-top:15px;
   }
 
-@media only screen and (min-width:769px){
+{% comment %} @media only screen and (min-width:769px){
   .feature-row__text--left{
     padding-left:60px;
     padding-right:100px;
@@ -6017,7 +6012,7 @@ input[type=image]{
     padding-right:60px;
     padding-left:100px;
   }
-}
+} {% endcomment %}
 
 .product-block{
   margin-bottom:30px
@@ -6266,7 +6261,7 @@ input[type=image]{
 
 .hero__text-content{
   position:relative;
-  padding:15px 0;
+  padding:48px 0;
   z-index:4
 }
 
@@ -6275,8 +6270,18 @@ input[type=image]{
 .hero__text-content{
     padding:45px 0
 }
-  }
+}
+.incubate-collections-add-to-cart-variant-selector, .incubate-collections-add-to-cart-variant-label {
+  display: none;
+}
+@media only screen and (max-width:769px){
 
+  .hero__text-content{
+    vertical-align:top !important;
+    text-align: left !important;
+  }
+}
+    
 [data-dots=true] .hero__text-content{
     padding-bottom:40px
 }
@@ -6287,7 +6292,8 @@ input[type=image]{
   text-shadow:0 3px 7px rgba(0, 0, 0, 0.15)
 }
 
-.hero__text-shadow:after{
+
+{% comment %} .hero__text-shadow:after{
     content:"";
     display:block;
     position:absolute;
@@ -6298,7 +6304,7 @@ input[type=image]{
     z-index:-1;
     background:radial-gradient(rgba(0, 0, 0, 0.3) 0%, transparent 60%);
     margin:-100px -200px -100px -200px;
-  }
+  } {% endcomment %}
 
 .hero__text-shadow .btn{
     text-shadow:none;
@@ -11480,3 +11486,17 @@ html[dir=rtl] .product-single__meta .rte{
     color:#58686f;
   }
 }
+
+@media (max-width: 767px) {
+  .hero__title {
+    font-size: 30px !important;
+  }
+  .hero__subtitle {
+    font-size: 12px;
+  }
+}
+
+.megamenu__col .megamenu__col-title .no-hover:hover {
+  text-decoration: none;
+}
+

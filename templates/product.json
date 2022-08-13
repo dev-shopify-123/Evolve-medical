@@ -46,7 +46,7 @@
         "sales_point4": {
           "type": "sales_point",
           "settings": {
-            "icon": "lock",
+            "icon": "globe",
             "text": "Secure payments"
           }
         }

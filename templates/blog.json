@@ -12,8 +12,8 @@
         "16584267016bd8a745-1": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>We mean it, we really do. We are always researching, looking at trends, sourcing and vetting new products, and we want you to have access to the latest in skin health and beauty news at your fingertips. <\/p><p>Whether it’s the newest product, an article on the very best skincare ingredients, or the latest in treatment technology, at Evolve, we have got your skin health and beauty covered!<\/p>"
+            "enlarge_text": false,
+            "text": "<p>We mean it. Here you can find  exclusive access to the latest in skin health and beauty news.<\/p>"
           }
         }
       },
@@ -23,7 +23,7 @@
       ],
       "settings": {
         "align_text": "center",
-        "narrow_column": true,
+        "narrow_column": false,
         "color_scheme": "none",
         "divider": false
       }
@@ -31,10 +31,10 @@
     "16585078310f4ac03e": {
       "type": "blog-posts",
       "settings": {
-        "title": "Latest from the blog",
+        "title": "",
         "blog": "healthy-minds-club",
         "blog_show_tags": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "blog_show_comments": false,
         "blog_show_author": false,
         "blog_image_size": "square",
@@ -97,7 +97,7 @@
         "collection4"
       ],
       "settings": {
-        "title": "While you're here...",
+        "title": "Discover Our Collections",
         "divider": false
       }
     }

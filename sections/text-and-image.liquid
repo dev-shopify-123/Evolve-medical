@@ -70,7 +70,7 @@
           <p class="accent-subtitle">{{ section.settings.subtitle }}</p>
         {%- endif -%}
         {%- if section.settings.title != blank -%}
-          <p class="h3">{{ section.settings.title | escape }}</p>
+          <h1>{{ section.settings.title | escape }}</h1>
         {%- endif -%}
         {%- if section.settings.text != blank -%}
           <div class="rte featured-row__subtext">{{ section.settings.text }}</div>
